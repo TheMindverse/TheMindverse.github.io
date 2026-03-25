@@ -80,6 +80,7 @@ function markdownFormat(md) {
             } else {
                 placeholders.push(`<a href="${href}" target="_blank" rel="noopener noreferrer">${t}</a>`); // Normal links.
             }
+
             return `{{PLACEHOLDER${id}}}`;
         });
 
@@ -128,6 +129,7 @@ function markdownFormat(md) {
                 html += '<blockquote>';
                 currentDepth++;
             }
+
             while (currentDepth > depth) {
                 html += '</blockquote>';
                 currentDepth--;
@@ -315,7 +317,7 @@ function markdownDisplayFile(fileContents, append) {
         }
 
         if (!line.startsWith("post-") && !line.startsWith("blog-") && !line.startsWith("dimension-")) {                
-            if (firstLine && (line.trim() == "")) { // Skip over the first line, I put spacing between the custom post fields and the actual text I want formatted.
+            if (firstLine && (line.trim() == "")) { // Skip over the first line, I put a blank line after the custom post fields as a buffer.
                 firstLine = false;
                 continue;
             }

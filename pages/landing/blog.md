@@ -6,7 +6,7 @@ post-title: Blog
 
 This acts as my personal note taking journal, most if not all of these entries are written while I am actively in the mindverse. Some of these are forwarded from the discord server, which is not open to the public.
 
-# Categories
+# 📝 Categories
 
 - **Ramblings:** Thoughts and ramblings taken while actively in the mindverse.
 - **Philosophy:** My personal theories, ideas, and discoveries, I've made about the cosmos.

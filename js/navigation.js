@@ -24,6 +24,9 @@ function navigationHandleClick(navBtn, pushHistory) {
 
 function navigationLoadUrl(filePath, pushHistory) {
     if (filePath && filePath.endsWith(".md")) {
+        // Reset scroll to top.
+        window.scrollTo(0, 0);
+
         const navBtn = document.querySelector(`.nav .ascii-btn[data-post="${filePath}"]`);
         if (navBtn) {
             navigationHandleClick(navBtn, pushHistory);
@@ -74,7 +77,7 @@ function navigationWindowLoad() {
         navigationLoadHash();
     });
 
-    navigationLoadHash(); // Load the landing page on first visit.
+    navigationLoadHash(); // Load the default landing page on first visit.
 }
 
 window.addEventListener("DOMContentLoaded", navigationWindowLoad);

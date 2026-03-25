@@ -31,7 +31,7 @@ The preview images are just examples, it is impossible to actually represent wha
 - **Easy:** Beginner friendly, can visit through basic thought and meditation.
 - **Moderate** Mentally demanding, special techniques and experience required.
 - **Advanced:** Full emotional and mental integration required to visit without being rejected.
-- **Restricted:** Possible unclassified risks, too dangerous, attempts to travel by anyone other than ItsBrank is forbidden.
+- **Restricted:** Possible unclassified risks, too dangerous, attempts to travel by anyone other than the oracle is forbidden.
 
 # 🦺 Risk Levels
 

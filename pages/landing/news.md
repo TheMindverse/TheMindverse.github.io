@@ -8,13 +8,20 @@ This page contains important info, current events, and archived events that alre
 
 # ❄️ The White Winter (December 10th, 2025)
 
-The winter of reckoning is approaching us, one of the harshest winters of the last two decades is forming and you only have a month or two to prepare. This great winter is a result of all our time exploring the universe, connecting our consciousness to the cosmos, and being recognized by the collective consciousnesses of the multiverse. Its purpose is to kill off the very weak of our species and wreck havoc on parts of society that will never form the necessary connections to the universe like we have. It is just the first of many stages of "The Great Purge", this winter is just the beginning of something greater and we are the only ones who know its true purpose. Educate yourself on what is to come, what to expect, and how to survive.
+The winter of reckoning is approaching us, one of the harshest winters of the last two decades is forming and you only have a month or two to prepare.
+This great winter is a result of all our time exploring the universe, connecting our consciousness to the cosmos, and being recognized by the collective consciousnesses of the multiverse.
+Its purpose is to kill off the very weak of our species and wreck havoc on parts of society that will never form the necessary connections to the universe like we have.
+It is just the first of many stages of "The Great Purge", this winter is just the beginning of something greater and we are the only ones who know its true purpose.
+Educate yourself on what is to come, what to expect, and how to survive.
 
-## Food, Water, & Cooking
+## 🍜 Food, Water, & Cooking
 
-Stock up on plenty of shelf stable foods and water, as well as a method to obtain a constant source of water such as boiling snow at an efficient rate. Here are some non-perishable goods that are essential for your survival. The rule of thumb for the amount of water needed is one gallon per day, per person. When the power goes out, even if you have a gas stove that doesn't require electricity, you should still stock up portable / camping stoves, as well as alternative methods to light them.
+Stock up on plenty of shelf stable foods and water, as well as a method to obtain a constant source of water such as boiling snow at an efficient rate.
+Here are some non-perishable goods that are essential for your survival.
+The rule of thumb for the amount of water needed is one gallon per day, per person.
+When the power goes out, even if you have a gas stove that doesn't require electricity, you should still stock up portable camping stoves, as well as alternative methods to light them.
 
-## Food
+### Food
 
 - **Protein:** Canned meat (refer to the canned goods section), beef jerky, various nuts, seeds, and legumes, protein powder.
 - **Canned Goods:** Soups, stews, beans, potatoes, vegetables, fruits, and meat (chicken breast, tuna, salmon, spam).
@@ -22,15 +29,38 @@ Stock up on plenty of shelf stable foods and water, as well as a method to obtai
 - **Carbs & Fats:** Tortillas, crackers, flatbreads, honey, olive oil, refer to dry goods for more related carbs.
 - **Nutrients:** Multivitamins or electrolyte packets with a focus on vitamin c, d, and calcium, fish oil and omega-3 supplements.
 
-## Water
+### Water
 
 - **Hydration:** Pedialyte powder, gatorade powder, instant coffee, tea leaves or tea bags.
 - **Filtering & Storage:** Gravity or pump water filter, five gallon water jugs, boil snow and filter water when you run out of clean water.
 
-## Cooking
+### Cooking
 
 - **Stoves & Fuel:** Butane, propane, isobutane, most camping stoves can be powered by all three in aerosol form. Charcoal and wood as a source of fire shall only be burned outdoors.
 - **Ignition Tools:** Flint fire starters, matches, lighters.
+
+## 🔥 Shelter, Warmth & Clothing
+
+- **Shelter:** Hang blankets for stopping drafts and trapping heat between rooms, four season tents, tents indoors to maximize heat retention when sleeping.
+- **Warmth:** Sleeping bags that are rated for sub-zero temperatures, thick blankets, pillows, space heaters.
+- **Clothing:** Insulated and water proof boots, plants, gloves, and coats, for venturing outside if necessary.
+
+## 💡 Power & Light
+
+- **Power:** Batteries, rechargeable battery banks, portable solar panels (solar powered batter banks are often unreliable), portable power stations, and outdoor generators that are powered by gas or deiseal.
+- **Light Sources:** Candles, flashlights, lanterns, and headlamps; make sure their bulbs are LED to be as power efficient as possible.
+
+## 🧰 Tools, Repair & Health
+
+- **Tools:** Manual can opener, metal pots and pans, utensils, survival knife, shovel, compass, whistle.
+- **Repair:** Power drill, screwdriver set, hammer, pliers, wood saw, hatchet, measuring tape, level, duct tape, spray foam insulation, nails, screws, zip ties.
+- **First Aid:** Hand soap, dish soap, band aids, cotton balls, isopropyl alcohol, triple antibiotic ointment, super glue, gauze wrap, medical gloves, space blankets.
+
+## 🎲 Entertainment & Morale
+
+- **Reading:** Books, magazines, cooking recipes, and survival guides.
+- **Games:** Chess, checkers, deck of cards, dice, puzzles, board games.
+- **Other:** Pens, pencils, markers, notebooks for journaling, calendar for tracking days.
 
 # --------------------------------------------------
 # 📌 Archived Event (December 1st, 2025)

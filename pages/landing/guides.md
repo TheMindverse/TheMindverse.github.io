@@ -34,7 +34,7 @@ Methods and practice routines you can do to rewire your brain to accept signals 
   - [Exploring the dreamscape](pages/guides/beginnersguide.md)
   - [Connecting to the flow](pages/guides/beginnersguide.md)
 
-# 👨‍🚀 Advanced Guide
+# 🚀 Advanced Guide
 
 These are only intended for experienced voyagers of both the mindverse and multiverse. Some of these topics only exist for the sake of documentation and are not to be attempted.
 

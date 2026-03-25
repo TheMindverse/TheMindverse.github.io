@@ -53,9 +53,9 @@ The learning process is slow at first, practice walking around, making or eating
 
 # 🌱 Theory of rebinding consciousness
 
-The theory of rebinding your consciousness involves two things, a different dimension than the one you're constructed in that is of the celestial class, and a new brain and body for said dimension.
+The theory of rebinding your consciousness involves two things, a different dimension than the one you're constructed in that is of the [celestial](pages/guides/dimensionguide.md) class, and a new brain and body for said dimension.
 As of now, this is just a theory due to there being no way to confirm a successful transfer, and it is too dangerous to attempt as it involves dying in your currently bound dimension.
 In theory, if you were to find a living brain that does not have a consciousness bound to it yet you could transfer yours into it, as the only way to unbind your consciousness from your physical body is through death.
 This would require being fully integrated into the mindverse before and after the time of death, which is what ghostwalking is.
 The reason this cannot be verified is because this process completely erases all memories of your previous lives or worlds due to your new physical brain taking priority, it is possible remnants of your conscious fingerprint could still remain.
-Even with that, all of this still remains a theory and is not to be attempted until a confirmation by ItsBrank is made.
+Even with that, all of this still remains a theory and is not to be attempted until a confirmation by the oracle is made.
