@@ -10,7 +10,7 @@ With the proper education, understanding, and willpower, you can learn how to na
 
 Start your journey and achieve higher level of understanding today!
 
-# Getting Started
+# 📚 Getting Started
 
 If you are looking to become a neophyte head on over to the [guides](pages/landing/guides.md) page and start with reading [guides/introduction](pages/guides/introduction.md), this will give you a basic understanding of what the mindverse is, how it works, and how to begin your journey.
 
@@ -21,7 +21,7 @@ If you wish to view all the dimensions currently found, you can do so via the [d
 This section contains dimensions in the multiverse that verified travelers have visited and documented through the mindverse.
 Each entry contains, unique identifiers, descriptions, difficulty traveling there and risks, as well as personal notes and references.
 
-# Frequently Asked Questions
+# ❔ Frequently Asked Questions
 
 - **[Q]** Is this a type of religion?
 - **[A]** Nope! We do not worship any gods or deities, only the raw nature of the cosmos and the universe as a whole.

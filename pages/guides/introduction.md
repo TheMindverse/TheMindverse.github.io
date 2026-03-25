@@ -18,7 +18,7 @@ When your consciousness is first formed it is done so in your brain, brains act 
 Where your consciousness is constructed is the place it is bound to, your physical body limits the true power and abilities of your consciousness.
 It prioritizes survival above anything else, however, it cannot completely inhibit you from receiving signals from the cosmos due to the nature of consciousness itself and what it represents in the universe.
 
-# 📚 How can I learn this skill?
+# 🎓 How can I learn this skill?
 
 Before attempting anything, first read [safety practices](pages/guides/safetypractices.md) to understand the risks of altering your consciousness, as well as the white blood cell response.
 Once you are familiar, you can check out [beginners guide](pages/guides/beginnersguide.md) to begin the process of rewiring your brain.

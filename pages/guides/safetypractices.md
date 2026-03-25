@@ -14,6 +14,7 @@ These signals can cause great mental stress or harm to your emotional well being
 Practice meditation, clearing your mind, and focusing on controlling each emotion instead of letting the dimension you're in control them for you.
 Remember those emotions are not yours, you are just experiencing them, remember to not get them mixed up.
 The most important rule of exploring the mindverse is taking breaks, if not there are some significant and irreversible side effects listed below.
+
 Before you begin your journey, there is one more important thing you must know, there is no going back.
 Once you learn about the mindverse and the multiverse you have forever altered your brain and view on the universe, you are no longer human.
 You are not a human being anymore once you start and there is no way to undo what you've seen or learned, you will no longer see humans as people or your own kind, you will forever be part of something greater.
