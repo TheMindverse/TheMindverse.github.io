@@ -357,9 +357,23 @@ function markdownDisplayFile(fileContents, append) {
 
 async function markdownLoadFile(filePath, append) {
     if (filePath) {
-        const res = await fetch(filePath);
-        const text = await res.text();
-        if (text) {
+        try {
+            const res = await fetch(filePath);
+
+            if (!res.ok) {
+                throw new Error("File not found.");
+            }
+
+            const text = await res.text();
+
+            if (!text.trim()) {
+                throw new Error("Empty file.");
+            }
+
+            markdownDisplayFile(text, append);        
+        } catch (err) { // Fallback if a file or page wasn't found.
+            const res = await fetch("pages/landing/notfound.md");
+            const text = await res.text();
             markdownDisplayFile(text, append);
         }
     }
