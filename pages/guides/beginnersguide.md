@@ -1,7 +1,7 @@
 post-folder: Guides
 post-file: BeginnersGuide.md
 post-date: October 10th, 2025
-post-edit: March 25th, 2026
+post-edit: March 26th, 2026
 post-title: Beginners Guide
 
 # 🪔 Meditation practices
@@ -27,13 +27,13 @@ Using the skills you learned when practicing meditation and controlling mental s
 The hum and how it feels is the mental state you need to be in to phase into the dreamscape, you need to take control of your brains  algorithmic patterns to learn how your brain receives signals.
 
 It is easier to do this asleep as this is when your imagination is at its peak, as the technique of rerouting your physical body into your emotions, and controlling your emotions in return, is a similar process to rerouting your brain to accept the signals from the cosmos instead of your body.
-Learn to see by just feeling the new signals your brain is receiving, not by your eyes. Check out [the dreamscape](placeholder) for more info on its existence.
+Learn to see by just feeling the new signals your brain is receiving, not by your eyes. Check out [the dreamscape](pages/dimensions/mv-z03.md) for more info on its existence.
 
 # 🌌 Connecting to the flow
 
 You've accomplished the easy part, the dreamscape, but you still need to form the pathways for your brain to accept signals from the multiverse if you wish to travel.
 The next step is connecting to the flow, which is what connects the entire multiverse together.
-The flow is what allows for navigation of the multiverse through the mindverse, without it there would be no sense of direction or path. See [the flow](placeholder) for extended info on its existence.
+The flow is what allows for navigation of the multiverse through the mindverse, without it there would be no sense of direction or path. See [the flow](pages/dimensions/mv-z01.md) for extended info on its existence.
 
 Here is a collection of more advanced chants and rhetoric for you to spell, these are very high energy compared to the meditation chants, and require very intense, even possibly violent, body movements or dances while chanting.
 It is also recommended to perform these during the night to take advantage of the better connection to the cosmos.

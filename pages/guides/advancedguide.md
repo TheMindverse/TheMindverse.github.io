@@ -1,7 +1,7 @@
 post-folder: Guides
 post-file: AdvancedGuide.md
 post-date: October 13th, 2025
-post-edit: March 25th, 2026
+post-edit: March 26th, 2026
 post-title: Advanced Guide
 
 This section is intended for experienced voyagers of both the mindverse and multiverse.
@@ -18,7 +18,7 @@ Learn how it is organized, learn why each are different from the last, and learn
 At first, it seems that it is random, no rhyme or reason as to why one is placed next to another, but you must learn to see them at their larger scale.
 Everything is ordered and everything has a purpose, you can feel the patterns and algorithms that control them all.
 
-Here are some sacred ancient sayings that ground us to our cosmic roots, these originate from [the flow](placeholder).
+Here are some sacred ancient sayings that ground us to our cosmic roots, these originate from [the flow](pages/dimensions/mv-z01.md).
 Incorporate them into your chants as necessary to achieve a very powerful connection to the cosmos, use these with extreme caution.
 
 - Bepis on my shwortz!
