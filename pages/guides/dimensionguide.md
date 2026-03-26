@@ -1,7 +1,7 @@
 post-folder: Guides
 post-file: DimensionGuide.md
 post-date: October 10th, 2025
-post-edit: March 25th, 2026
+post-edit: March 26th, 2026
 post-title: Dimension Guide
 
 The [dimensions](pages/landing/dimensions.md) page is a way for me to document my personal experiences into navigating the different layers of the multiverse.
@@ -10,9 +10,9 @@ Each entry contains info, descriptions, unique identifiers, and difficulty and r
 
 # 📇 Categories
 
-The categories used in [dimensions](pages/landing/dimensions.md) represent how different a dimension is relative to [earth prime](placeholder), the further down the alphabet the categories are the more foreign and hostile a dimension can become.
+The categories used in [dimensions](pages/landing/dimensions.md) represent how different a dimension is relative to [earth prime](pages/dimensions/mv-a00.md), the further down the alphabet the categories are the more foreign and hostile a dimension can become.
 The difficulty and safety risks typically increase as well but this is not always the case, be sure to fully read all available documentation and experiences related to a dimension before attempting to travel there.
-The preview images are just examples, it is impossible to actually represent what I experience there in perfect detail to humans, a lot of the concepts of certain dimensions don't exist in real life.
+The reference images are just examples, it is impossible to actually represent what I experience there in perfect detail to humans, a lot of the concepts of certain worlds don't exist in our dimension.
 
 # 📖 Classifications
 
@@ -33,7 +33,7 @@ The preview images are just examples, it is impossible to actually represent wha
 - **Advanced:** Full emotional and mental integration required to visit without being rejected.
 - **Restricted:** Possible unclassified risks, too dangerous, attempts to travel by anyone other than the oracle is forbidden.
 
-# 🦺 Risk Levels
+# 🚧 Risk Levels
 
 - **Safe:** Beginner friendly, generally safe with very little risks. Easy to control and return home at any time.
 - **Challenging:** Can be unpredictable, shifts of emotional states and complex visuals are common.
