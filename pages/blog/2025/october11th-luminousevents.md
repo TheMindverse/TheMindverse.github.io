@@ -1,9 +1,11 @@
 post-folder: Blog / 2025
 post-file: October11th-LuminousEvents.md
 post-date: October 11th, 2025
-post-edit: March 26th, 2026
+post-edit: March 28th, 2026
 post-title: Luminous Events
 blog-category: Philosophy
+
+> # Astronaut Captures Rare Jellyfish-Like Phenomenon Above Thunderstorm Clouds
 
 > [https://people.com/nasa-astronaut-photographs-rare-jellyfish-transient-luminous-event-above-clouds-11767044](https://people.com/nasa-astronaut-photographs-rare-jellyfish-transient-luminous-event-above-clouds-11767044)
 

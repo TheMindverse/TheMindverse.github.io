@@ -273,7 +273,7 @@ function markdownDisplay(md, info, edit, title, append) {
 }
 
 function markdownDisplayFile(fileContents, append) {
-    let fileLines = fileContents.split("\n");
+    const fileLines = fileContents.split("\n");
     fileContents = "";
 
     let firstLine = true;
@@ -286,40 +286,29 @@ function markdownDisplayFile(fileContents, append) {
     let mdBlogCat = "";
 
     for (let line of fileLines) {
-        if (line.startsWith("post-folder: ")) {
-            mdFolder = line.substr(13);
-            continue;
-         }
-
-        if (line.startsWith("post-file: ")) {
-            mdFile = line.substr(11);
-            continue;
-        }
-
-        if (line.startsWith("post-date: ")) {
-            mdDate = line.substr(11);
-            continue;
-        }
-
-        if (line.startsWith("post-edit: ")) {
-            mdEdit = line.substr(11);
-            continue;
-        }
-
-        if (line.startsWith("post-title: ")) {
-            mdTitle = line.substr(12);
-            continue;
-        }
-
-        if (line.startsWith("blog-category: ")) {
-            mdBlogCat = line.substr(15);
-            continue;
-        }
-
-        if (!line.startsWith("post-") && !line.startsWith("blog-") && !line.startsWith("dimension-")) {                
-            if (firstLine && (line.trim() == "")) { // Skip over the first line, I put a blank line after the custom post fields as a buffer.
+        if (line.startsWith("post-loadable: ")) {
+            if (line.slice(15).trim() != "true") {
+                console.log("CANT LOAD");
+                return;
+            }
+        } else if (line.startsWith("post-folder: ")) {
+            mdFolder = line.slice(13).trim();
+        } else if (line.startsWith("post-file: ")) {
+            mdFile = line.slice(11).trim();
+        } else if (line.startsWith("post-date: ")) {
+            mdDate = line.slice(11).trim();
+        } else if (line.startsWith("post-edit: ")) {
+            mdEdit = line.slice(11).trim();
+        } else if (line.startsWith("post-title: ")) {
+            mdTitle = line.slice(12).trim();
+        } else if (line.startsWith("blog-category: ")) {
+            mdBlogCat = line.slice(15);
+        } else if (!line.startsWith("post-") && !line.startsWith("blog-") && !line.startsWith("dimension-")) {                
+            if (firstLine) {
                 firstLine = false;
-                continue;
+                if (line.trim() == "") { // Skip over the first line, I put a blank line after the custom post fields as a buffer.
+                    continue;
+                }
             }
 
             fileContents += (line + "\n");
