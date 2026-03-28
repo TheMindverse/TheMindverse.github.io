@@ -288,7 +288,6 @@ function markdownDisplayFile(fileContents, append) {
     for (let line of fileLines) {
         if (line.startsWith("post-loadable: ")) {
             if (line.slice(15).trim() != "true") {
-                console.log("CANT LOAD");
                 return;
             }
         } else if (line.startsWith("post-folder: ")) {
@@ -306,7 +305,7 @@ function markdownDisplayFile(fileContents, append) {
         } else if (!line.startsWith("post-") && !line.startsWith("blog-") && !line.startsWith("dimension-")) {                
             if (firstLine) {
                 firstLine = false;
-                if (line.trim() == "") { // Skip over the first line, I put a blank line after the custom post fields as a buffer.
+                if (!line.trim()) { // Skip over the first line, I put a blank line after the custom post fields as a buffer.
                     continue;
                 }
             }
@@ -321,23 +320,21 @@ function markdownDisplayFile(fileContents, append) {
         }
 
         if (mdFile) {
-            if (mdInfo) {
-                mdInfo += " / ";
-            }
-
+            if (mdInfo) { mdInfo += " / "; }
             mdInfo += mdFile;
         }
 
         if (mdDate) {
-            if (mdInfo) {
-                mdInfo += " / ";
-            }
-
+            if (mdInfo) { mdInfo += " / "; }
             mdInfo += mdDate;
         }
 
         if (mdBlogCat) {
             mdTitle += (" / " + mdBlogCat);
+        }
+
+        if (mdInfo.endsWith(" / ")) {
+            mdInfo = mdInfo.slice(0, (mdInfo.length - 3));
         }
 
         markdownDisplay(fileContents.slice(0, -1), mdInfo, mdEdit, mdTitle, append); // Slice to remove the last new line added when rebuilding the string.

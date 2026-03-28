@@ -2,7 +2,7 @@ post-loadable: false
 post-folder: Landing
 post-file: Blog.md
 post-date: October 5th, 2025
-post-edit: March 26th, 2026
+post-edit: March 28th, 2026
 post-title: Blog (Unfinished)
 
 This acts as my personal note taking journal, most if not all of these entries are written while I am actively in the mindverse. Some of these are forwarded from the discord server, which is not open to the public.
