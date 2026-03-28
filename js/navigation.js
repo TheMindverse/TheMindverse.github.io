@@ -75,10 +75,6 @@ function navigationWindowLoad() {
         }
     });
 
-    window.addEventListener("hashchange", () => {
-        navigationLoadHash();
-    });
-
     navigationLoadHash(); // Load the default landing page on first visit.
 }
 
