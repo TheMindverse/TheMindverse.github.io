@@ -288,7 +288,7 @@ function markdownDisplayFile(fileContents, append) {
     for (let line of fileLines) {
         if (line.startsWith("post-loadable: ")) {
             if (line.slice(15).trim() != "true") {
-                return;
+                return false;
             }
         } else if (line.startsWith("post-folder: ")) {
             mdFolder = line.slice(13).trim();
@@ -338,6 +338,7 @@ function markdownDisplayFile(fileContents, append) {
         }
 
         markdownDisplay(fileContents.slice(0, -1), mdInfo, mdEdit, mdTitle, append); // Slice to remove the last new line added when rebuilding the string.
+        return true;
     }
 }
 
@@ -345,22 +346,24 @@ async function markdownLoadFile(filePath, append) {
     if (filePath) {
         try {
             const res = await fetch(filePath);
-
             if (!res.ok) {
-                throw new Error("File not found.");
+                throw new Error("File path not found.");
             }
 
             const text = await res.text();
-
             if (!text.trim()) {
-                throw new Error("Empty file.");
+                throw new Error("Empty file contents.");
             }
 
-            markdownDisplayFile(text, append);        
-        } catch (err) { // Fallback if a file or page wasn't found.
-            const res = await fetch("pages/landing/notfound.md");
-            const text = await res.text();
-            markdownDisplayFile(text, append);
+            if (!markdownDisplayFile(text, append)) {
+                throw new Error("Failed to load file.");
+            }       
+        } catch (err) {
+            const res = await fetch("pages/landing/notfound.md"); // Fallback if a file or page wasn't found.
+            if (res.ok) {
+                const text = await res.text();
+                markdownDisplayFile(text, append);
+            }
         }
     }
 }
