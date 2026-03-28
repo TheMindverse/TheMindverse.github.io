@@ -212,7 +212,7 @@ function markdownFormat(md) {
     flushBlockquote();
 
     // Re-insert code blocks.
-    let finalHTML = result.join('\n');
+    let finalHTML = result.join("\n");
     codeBlocks.forEach((codeHTML, i) => {
         finalHTML = finalHTML.replace(`{{CODEBLOCK${i}}}`, codeHTML);
     });
@@ -220,13 +220,7 @@ function markdownFormat(md) {
     return finalHTML;
 }
 
-function markdownRender() {
-    document.querySelectorAll(".post-content").forEach(element => {
-        element.innerHTML = markdownFormat(element.textContent);
-    });
-}
-
-function markdownDisplay(md, info, edit, title, append) {
+function markdownPost(md, info, edit, title, append) {
     if (md) {
         const container = document.getElementById("content");
 
@@ -272,7 +266,7 @@ function markdownDisplay(md, info, edit, title, append) {
     }
 }
 
-function markdownDisplayFile(fileContents, append) {
+function markdownPostFile(fileContents, append) {
     const fileLines = fileContents.split("\n");
     fileContents = "";
 
@@ -337,7 +331,7 @@ function markdownDisplayFile(fileContents, append) {
             mdInfo = mdInfo.slice(0, (mdInfo.length - 3));
         }
 
-        markdownDisplay(fileContents.slice(0, -1), mdInfo, mdEdit, mdTitle, append); // Slice to remove the last new line added when rebuilding the string.
+        markdownPost(fileContents.slice(0, -1), mdInfo, mdEdit, mdTitle, append); // Slice to remove the last new line added when rebuilding the string.
         return true;
     }
 }
@@ -355,14 +349,14 @@ async function markdownLoadFile(filePath, append) {
                 throw new Error("Empty file contents.");
             }
 
-            if (!markdownDisplayFile(text, append)) {
+            if (!markdownPostFile(text, append)) {
                 throw new Error("Failed to load file.");
             }       
         } catch (err) {
-            const res = await fetch("pages/landing/notfound.md"); // Fallback if a file or page wasn't found.
+            const res = await fetch(DEFAULT_NOT_FOUND_PAGE); // Fallback if a file or page wasn't found.
             if (res.ok) {
                 const text = await res.text();
-                markdownDisplayFile(text, append);
+                markdownPostFile(text, append);
             }
         }
     }
@@ -414,5 +408,5 @@ This is another codeblock.
     let mdEdit = "";
     let mdTitle = "Markdown Demo";
 
-    markdownDisplay(md, mdInfo, mdEdit, mdTitle, true);
+    markdownPostFile(md, mdInfo, mdEdit, mdTitle, true);
 }

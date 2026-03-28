@@ -51,8 +51,8 @@ header {
 /* ASCII Buttons */
 .ascii-btn {
     display: inline-block;
-    margin: 5px 0;
     cursor: pointer;
+    margin: 5px 0;
 }
 
 .ascii-btn.active {
@@ -96,8 +96,6 @@ body.light .post {
 
 body.light .post-info {
     color: #555555;
-    font-size: 15px;
-    margin-bottom: 10px;
 }
 
 .post-title {
@@ -173,7 +171,7 @@ body.light ::selection {
 }
 
 .md h4 {
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .md ul {
@@ -210,6 +208,8 @@ body.light ::selection {
     background: #131313;
     padding: 10px;
     overflow-x: auto;
+    white-space: pre;
+    word-wrap: normal;
 }
 
 body.light .md code {

@@ -1,5 +1,8 @@
 // Button navigation logic, as well as browser history states.
 
+const DEFAULT_LANDING_PAGE = "pages/landing/welcome.md";
+const DEFAULT_NOT_FOUND_PAGE = "pages/landing/notfound.md";
+
 function navigationUpdateHistory(filePath, pushHistory) {
     if (filePath) {
         if (pushHistory) {
@@ -17,6 +20,7 @@ function navigationHandleClick(navBtn, pushHistory) {
             navBtn.classList.add("active");
         }
 
+        window.scrollTo(0, 0); // Reset scroll to top.
         navigationUpdateHistory(navBtn.dataset.post, pushHistory);
         markdownLoadFile(navBtn.dataset.post, false);
     }
@@ -24,13 +28,11 @@ function navigationHandleClick(navBtn, pushHistory) {
 
 function navigationLoadUrl(filePath, pushHistory) {
     if (filePath && filePath.endsWith(".md")) {
-        // Reset scroll to top.
-        window.scrollTo(0, 0);
-
         const navBtn = document.querySelector(`.nav .ascii-btn[data-post="${filePath}"]`);
         if (navBtn) {
             navigationHandleClick(navBtn, pushHistory);
-        } else { // Not a navigation button, try to load the actual markdown file.        
+        } else { // Not a navigation button, try to load the actual markdown file.
+            window.scrollTo(0, 0); // Reset scroll to top.
             navigationUpdateHistory(filePath, pushHistory);
             markdownLoadFile(filePath, false);
         }
@@ -42,12 +44,12 @@ function navigationLoadHash() {
     if (windowHash && windowHash.endsWith(".md")) {
         navigationLoadUrl(windowHash, false);
     } else {
-        navigationLoadUrl("pages/landing/welcome.md", false); // Default landing page.
+        navigationLoadUrl(DEFAULT_LANDING_PAGE, false); // Default landing page.
     }
 }
 
 function navigationWindowLoad() {
-    // Setup navigation button clicks to load the landing giles.
+    // Setup navigation button clicks to load the landing files.
     document.querySelectorAll(".nav .ascii-btn").forEach(navBtn => {
         navBtn.addEventListener("click", () => navigationHandleClick(navBtn, true));
     });
