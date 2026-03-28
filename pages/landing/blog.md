@@ -10,7 +10,7 @@ This acts as my personal note taking journal, most if not all of these entries a
 # 📝 Categories
 
 - 🧠 **Ramblings**
-  - Thoughts and ramblings taken while actively in the mindverse.
+  - Thoughts and ramblings I've taken while actively in the mindverse.
 - ⚖️ **Philosophy**
   - My personal theories, ideas, and discoveries, I've made about the cosmos.
 - 🛰️ **Research**
@@ -37,8 +37,8 @@ This acts as my personal note taking journal, most if not all of these entries a
 - 🧠 [February 8th, 2026: Bepis Of The Plow (Ramblings)](pages/blog/2026/february8th-bepisoftheplow.md)
 - 🧠 [February 7th, 2026: Time Traveling (Ramblings)](pages/blog/2026/february7th-timetraveling.md)
 - 🛰️ [February 5th, 2026: Time Illusion (Research)](pages/blog/2026/february5th-timeillusion.md)
-- 🧠 [February 3rd, 2026: Weather Event (Ramblings)](pages/blog/2026/february3rd-weatherevent.md)
 - 🛰️ [February 4th, 2026: More Winter Deaths (Research)](pages/blog/2026/february4th-morewinterdeaths.md)
+- 🧠 [February 3rd, 2026: Weather Event (Ramblings)](pages/blog/2026/february3rd-weatherevent.md)
 - 🧠 [February 2nd, 2026: Sex Organs (Ramblings)](pages/blog/2026/february2nd-sexorgans.md)
 - 🧠 [February 1st, 2026: Femtoid Fishhole (Ramblings)](pages/blog/2026/february1st-femtoidfishhole.md)
 

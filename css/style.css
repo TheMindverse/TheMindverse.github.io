@@ -26,6 +26,7 @@ header {
 
 .title {
     font-size: 28px;
+    font-weight: normal;
     margin-bottom: 5px;
     color: #E93694;
 }
