@@ -26,6 +26,17 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <script src="js/theme.js" defer></script>
+    <script src="js/markdown.js" defer></script>
+    <script src="js/navigation.js" defer></script>
+    <script>
+        (function () {
+            const savedTheme = localStorage.getItem("theme");
+            if (savedTheme === "light") {
+                document.body.classList.add("light");
+            }
+        })();
+    </script>
     <div class="container">
     <header>
         <h1 class="title">The Mindverse</h1>
@@ -45,8 +56,5 @@
         </main>
         <footer class="footer"></footer>
     </div>
-    <script src="js/theme.js" defer></script>
-    <script src="js/markdown.js" defer></script>
-    <script src="js/navigation.js" defer></script>
 </body>
 </html>

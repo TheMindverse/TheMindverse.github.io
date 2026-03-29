@@ -1,8 +1,7 @@
-// Dark and light theme mode logic.
+// Dark and light mode logic.
 
 function themeUpdateButton() {
     const themeBtn = document.getElementById('theme-btn');
-
     if (themeBtn) {
         const isLight = document.body.classList.contains('light');
         themeBtn.textContent = (isLight ? '[☀]' : '[☾]');
@@ -10,14 +9,17 @@ function themeUpdateButton() {
 }
 
 function themeToggle() {
-    document.body.classList.toggle('light');
-    localStorage.setItem('theme', document.body.classList.contains('light') ? 'light' : 'dark');
+    const isLight = document.body.classList.toggle('light');
+    localStorage.setItem('theme', (isLight ? 'light' : 'dark'));
     themeUpdateButton();
 }
 
 function themeWindowLoad() {
-    if (localStorage.getItem('theme') === 'light') {
-        document.body.classList.add('light');
+    const savedTheme = localStorage.getItem("theme");
+    if (savedTheme === "light") {
+        document.body.classList.add("light");
+    } else {
+        document.body.classList.remove("light");
     }
 
     themeUpdateButton();
