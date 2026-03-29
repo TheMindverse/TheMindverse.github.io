@@ -1,47 +1,5 @@
 // Markdown to html logic.
 
-// This is my original markdown function, it works for very basic stuff, no longer used for anything.
-function markdownFormatOld(md) {
-    if (md) {
-        // Escape HTML.
-        md = md.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
-            
-        // Code Blocks.
-        md = md.replace(/```([\s\S]*?)```/g, (_, code) => {
-            const cleaned = code.replace(/^\n/, '');
-            return `<pre><code>${cleaned}</code></pre>`;
-        });
-
-        // Headers.
-        md = md.replace(/^#### (.*$)/gim, '<hh>$1</hh>');
-        md = md.replace(/^### (.*$)/gim, '<h3>$1</h3>');
-        md = md.replace(/^## (.*$)/gim, '<h2>$1</h2>');
-        md = md.replace(/^# (.*$)/gim, '<h1>$1</h1>');
-
-        // Bold & Italic.
-        md = md.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
-        md = md.replace(/\*(.*?)\*/g, '<em>$1</em>');
-
-        // Images.
-        md = md.replace(/!\[(.*?)\]\((.*?)\)/g, '<img src="$2" alt="$1">');
-
-        // Custom Hyperlinks.
-        md = md.replace(/\[(.*?)\]\((.*?)\)/g, '<a href="#" class="md-link" data-post="$2">$1</a>');
-
-        // Lists.
-        md = md.replace(/^- (.*)$/gim, '<li>$1</li>');
-        md = md.replace(/^\* (.*)$/gim, '<li>$1</li>');
-        md = md.replace(/^\+ (.*)$/gim, '<li>$1</li>');
-        md = md.replace(/((?:<li>.*?<\/li>\s*)+)/gms, '<ul>$1</ul>');
-
-        // Line Breaks.
-        md = md.replace(/\n$/gim, '<br>');
-        md = md.replace(/\r$/gim, '');
-    }
-
-    return md;
-}
-
 // Convert markdown text to html text that can be rendered.
 function markdownFormat(md) {
     if (!md) {
