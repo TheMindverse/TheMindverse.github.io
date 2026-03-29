@@ -17,6 +17,8 @@ This acts as my personal note taking journal, most if not all of these entries a
   - Relavent news articles and current events happening in the world that are related to the mindverse.
 - 💤 **Dreamscape**
   - Vivid and memorable experiences I've had while in the dreamscape, which is a very rare occurrence for me.
+- 🍄 **Report**
+  - Trip reports I've done while on all kinds of different substances, for scientific reasons.
 
 # > March 2026
 
