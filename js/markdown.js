@@ -267,98 +267,123 @@ function markdownPost(md, info, edit, title, append) {
 }
 
 function markdownPostFile(fileContents, append) {
-    const fileLines = fileContents.split("\n");
-    fileContents = "";
+    if (fileContents) {
+        const fileLines = fileContents.split("\n");
+        fileContents = "";
 
-    let firstLine = true;
-    let mdInfo = "";
-    let mdFolder = "";
-    let mdFile = "";
-    let mdDate = "";
-    let mdEdit = "";
-    let mdTitle = "";
-    let mdBlogCat = "";
+        let firstLine = true;
+        let mdInfo = "";
+        let mdFolder = "";
+        let mdFile = "";
+        let mdDate = "";
+        let mdEdit = "";
+        let mdTitle = "";
+        let mdBlogCat = "";
 
-    for (let line of fileLines) {
-        if (line.startsWith("post-loadable: ")) {
-            if (line.slice(15).trim() != "true") {
-                return false;
-            }
-        } else if (line.startsWith("post-folder: ")) {
-            mdFolder = line.slice(13).trim();
-        } else if (line.startsWith("post-file: ")) {
-            mdFile = line.slice(11).trim();
-        } else if (line.startsWith("post-date: ")) {
-            mdDate = line.slice(11).trim();
-        } else if (line.startsWith("post-edit: ")) {
-            mdEdit = line.slice(11).trim();
-        } else if (line.startsWith("post-title: ")) {
-            mdTitle = line.slice(12).trim();
-        } else if (line.startsWith("blog-category: ")) {
-            mdBlogCat = line.slice(15);
-        } else if (!line.startsWith("post-") && !line.startsWith("blog-") && !line.startsWith("dimension-")) {                
-            if (firstLine) {
-                firstLine = false;
-                if (!line.trim()) { // Skip over the first line, I put a blank line after the custom post fields as a buffer.
-                    continue;
+        for (let line of fileLines) {
+            if (line.startsWith("post-loadable: ")) {
+                if (line.slice(15).trim() != "true") {
+                    return false;
                 }
+            } else if (line.startsWith("post-folder: ")) {
+                mdFolder = line.slice(13).trim();
+            } else if (line.startsWith("post-file: ")) {
+                mdFile = line.slice(11).trim();
+            } else if (line.startsWith("post-date: ")) {
+                mdDate = line.slice(11).trim();
+            } else if (line.startsWith("post-edit: ")) {
+                mdEdit = line.slice(11).trim();
+            } else if (line.startsWith("post-title: ")) {
+                mdTitle = line.slice(12).trim();
+            } else if (line.startsWith("blog-category: ")) {
+                mdBlogCat = line.slice(15);
+            } else if (!line.startsWith("post-") && !line.startsWith("blog-") && !line.startsWith("dimension-")) {                
+                if (firstLine) {
+                    firstLine = false;
+                    if (!line.trim()) { // Skip over the first line, I put a blank line after the custom post fields as a buffer.
+                        continue;
+                    }
+                }
+
+                fileContents += (line + "\n");
+            }
+        }
+
+        if (fileContents.length > 1) {
+            if (mdFolder) {
+                mdInfo = mdFolder;
             }
 
-            fileContents += (line + "\n");
+            if (mdFile) {
+                if (mdInfo) { mdInfo += " / "; }
+                mdInfo += mdFile;
+            }
+
+            if (mdDate) {
+                if (mdInfo) { mdInfo += " / "; }
+                mdInfo += mdDate;
+            }
+
+            if (mdBlogCat) {
+                mdTitle += (" / " + mdBlogCat);
+            }
+
+            if (mdInfo.endsWith(" / ")) {
+                mdInfo = mdInfo.slice(0, (mdInfo.length - 3));
+            }
+
+            markdownPost(fileContents.slice(0, -1), mdInfo, mdEdit, mdTitle, append); // Slice to remove the last new line added when rebuilding the string.
+            return true;
         }
     }
 
-    if (fileContents.length > 1) {
-        if (mdFolder) {
-            mdInfo = mdFolder;
-        }
-
-        if (mdFile) {
-            if (mdInfo) { mdInfo += " / "; }
-            mdInfo += mdFile;
-        }
-
-        if (mdDate) {
-            if (mdInfo) { mdInfo += " / "; }
-            mdInfo += mdDate;
-        }
-
-        if (mdBlogCat) {
-            mdTitle += (" / " + mdBlogCat);
-        }
-
-        if (mdInfo.endsWith(" / ")) {
-            mdInfo = mdInfo.slice(0, (mdInfo.length - 3));
-        }
-
-        markdownPost(fileContents.slice(0, -1), mdInfo, mdEdit, mdTitle, append); // Slice to remove the last new line added when rebuilding the string.
-        return true;
-    }
+    return false;
 }
 
 async function markdownLoadFile(filePath, append) {
-    if (filePath) {
+    if (filePath.trim()) {
         try {
-            const res = await fetch(filePath);
-            if (!res.ok) {
-                throw new Error("File path not found.");
+            const fileText = await fetchText(filePath);
+            if (!markdownPostFile(fileText, append)) {
+                throw new Error("Failed to post file.");
             }
 
-            const text = await res.text();
-            if (!text.trim()) {
-                throw new Error("Empty file contents.");
-            }
-
-            if (!markdownPostFile(text, append)) {
-                throw new Error("Failed to load file.");
-            }       
+            return true;
         } catch (err) {
-            const res = await fetch(DEFAULT_NOT_FOUND_PAGE); // Fallback if a file or page wasn't found.
-            if (res.ok) {
-                const text = await res.text();
-                markdownPostFile(text, append);
-            }
+            const fallbackText = await fetchText(DEFAULT_NOT_FOUND_PAGE);
+            markdownPostFile(fallbackText, append);
         }
+    }
+
+    return false;
+}
+
+async function fetchText(filePath) {
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 5000);
+  
+    try {
+        const res = await fetch(filePath, { signal: controller.signal });
+
+        if (!res.ok) {
+            throw new Error(`Failed to fetch file: ${filePath}`);
+        }
+
+        const fileText = await res.text();
+        if (!fileText.trim()) {
+            throw new Error(`Empty file contents: ${filePath}`);
+        }
+
+        return fileText;
+
+    } catch (err) {
+        if (err.name === "AbortError") {
+            throw new Error(`Request timed out: ${filePath}`);
+        }
+
+        throw err;
+    } finally {
+        clearTimeout(timeout);
     }
 }
 
@@ -392,6 +417,7 @@ This is a [link](https://www.google.com/).
 > This is a blockquote.
 >> This is a nested blockquote.
 > - This is a list in a blockquote.
+> **This is bold text in a blockquote.**
 > This is another blockquote.
 
 This is \`code word\`
