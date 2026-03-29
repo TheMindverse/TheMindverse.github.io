@@ -221,7 +221,7 @@ function markdownFormat(md) {
 }
 
 function markdownPost(md, info, edit, title, append) {
-    if (md) {
+    if (md && info && title) {
         const container = document.getElementById("content");
 
         const post = document.createElement("div");
