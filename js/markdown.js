@@ -6,6 +6,14 @@ function markdownFormat(md) {
         return md;
     }
 
+    function escapeHTML(str) {
+        return String(str)
+            .replace(/&/g, "&amp;")
+            .replace(/</g, "&lt;")
+            .replace(/>/g, "&gt;")
+            .replace(/"/g, "&quot;");
+    }
+
     function processInlineFormatting(text) {
         let placeholders = [];
 
@@ -26,17 +34,25 @@ function markdownFormat(md) {
         // Images.
         text = text.replace(/!\[(.*?)\]\((.*?)\)/g, (_, alt, src) => {
             const id = placeholders.length;
-            placeholders.push(`<img src="${src}" alt="${alt}">`);
+            placeholders.push(
+                `<img src="${escapeHTML(src)}" alt="${escapeHTML(alt)}">`
+            );
             return `{{PLACEHOLDER${id}}}`;
         });
 
         // Links.
         text = text.replace(/\[([^\]]+)\]\(([^()\s]+)\)/g, (_, t, href) => {
             const id = placeholders.length;
-            if (href.endsWith('.md')) {
-                placeholders.push(`<a href="#" class="md-link" data-post="${href}">${t}</a>`); // Custom markdown files.
+            const safeText = escapeHTML(t);
+            const safeHref = escapeHTML(href);
+
+            // Prevent javascript.
+            if (/^javascript:/i.test(href)) {
+                placeholders.push(safeText);
+            } else if (href.endsWith('.md')) {
+                placeholders.push(`<a href="#" class="md-link" data-post="${safeHref}">${safeText}</a>`);
             } else {
-                placeholders.push(`<a href="${href}" target="_blank" rel="noopener noreferrer">${t}</a>`); // Normal links.
+                placeholders.push(`<a href="${safeHref}" target="_blank" rel="noopener noreferrer">${safeText}</a>`);
             }
 
             return `{{PLACEHOLDER${id}}}`;
@@ -46,8 +62,8 @@ function markdownFormat(md) {
         text = text.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 
         // Bold and italic.
-        text = text.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
-        text = text.replace(/\*(.+?)\*/g, '<em>$1</em>');
+        text = text.replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
+        text = text.replace(/\*(.+?)\*/g, "<em>$1</em>");
 
         // Restore placeholders.
         text = text.replace(/{{PLACEHOLDER(\d+)}}/g, (_, id) => placeholders[id]);
@@ -59,7 +75,7 @@ function markdownFormat(md) {
     md = md.replace(/```([\s\S]*?)```/g, (_, code) => {
         const cleaned = code.replace(/^\n/, '');
         const placeholder = `{{CODEBLOCK${codeBlocks.length}}}`;
-        codeBlocks.push(`<pre><code>${cleaned}</code></pre>`);
+        codeBlocks.push(`<pre><code>${escapeHTML(cleaned)}</code></pre>`);
         return placeholder;
     });
 
@@ -70,54 +86,54 @@ function markdownFormat(md) {
 
     function flushList() {
         if (listBuffer.length > 0) {
-            result.push('<ul>' + listBuffer.join('') + '</ul>');
+            result.push("<ul>" + listBuffer.join("") + "</ul>");
             listBuffer = [];
         }
     }
 
     function flushBlockquote() {
-        if (blockquoteBuffer.length === 0) return;
+        if (blockquoteBuffer.length > 0) {
+            // Build nested structure.
+            let html = "";
+            let currentDepth = 0;
 
-        // Build nested structure.
-        let html = '';
-        let currentDepth = 0;
+            blockquoteBuffer.forEach(({ depth, content }) => {
+                while (currentDepth < depth) {
+                    html += "<blockquote>";
+                    currentDepth++;
+                }
 
-        blockquoteBuffer.forEach(({ depth, content }) => {
-            while (currentDepth < depth) {
-                html += '<blockquote>';
-                currentDepth++;
-            }
+                while (currentDepth > depth) {
+                    html += "</blockquote>";
+                    currentDepth--;
+                }
 
-            while (currentDepth > depth) {
-                html += '</blockquote>';
+                // Recursively parse inner markdown.
+                html += markdownFormat(content);
+            });
+
+            while (currentDepth > 0) {
+                html += "</blockquote>";
                 currentDepth--;
             }
 
-            // Recursively parse inner markdown.
-            html += markdownFormat(content);
-        });
-
-        while (currentDepth > 0) {
-            html += '</blockquote>';
-            currentDepth--;
+            result.push(html);
+            blockquoteBuffer = [];   
         }
-
-        result.push(html);
-        blockquoteBuffer = [];
     }
 
     for (let line of lines) {
-        line = line.replace(/\s+$/, ''); // Trim right.
+        line = line.replace(/\s+$/, ""); // Trim right.
 
         // Empty lines.
-        if (line.trim() === '') {
+        if (!line.trim()) {
             if (listBuffer.length > 0) {
                 flushList();
-                result.push('<span class="line-break-list"></span>');
+                result.push("<span class=\"line-break-list\"></span>");
             } else {
                 flushList();
                 flushBlockquote();
-                result.push('<span class="line-break"></span>');
+                result.push("<span class=\"line-break\"></span>");
             }
 
             continue;
@@ -139,11 +155,19 @@ function markdownFormat(md) {
         const listMatch = line.match(/^(\s*)([-*+])\s+(.*)/);
         if (listMatch) {
             const indent = listMatch[1].length;
-            let item = listMatch[3];
-            item = processInlineFormatting(item);
+            let item = processInlineFormatting(listMatch[3]);
+            
+            if ((indent >= 2) && (listBuffer.length > 0)) {
+                let last = listBuffer.pop(); // Attach nested list to previous <li>.
 
-            if (indent >= 2 && listBuffer.length > 0) {
-                listBuffer.push(`<ul><li>${item}</li></ul>`);
+                // If the last item doesn't already contain a nested <ul>, add one.
+                if (!last.includes("<ul>")) {
+                    last = last.replace(/<\/li>$/, `<ul><li>${item}</li></ul></li>`);
+                } else {
+                    last = last.replace(/<\/ul><\/li>$/, `<li>${item}</li></ul></li>`);
+                }
+
+                listBuffer.push(last);
             } else {
                 listBuffer.push(`<li>${item}</li>`);
             }
@@ -390,5 +414,5 @@ This is another codeblock.
     let mdEdit = "";
     let mdTitle = "Markdown Demo";
 
-    markdownPostFile(md, mdInfo, mdEdit, mdTitle, true);
+    markdownPost(md, mdInfo, mdEdit, mdTitle, true);
 }

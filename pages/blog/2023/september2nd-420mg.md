@@ -25,6 +25,6 @@ blog-category: Trip Report
 
 > This was a positive trip, nothing really insane happened like meeting a god like entity or traveling through alien planets; just after having some bad trips last time this was a lot of fun and a much needed break from reality. Had a blast listening to music.
 
-![](pages/blog/2023/references/september2nd-0.png)
+![](pages/blog/2023/references/september2nd-0.jpg)
 
-![](pages/blog/2023/references/september2nd-1.png)
+![](pages/blog/2023/references/september2nd-1.jpg)
