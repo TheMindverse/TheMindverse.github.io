@@ -2,8 +2,8 @@ post-loadable: false
 post-folder: Landing
 post-file: Blog.md
 post-date: October 5th, 2025
-post-edit: March 29th, 2026
-post-title: Blog (Unfinished)
+post-edit: March 30th, 2026
+post-title: Blog
 
 This acts as my personal note taking journal, most if not all of these entries are written while I am actively in the mindverse. Some of these are forwarded from the discord server, which is not open to the public.
 
@@ -17,7 +17,7 @@ This acts as my personal note taking journal, most if not all of these entries a
   - Relavent news articles and current events happening in the world that are related to the mindverse.
 - 💤 **Dreamscape**
   - Vivid and memorable experiences I've had while in the dreamscape, which is a very rare occurrence for me.
-- 🍄 **Report**
+- 🍄 **Trip Report**
   - Trip reports I've done while on all kinds of different substances, for scientific reasons.
 
 # > March 2026
@@ -99,3 +99,33 @@ This acts as my personal note taking journal, most if not all of these entries a
 - 🧠 [October 10th, 2025: The Sacrafice (Ramblings)](pages/blog/2025/october10th-thesacrafice.md)
 - 🛰️ [October 6th, 2025: The Harvest Moon (Research)](pages/blog/2025/october6th-theharvestmoon.md)
 - 🧠 [October 5th, 2025: The Voices (Ramblings)](pages/blog/2025/october5th-thevoices.md)
+
+# > November 2024
+
+- 🛰️ [November 19th, 2024: Visual Cortex (Research)](pages/blog/2024/february19th-visualcortex.md)
+- 🍄 [November 12th, 2024: 300mg DXM Freebase + THCA (Trip Report)](pages/blog/2024/november12th-300mg.md)
+
+# > June 2024
+
+- 🍄 [June 17th, 2024: 300mg DXM Freebase + THCA (Trip Report)](pages/blog/2024/june17th-300mg.md)
+
+# > December 2023
+
+- 🍄 [December 30th, 2023: 720mg DXM Freebase + CBD + DPH (Trip Report)](pages/blog/2023/december30th-720mg.md)
+- 🍄 [December 12th, 2023: 300mg DXM Freebase (Trip Report)](pages/blog/2023/december12th-300mg.md)
+
+# > November 2023
+
+- 🍄 [November 19th, 2023: 240mg DXM Freebase (Trip Report)](pages/blog/2023/november19th-240mg.md)
+
+# > September 2023
+
+- 🍄 [September 2nd, 2023: 420mg DXM HBr (Trip Report)](pages/blog/2023/september2nd-420mg.md)
+
+# > July 2023
+
+- 🍄 [July 28th, 2023: 360mg DXM HBr (Trip Report)](pages/blog/2023/july28th-360mg.md)
+
+# > May 2023
+
+- 🍄 [May 5th 5th, 2023: 480mg DXM HBr (Trip Report)](pages/blog/2023/may5th-480mg.md)

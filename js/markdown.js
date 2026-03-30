@@ -322,7 +322,6 @@ async function fetchText(filePath) {
   
     try {
         const res = await fetch(filePath, { signal: controller.signal });
-
         if (!res.ok) {
             throw new Error(`Failed to fetch file: ${filePath}`);
         }
@@ -333,7 +332,6 @@ async function fetchText(filePath) {
         }
 
         return fileText;
-
     } catch (err) {
         if (err.name === "AbortError") {
             throw new Error(`Request timed out: ${filePath}`);
