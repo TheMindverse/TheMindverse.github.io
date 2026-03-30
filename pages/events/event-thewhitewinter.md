@@ -1,4 +1,4 @@
-post-folder: News
+post-folder: Events
 post-file: Event-TheWhiteWinter.md
 post-date: December 1st, 2025
 post-edit: March 26th, 2026
@@ -11,4 +11,4 @@ This is an archived event forwarded from the discord server, which is not open t
 - **Location:** Earth Prime
 - **Date:** From `December 1st, 2025` to `March 1st, 2026`
 
-![](pages/news/references/event-thewhitewinter.png)
+![](pages/events/references/event-thewhitewinter.png)

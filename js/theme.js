@@ -4,7 +4,7 @@ function themeUpdateButton() {
     const themeBtn = document.getElementById("theme-btn");
     if (themeBtn) {
         const isLight = document.body.classList.contains("light");
-        themeBtn.textContent = (isLight ? "[☀]" : "[☾]");
+        themeBtn.textContent = (isLight ? "☀" : "☾");
     }
 }
 
@@ -15,14 +15,11 @@ function themeToggle() {
 }
 
 function themeWindowLoad() {
-    const savedTheme = localStorage.getItem("theme");
-    if (savedTheme === "light") {
-        document.body.classList.add("light");
-    } else {
-        document.body.classList.remove("light");
-    }
-
     themeUpdateButton();
+    const themeBtn = document.getElementById("theme-btn");
+    if (themeBtn) {
+        themeBtn.addEventListener("click", themeToggle);
+    }
 }
 
 window.addEventListener('DOMContentLoaded', themeWindowLoad);

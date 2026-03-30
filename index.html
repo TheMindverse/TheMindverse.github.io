@@ -26,11 +26,12 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <script src="js/config.js" defer></script>
     <script src="js/theme.js" defer></script>
     <script src="js/markdown.js" defer></script>
     <script src="js/navigation.js" defer></script>
     <script>
-        (function () {
+        (function () { // This is to prevent a breif "flash" of the default dark theme when refreshing pages, if you were using the light theme.
             const savedTheme = localStorage.getItem("theme");
             if (savedTheme === "light") {
                 document.body.classList.add("light");
@@ -41,20 +42,20 @@
     <header>
         <h1 class="title">The Mindverse</h1>
         <div class="nav">
-            <span class="ascii-btn" data-post="pages/landing/welcome.md">[WELCOME]</span>
-            <span class="ascii-btn" data-post="pages/landing/news.md">[NEWS]</span>
-            <span class="ascii-btn" data-post="pages/landing/guides.md">[GUIDES]</span>
-            <span class="ascii-btn" data-post="pages/landing/dimensions.md">[DIMENSIONS]</span>
-            <!-- <span class="ascii-btn" data-post="pages/landing/blog.md">[BLOG]</span>--> <!-- I want to redo this, I'm not happy with how it looks atm -->
-            <span class="ascii-btn" data-post="pages/landing/about.md">[ABOUT]</span>
-            <!-- <span class="ascii-btn" onclick="markdownDemo()">[MARKDOWN DEMO]</span> -->
-            <span id="theme-btn" class="ascii-btn" onclick="themeToggle()"></span>
+            <button class="ascii-btn" data-post="pages/landing/welcome.md">[WELCOME]</button>
+            <button class="ascii-btn" data-post="pages/landing/events.md">[EVENTS]</button>
+            <button class="ascii-btn" data-post="pages/landing/guides.md">[GUIDES]</button>
+            <button class="ascii-btn" data-post="pages/landing/dimensions.md">[DIMENSIONS]</button>
+            <!-- <button class="ascii-btn" data-post="pages/landing/blog.md">[BLOG]</button>--> <!-- I want to redo this, I'm not happy with how it looks atm -->
+            <button class="ascii-btn" data-post="pages/landing/about.md">[ABOUT]</button>
+            <!-- <button class="ascii-btn" onclick="markdownDemo()">[MARKDOWN DEMO]</button> -->
+            <button id="theme-btn" class="ascii-btn"></button>
         </div>
     </header>
         <main id="content">
              <noscript>This site requires JavaScript to function.</noscript>
         </main>
-        <footer class="footer"></footer>
+        <footer class="footer">The mindverse was first discovered and documented by ItsBrank, beware of false shepherds.</footer>
     </div>
 </body>
 </html>

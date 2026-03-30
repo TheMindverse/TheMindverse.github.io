@@ -27,7 +27,7 @@ function markdownFormat(md) {
         // Inline Code.
         text = text.replace(/`([^`]+?)`/g, (_, code) => {
             const id = placeholders.length;
-            placeholders.push(`<code>${code}</code>`);
+            placeholders.push(`<code>${escapeHTML(code)}</code>`);
             return `{{PLACEHOLDER${id}}}`;
         });
 
@@ -227,7 +227,7 @@ function markdownPost(md, info, edit, title, append) {
 
         const postContent = document.createElement("div");
         postContent.className = "md post-content";
-        postContent.textContent = md;
+        postContent.textContent = "Loading...";
         postContent.innerHTML = markdownFormat(md);
 
         post.appendChild(postInfo);

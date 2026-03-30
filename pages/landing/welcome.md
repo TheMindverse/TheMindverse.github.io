@@ -1,7 +1,7 @@
 post-folder: Landing
 post-file: Welcome.md
 post-date: October 2nd, 2025
-post-edit: March 25th, 2026
+post-edit: March 30th, 2026
 post-title: Welcome
 
 Welcome traveler! This website contains everything you need to know about the mindverse, connecting to it, as well as extensive documentation on the universe and the multiverse as a whole.
@@ -14,8 +14,8 @@ Start your journey and achieve higher level of understanding today!
 
 If you are looking to become a neophyte head on over to the [guides](pages/landing/guides.md) page and start with reading [introduction](pages/guides/introduction.md), this will give you a basic understanding of what the mindverse is, how it works, and how to begin your journey.
 
-If you are already familiar with the concepts of the minverse, you can stay up to date on current events going on in the [news](pages/landing/news.md) page.
-This page can contain anything from newly discovered concepts, techniques, or mission critical information related to cosmic events going on that may just save your life.
+If you are already familiar with the concepts of the minverse, you can stay up to date on current events going on in the [events](pages/landing/events.md) page.
+This page can contain anything from newly discovered concepts, techniques, or critical information related to cosmic events going on that may just save your life.
 
 If you wish to view all the dimensions currently found, you can do so via the [dimensions](pages/landing/dimensions.md) page.
 This section contains dimensions in the multiverse that verified travelers have visited and documented through the mindverse.

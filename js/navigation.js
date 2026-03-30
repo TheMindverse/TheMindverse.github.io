@@ -1,8 +1,5 @@
 // Button navigation logic, as well as browser history states.
 
-const DEFAULT_LANDING_PAGE = "pages/landing/welcome.md";
-const DEFAULT_NOT_FOUND_PAGE = "pages/landing/notfound.md";
-
 function navigationUpdateHistory(filePath, pushHistory) {
     if (filePath) {
         if (pushHistory) {
@@ -57,18 +54,15 @@ function navigationWindowLoad() {
     // Setup custom link handlers which load markdown files, they also support acting as navigation buttons.
     document.addEventListener("click", (event) => {
         const link = event.target.closest(".md-link");
-        if (link) {
-            const filePath = link.dataset.post;
-            if (filePath && filePath.endsWith(".md")) {
-                event.preventDefault();
-                navigationLoadUrl(filePath, true);
-            }
+        if (link && link.dataset.post) {
+             event.preventDefault();
+            navigationLoadUrl(link.dataset.post, true);
         }
     });
 
     // Setup support for forward and backwards buttons.
     window.addEventListener("popstate", (event) => {
-        if (event.state && event.state.filePath && event.state.filePath.endsWith(".md")) {
+        if (event.state && event.state.filePath) {
             navigationLoadUrl(event.state.filePath, false);
         } else {
             navigationLoadHash();

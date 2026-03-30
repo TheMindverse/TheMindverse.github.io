@@ -50,6 +50,13 @@ header {
 
 /* ASCII Buttons */
 .ascii-btn {
+    font: inherit;
+    color: inherit;
+    cursor: pointer;
+    outline: none;
+    background: none;
+    border: none;
+    padding: 0;
     display: inline-block;
     cursor: pointer;
     margin: 5px 0;
@@ -66,6 +73,20 @@ header {
 
 .ascii-btn.active:hover {
     color: #E93694;
+}
+
+.ascii-btn:focus {
+    outline: none;
+}
+
+.ascii-btn:focus-visible {
+    outline: 1px solid currentColor;
+}
+
+#theme-btn {
+    display: inline-block;
+    text-align: center;
+    width: 1.5em;
 }
 
 /* Posts */
@@ -129,11 +150,6 @@ body.light .post-title::before {
 body.light .footer {
     border-color: #aaaaaa;
     color: #555555;
-}
-
-.footer::before {
-    content: "The mindverse was first discovered and documented by ItsBrank, beware of false shepherds.";
-    margin-right: 0.2em;
 }
 
 /* Text Selection */

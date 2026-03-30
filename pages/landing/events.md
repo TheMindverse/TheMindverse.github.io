@@ -1,8 +1,8 @@
 post-folder: Landing
-post-file: News.md
+post-file: Events.md
 post-date: October 19th, 2025
-post-edit: March 26th, 2026
-post-title: News
+post-edit: March 30th, 2026
+post-title: Events
 
 This page contains important info, current events, and archived events that already happened. Most of these are events that are forwarded from the discord server, which is not open to the public.
 
@@ -61,6 +61,6 @@ When the power goes out, even if you have a gas stove that doesn't require elect
 
 # 📌 Archived Events
 
-## - [The White Winter (December 1st, 2025)](pages/news/event-thewhitewinter.md)
+## - [The White Winter (December 1st, 2025)](pages/events/event-thewhitewinter.md)
 
-## - [The Grand Opening (October 18th, 2025)](pages/news/event-thegrandopening.md)
+## - [The Grand Opening (October 18th, 2025)](pages/events/event-thegrandopening.md)
