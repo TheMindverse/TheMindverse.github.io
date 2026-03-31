@@ -15,6 +15,7 @@ function markdownFormat(md) {
     }
 
     function processInlineFormatting(text) {
+        text = escapeHTML(text);
         let placeholders = [];
 
         // Escape characters.
@@ -41,13 +42,14 @@ function markdownFormat(md) {
         });
 
         // Links.
-        text = text.replace(/\[([^\]]+)\]\(([^()\s]+)\)/g, (_, t, href) => {
+        text = text.replace(/\[([^\]]+)\]\(((?:[^()\s]+|\([^()\s]*\))+)\)/g, (_, t, href) => {
             const id = placeholders.length;
+            const decodedHref = href.replace(/&amp;/g, "&").replace(/&#(\d+);/g, (_, n) => String.fromCharCode(n));
             const safeText = escapeHTML(t);
-            const safeHref = escapeHTML(href);
+            const safeHref = escapeHTML(href.trim());
 
             // Prevent javascript.
-            if (/^javascript:/i.test(href)) {
+            if (/^javascript:/i.test(decodedHref.trim())) {
                 placeholders.push(safeText);
             } else if (href.endsWith('.md')) {
                 placeholders.push(`<a href="#" class="md-link" data-post="${safeHref}">${safeText}</a>`);
@@ -58,12 +60,9 @@ function markdownFormat(md) {
             return `{{PLACEHOLDER${id}}}`;
         });
 
-        // Escape HTML.
-        text = text.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
-
         // Bold and italic.
         text = text.replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
-        text = text.replace(/\*(.+?)\*/g, "<em>$1</em>");
+        text = text.replace(/(^|[^*])\*(?!\*)(.+?)\*(?!\*)/g, "$1<em>$2</em>");
 
         // Restore placeholders.
         text = text.replace(/{{PLACEHOLDER(\d+)}}/g, (_, id) => placeholders[id]);
@@ -385,7 +384,11 @@ This is a paragraph.
 
 This is **also bold**, but \\*\\*this one isn't\\*\\*.
 
+This is an *italic **bold*** test.
+
 This is a [link](https://www.google.com/).
+
+This is [another link](https://google.com/test(1))
 
 - This is a dash list.
 * This is an asterisk list.
