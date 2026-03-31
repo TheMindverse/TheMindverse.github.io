@@ -43,7 +43,7 @@ This acts as my personal note taking journal, most if not all of these entries a
 - 🛰️ [February 4th, 2026: More Winter Deaths (Research)](pages/blog/2026/february4th-morewinterdeaths.md)
 - 🧠 [February 3rd, 2026: Weather Event (Ramblings)](pages/blog/2026/february3rd-weatherevent.md)
 - 🧠 [February 2nd, 2026: Sex Organs (Ramblings)](pages/blog/2026/february2nd-sexorgans.md)
-- 🧠 [February 1st, 2026: Femtoid Fishhole (Ramblings)](pages/blog/2026/february1st-femtoidfishhole.md)
+- 🧠 [February 1st, 2026: Stinky Fish Hole (Ramblings)](pages/blog/2026/february1st-stinkyfishhole.md)
 
 # > January 2026
 

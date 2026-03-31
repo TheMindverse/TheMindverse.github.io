@@ -1,7 +1,7 @@
 post-folder: Landing
 post-file: About.md
 post-date: March 25th, 2026
-post-edit: March 29th, 2026
+post-edit: March 30th, 2026
 post-title: About
 
 Thanks for visiting the site, originally I started documenting the mindverse back in September of 2025 through a discord server to keep everything organized.
@@ -9,7 +9,7 @@ The discord server is private and closed off to only a select few of my personal
 So, everything from the discord has been fully converted into markdown files and made open source, so anyone can view it and learn for themselves, all for free!
 
 This entire website is under 25kb total, including all of its html, scripts, and css styling, in an attempt to be as lightweight as possible.
-Each page or link you click on is parsed from text files (`.md`) into html live on demand, as a result they aren't actual html files or urls, that's just a little illusion to mimic the behavior of a normal website.
+Each page or link you click on is parsed from text files (`.md`) into html live on demand, as a result they aren't actual html files or urls.
 Its also open source and hosted on github under the `MIT license`, its source code can be [viewed here](https://github.com/TheMindverse/TheMindverse.github.io).
 
 # 💬 Common Questions

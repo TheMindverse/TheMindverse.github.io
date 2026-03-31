@@ -1,8 +1,8 @@
 post-folder: Blog / 2026
-post-file: February1st-FemtoidFishhole.md
+post-file: February1st-StinkyFishHole.md
 post-date: February 1st, 2026
-post-edit: March 26th, 2026
-post-title: Femtoid Fish hole
+post-edit: March 30th, 2026
+post-title: Stinky Fish Hole
 blog-category: Ramblings
 
 > i dont think femtoids aka fEmAlEs could even think of something like this
