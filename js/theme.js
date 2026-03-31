@@ -14,12 +14,10 @@ function themeToggle() {
     themeUpdateButton();
 }
 
-function themeWindowLoad() {
+function themeInit() {
     themeUpdateButton();
     const themeBtn = document.getElementById("theme-btn");
     if (themeBtn) {
         themeBtn.addEventListener("click", themeToggle);
     }
 }
-
-window.addEventListener('DOMContentLoaded', themeWindowLoad);

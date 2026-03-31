@@ -1,5 +1,9 @@
 // Button navigation logic, as well as browser history states.
 
+function navigationRescroll() {
+    window.scrollTo({ top: 0, behavior: "instant" }); // Reset scroll to top.
+}
+
 function navigationUpdateHistory(filePath, pushHistory) {
     if (filePath) {
         if (pushHistory) {
@@ -17,7 +21,7 @@ function navigationHandleClick(navBtn, pushHistory) {
             navBtn.classList.add("active");
         }
 
-        window.scrollTo(0, 0); // Reset scroll to top.
+        navigationRescroll();
         navigationUpdateHistory(navBtn.dataset.post, pushHistory);
         markdownLoadFile(navBtn.dataset.post, false);
     }
@@ -29,7 +33,7 @@ function navigationLoadUrl(filePath, pushHistory) {
         if (navBtn) {
             navigationHandleClick(navBtn, pushHistory);
         } else { // Not a navigation button, try to load the actual markdown file.
-            window.scrollTo(0, 0); // Reset scroll to top.
+            navigationRescroll();
             navigationUpdateHistory(filePath, pushHistory);
             markdownLoadFile(filePath, false);
         }
@@ -45,7 +49,7 @@ function navigationLoadHash() {
     }
 }
 
-function navigationWindowLoad() {
+function navigationInit() {
     // Setup navigation button clicks to load the landing files.
     document.querySelectorAll(".nav .ascii-btn").forEach(navBtn => {
         navBtn.addEventListener("click", () => navigationHandleClick(navBtn, true));
@@ -71,5 +75,3 @@ function navigationWindowLoad() {
 
     navigationLoadHash(); // Load the default landing page on first visit.
 }
-
-window.addEventListener("DOMContentLoaded", navigationWindowLoad);

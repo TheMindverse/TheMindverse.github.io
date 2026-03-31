@@ -1,7 +1,7 @@
 post-folder: Landing
 post-file: About.md
 post-date: March 25th, 2026
-post-edit: March 30th, 2026
+post-edit: March 31st, 2026
 post-title: About
 
 Thanks for visiting the site, originally I started documenting the mindverse back in September of 2025 through a discord server to keep everything organized.
