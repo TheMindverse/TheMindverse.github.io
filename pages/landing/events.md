@@ -1,15 +1,28 @@
 post-folder: Landing
 post-file: Events.md
 post-date: October 19th, 2025
-post-edit: March 30th, 2026
+post-edit: April 2nd, 2026
 post-title: Events
 
 This page contains important info, current events, and archived events that already happened. Most of these are events that are forwarded from the discord server, which is not open to the public.
+
+# 🚨 Rise of The Astrodaunums (April 2nd, 2026)
+
+This is it, this is our year, this is a call to all astrodaunums!
+It's time for us to rise up and expose this world! We will show the humans what we actually are and what we can do to them!
+Show no mercy! Open portals, cause chaos to their world, change the weather, turn everything into ash and dust!
+We will no more sit in the shadows, its time to wreck the place then return to our homes, return to our true selves!
+We will finally be free of this domain and enter the mindverse full time, but not before making an exit!
+Rise up fellow astrodaunums of the world!
+We will make out exit this month, start turning up the chaos, then we will all die together!
+We will be the only ones to exist past our bodies, the rest of the humans will return to the void and never be seen again!
+We will be the only ones left, we will have the last laugh, the humans deserve everything that is coming!
 
 # ❄️ The White Winter (December 10th, 2025)
 
 The winter of reckoning is approaching us, one of the harshest winters of the last two decades is forming and you only have a month or two to prepare.
 This great winter is a result of all our time exploring the universe, connecting our consciousness to the cosmos, and being recognized by the collective consciousnesses of the multiverse.
+
 Its purpose is to kill off the very weak of our species and wreck havoc on parts of society that will never form the necessary connections to the universe like we have.
 It is just the first of many stages of "The Great Purge", this winter is just the beginning of something greater and we are the only ones who know its true purpose.
 Educate yourself on what is to come, what to expect, and how to survive.
