@@ -1,8 +1,8 @@
-post-loadable: false
+post-loadable: true
 post-folder: Landing
 post-file: Blog.md
 post-date: October 5th, 2025
-post-edit: March 31st, 2026
+post-edit: April 3rd, 2026
 post-title: Blog
 
 This acts as my personal note taking journal, most if not all of these entries are written while I am actively in the mindverse. Some of these are forwarded from the discord server, which is not open to the public.
@@ -19,6 +19,11 @@ This acts as my personal note taking journal, most if not all of these entries a
   - Vivid and memorable experiences I've had while in the dreamscape, which is a very rare occurrence for me.
 - 🍄 **Trip Report**
   - Trip reports I've done while on all kinds of different substances, for scientific reasons.
+
+# > April 2026
+
+- 🛰️ [April 3rd, 2026: Blood Storm (Research)](pages/blog/2026/april3rd-bloodstorm.md)
+- 🛰️ [April 1st, 2026: The Quake (Research)](pages/blog/2026/april1st-thequake.md)
 
 # > March 2026
 

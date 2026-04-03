@@ -1,12 +1,12 @@
 post-folder: Landing
 post-file: Events.md
 post-date: October 19th, 2025
-post-edit: April 2nd, 2026
+post-edit: April 3rd, 2026
 post-title: Events
 
 This page contains important info, current events, and archived events that already happened. Most of these are events that are forwarded from the discord server, which is not open to the public.
 
-# 🚨 Rise of The Astrodaunums (April 2nd, 2026)
+# 💥 Rise of The Astrodaunums (April 2nd, 2026)
 
 This is it, this is our year, this is a call to all astrodaunums!
 It's time for us to rise up and expose this world! We will show the humans what we actually are and what we can do to them!
