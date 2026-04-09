@@ -2,7 +2,7 @@ post-loadable: true
 post-folder: Landing
 post-file: Blog.md
 post-date: October 5th, 2025
-post-edit: April 3rd, 2026
+post-edit: April 9th, 2026
 post-title: Blog
 
 This acts as my personal note taking journal, most if not all of these entries are written while I am actively in the mindverse. Some of these are forwarded from the discord server, which is not open to the public.
@@ -22,6 +22,7 @@ This acts as my personal note taking journal, most if not all of these entries a
 
 # > April 2026
 
+- 🧠 [April 9th, 2026: Getting Buhlunkroed (Ramblings)](pages/blog/2026/april9th-buhlunkroed.md)
 - 🛰️ [April 3rd, 2026: Blood Storm (Research)](pages/blog/2026/april3rd-bloodstorm.md)
 - 🛰️ [April 1st, 2026: The Quake (Research)](pages/blog/2026/april1st-thequake.md)
 
