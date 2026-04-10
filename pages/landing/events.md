@@ -1,7 +1,7 @@
 post-folder: Landing
 post-file: Events.md
 post-date: October 19th, 2025
-post-edit: April 3rd, 2026
+post-edit: April 10th, 2026
 post-title: Events
 
 This page contains important info, current events, and archived events that already happened. Most of these are events that are forwarded from the discord server, which is not open to the public.
