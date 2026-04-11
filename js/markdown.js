@@ -49,7 +49,7 @@ function markdownFormat(md) {
             const safeHref = escapeHTML(href.trim());
 
             // Prevent javascript.
-            if (/^javascript:/i.test(decodedHref.trim())) {
+            if (/^(javascript|data|vbscript):/i.test(decodedHref.trim())) {
                 placeholders.push(safeText);
             } else if (href.endsWith('.md')) {
                 placeholders.push(`<a href="#" class="md-link" data-post="${safeHref}">${safeText}</a>`);
@@ -61,8 +61,9 @@ function markdownFormat(md) {
         });
 
         // Bold and italic.
+        text = text.replace(/\*\*\*(.+?)\*\*\*/g, "<strong><em>$1</em></strong>");
         text = text.replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
-        text = text.replace(/(^|[^*])\*(?!\*)(.+?)\*(?!\*)/g, "$1<em>$2</em>");
+        text = text.replace(/\*(?!\*)([^*]+?)\*(?!\*)/g, "<em>$1</em>");
 
         // Restore placeholders.
         text = text.replace(/{{PLACEHOLDER(\d+)}}/g, (_, id) => placeholders[id]);
@@ -80,13 +81,25 @@ function markdownFormat(md) {
 
     const lines = md.split(/\r?\n/);
     let result = [];
-    let listBuffer = [];
+    let listStack = [];
+    let currentListHTML = "";
     let blockquoteBuffer = [];
+    let openItem = false;
 
     function flushList() {
-        if (listBuffer.length > 0) {
-            result.push("<ul>" + listBuffer.join("") + "</ul>");
-            listBuffer = [];
+        if (openItem) {
+            currentListHTML += "</li>";
+            openItem = false;
+        }
+
+        while (listStack.length > 0) {
+            currentListHTML += "</ul>";
+            listStack.pop();
+        }
+
+        if (currentListHTML) {
+            result.push(currentListHTML);
+            currentListHTML = "";
         }
     }
 
@@ -107,8 +120,11 @@ function markdownFormat(md) {
                     currentDepth--;
                 }
 
-                // Recursively parse inner markdown.
-                html += markdownFormat(content);
+                if (/^{{CODEBLOCK\d+}}$/.test(content)) {
+                    html += content;
+                } else {
+                    html += `<div>${markdownFormat(content)}</div>`;
+                }
             });
 
             while (currentDepth > 0) {
@@ -126,7 +142,7 @@ function markdownFormat(md) {
 
         // Empty lines.
         if (!line.trim()) {
-            if (listBuffer.length > 0) {
+            if (listStack.length > 0) {
                 flushList();
                 result.push("<span class=\"line-break-list\"></span>");
             } else {
@@ -153,27 +169,46 @@ function markdownFormat(md) {
         // Lists.
         const listMatch = line.match(/^(\s*)([-*+])\s+(.*)/);
         if (listMatch) {
+            flushBlockquote();
             const indent = listMatch[1].length;
-            let item = processInlineFormatting(listMatch[3]);
-            
-            if ((indent >= 2) && (listBuffer.length > 0)) {
-                let last = listBuffer.pop(); // Attach nested list to previous <li>.
+            const level = Math.floor(indent / 2);
+            const content = processInlineFormatting(listMatch[3]);
 
-                // If the last item doesn't already contain a nested <ul>, add one.
-                if (!last.includes("<ul>")) {
-                    last = last.replace(/<\/li>$/, `<ul><li>${item}</li></ul></li>`);
-                } else {
-                    last = last.replace(/<\/ul><\/li>$/, `<li>${item}</li></ul></li>`);
-                }
-
-                listBuffer.push(last);
-            } else {
-                listBuffer.push(`<li>${item}</li>`);
+            // Open required <ul> levels.
+            while (listStack.length < level + 1) {
+                currentListHTML += "<ul>";
+                listStack.push(true);
             }
 
+            // Close excess <ul> levels.
+            while (listStack.length > level + 1) {
+                if (openItem) {
+                    currentListHTML += "</li>";
+                    openItem = false;
+                }
+                currentListHTML += "</ul>";
+                listStack.pop();
+            }
+
+            // Close previous <li>.
+            if (openItem) {
+                currentListHTML += "</li>";
+            }
+
+            // Start new <li>.
+            currentListHTML += `<li>${content}`;
+            openItem = true;
             continue;
         } else {
-            flushList();
+            // flush list properly.
+            if (listStack.length > 0) {
+                if (openItem) {
+                    currentListHTML += "</li>";
+                    openItem = false;
+                }
+                
+                flushList();
+            }
         }
 
         // Headers.
@@ -195,7 +230,7 @@ function markdownFormat(md) {
     // Re-insert code blocks.
     let finalHTML = result.join("\n");
     codeBlocks.forEach((codeHTML, i) => {
-        finalHTML = finalHTML.replace(`{{CODEBLOCK${i}}}`, codeHTML);
+        finalHTML = finalHTML.replaceAll(`{{CODEBLOCK${i}}}`, codeHTML);
     });
 
     return finalHTML;
@@ -386,6 +421,8 @@ This is **also bold**, but \\*\\*this one isn't\\*\\*.
 
 This is an *italic **bold*** test.
 
+This is *another*italic word*test* ***bold italic*** a *b* *c*.
+
 This is a [link](https://www.google.com/).
 
 This is [another link](https://google.com/test(1))
@@ -402,6 +439,7 @@ This is [another link](https://google.com/test(1))
 > - This is a list in a blockquote.
 > **This is bold text in a blockquote.**
 > This is another blockquote.
+This is a line.
 
 This is \`code word\`
 
