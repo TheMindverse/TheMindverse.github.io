@@ -3,7 +3,7 @@ post-file: April9th-Buhlunkroed.md
 post-date: April 9th, 2026
 post-edit: April 10th, 2026
 post-title: Getting Buhlunkroed
-blog-category: Research
+blog-category: Ramblings
 
 > im getting buhlunkroed right now haha
 
