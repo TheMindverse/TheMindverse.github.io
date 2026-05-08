@@ -2,7 +2,7 @@ post-loadable: true
 post-folder: Landing
 post-file: Blog.md
 post-date: October 5th, 2025
-post-edit: May 7th, 2026
+post-edit: May 8th, 2026
 post-title: Blog
 
 This acts as my personal note taking journal, most if not all of these entries are written while I am actively in the mindverse. Some of these are forwarded from the discord server, which is not open to the public.
@@ -22,6 +22,7 @@ This acts as my personal note taking journal, most if not all of these entries a
 
 # > April 2026
 
+- 🛰️ [May 8th, 2026: EF5 Tornados (Research)](pages/blog/2026/may8th-ef5tornados.md)
 - 🧠 [May 7th, 2026: Brain Bleed (Ramblings)](pages/blog/2026/may7th-brainbleed.md)
 - 🧠 [April 19th, 2026: Night Punches (Ramblings)](pages/blog/2026/april19th-nightpunches.md)
 - 🧠 [April 16th, 2026: Im Dying (Ramblings)](pages/blog/2026/april16th-imdying.md)
