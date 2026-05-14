@@ -1,7 +1,7 @@
 post-folder: Blog / 2026
-post-file: May7th-BrainBleed.md
+post-file: May3rd-BrainBleed.md
 post-date: May 3rd, 2026
-post-edit: May 7th, 2026
+post-edit: May 14th, 2026
 post-title: Brain Bleed
 blog-category: Ramblings
 
