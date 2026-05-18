@@ -2,7 +2,7 @@ post-loadable: true
 post-folder: Landing
 post-file: Blog.md
 post-date: October 5th, 2025
-post-edit: May 14th, 2026
+post-edit: May 18th, 2026
 post-title: Blog
 
 This acts as my personal note taking journal, most if not all of these entries are written while I am actively in the mindverse. Some of these are forwarded from the discord server, which is not open to the public.
@@ -20,11 +20,17 @@ This acts as my personal note taking journal, most if not all of these entries a
 - 🍄 **Trip Report**
   - Trip reports I've done while on all kinds of different substances, for scientific reasons.
 
-# > April 2026
+# > May 2026
 
+- 🛰️ [May 18th, 2026: Ebola Outbreak (Research)](pages/blog/2026/may18th-ebolaoutbreak.md)
+- 🧠 [May 16th, 2026: Face Control (Ramblings)](pages/blog/2026/may16th-facecontrol.md)
+- 🧠 [May 14th, 2026: Crystal Noises (Ramblings)](pages/blog/2026/may14th-crystalnoises.md)
 - 🧠 [May 10th, 2026: Jump Scares (Ramblings)](pages/blog/2026/may10th-jumpscares.md)
 - 🛰️ [May 8th, 2026: EF5 Tornados (Research)](pages/blog/2026/may8th-ef5tornados.md)
 - 🧠 [May 3rd, 2026: Brain Bleed (Ramblings)](pages/blog/2026/may3rd-brainbleed.md)
+
+# > April 2026
+
 - 🧠 [April 19th, 2026: Night Punches (Ramblings)](pages/blog/2026/april19th-nightpunches.md)
 - 🧠 [April 16th, 2026: Im Dying (Ramblings)](pages/blog/2026/april16th-imdying.md)
 - 🧠 [April 9th, 2026: Getting Buhlunkroed (Ramblings)](pages/blog/2026/april9th-buhlunkroed.md)
