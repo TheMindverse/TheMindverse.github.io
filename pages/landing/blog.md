@@ -2,7 +2,7 @@ post-loadable: true
 post-folder: Landing
 post-file: Blog.md
 post-date: October 5th, 2025
-post-edit: May 25th, 2026
+post-edit: May 29th, 2026
 post-title: Blog
 
 This acts as my personal note taking journal, most if not all of these entries are written while I am actively in the mindverse. Some of these are forwarded from the discord server, which is not open to the public.
@@ -22,6 +22,8 @@ This acts as my personal note taking journal, most if not all of these entries a
 
 # > May 2026
 
+- 🛰️ [May 28th, 2026: Rocket Explosion (Research)](pages/blog/2026/may28th-rocketexplosion.md)
+- 🧠 [May 28th, 2026: Weather Phenomenon](pages/blog/2026/may28th-weatherphenomenon.md)
 - 🧠 [May 25th, 2026: Mormon Day](pages/blog/2026/may25th-mormonday.md)
 - 🧠 [May 24th, 2026: Drugs Are Coming](pages/blog/2026/may24th-newdrugs.md)
 - 🛰️ [May 19th, 2026: Ebola Kills Hundreds (Research)](pages/blog/2026/may19th-eboladeaths.md)
