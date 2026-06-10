@@ -3,7 +3,7 @@ post-file: June1st-FleshEatingScrewworm.md
 post-date: May 28th, 2026
 post-edit: May 29th, 2026
 post-title: Flesh Eating Screwworm
-blog-category: Ramblings
+blog-category: Research
 
 > # Flesh-eating screwworm found within 31 miles of US border, says USDA
 

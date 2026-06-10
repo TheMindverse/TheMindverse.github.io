@@ -3,7 +3,7 @@ post-file: May28th-RocketExplosion.md
 post-date: May 28th, 2026
 post-edit: May 29th, 2026
 post-title: Rocket Explosion
-blog-category: Ramblings
+blog-category: Research
 
 > # Blue Origin rocket explodes on the launchpad during an engine-firing test
 
