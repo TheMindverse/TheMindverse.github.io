@@ -1,8 +1,8 @@
 post-folder: Blog / 2026
-post-file: May28th-WeatherPhenomenon.md
-post-date: May 10th, 2026
-post-edit: May 10th, 2026
-post-title: Too Crazy
+post-file: June10th-TooCrazy.md
+post-date: June 10th, 2026
+post-edit: June 10th, 2026
+post-title: Went Too Crazy
 blog-category: Ramblings
 
 > i went a little too crazy in the mindverse
