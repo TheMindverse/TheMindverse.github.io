@@ -21,7 +21,7 @@ Its also open source and hosted on github under the `MIT license`, its source co
 - **[A]** Yes, it is recommended to be of age 21 or older due to some of the techniques and willpower required. A developing brain cannot handle such extreme external inputs without risk of causing harm to ones mind and or consciousness as a whole.
 
 - **[Q]** When was the mindverse first discovered?
-- **[A]** It was actually first "discovered" in the winter of 2024 by ItsBrank, sometimes referred to as the oracle, but he had already visited it, along with the multiverse, in the spring of 2021 while on a massive dose of LSD. At that time he didn't truly understand what it was and it took many years of research, documenting, and experimenting, before the underlying mechanisms were fully understood.
+- **[A]** It was actually first "discovered" in the winter of 2024 by ItsBrank, sometimes referred to as the oracle, but he had already visited it, along with the multiverse, in the spring of 2021. At that time he didn't truly understand what it was and it took many years of research, documenting, and experimenting, before the underlying mechanisms were fully understood.
 
 - **[Q]** Are drugs required to visit the mindverse?
 - **[A]** Of course not, no drugs of any kind are required. It can all be done through the power of your brain and consciousness alone, although drugs can make it easier to enter the correct state of mind.
