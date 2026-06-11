@@ -22,6 +22,7 @@ This acts as my personal note taking journal, most if not all of these entries a
 
 # > June 2026
 
+- 🛰️ [June 10th, 2026: Iran Closes Hormuz (Research)](pages/blog/2026/june10th-iranclosesagain.md)
 - 🧠 [June 10th, 2026: BACK TO REALITY (Ramblings)](pages/blog/2026/june10th-backtoreality.md)
 - 🧠 [June 10th, 2026: Went Too Crazy (Ramblings)](pages/blog/2026/june10th-toocrazy.md)
 - 🛰️ [June 9th, 2026: Iran Bombed Again (Research)](pages/blog/2026/june9th-iranbombomb.md)
