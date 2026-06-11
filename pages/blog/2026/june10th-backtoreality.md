@@ -1,7 +1,7 @@
 post-folder: Blog / 2026
-post-file: June11th-BackToReality.md
-post-date: June 11th, 2026
-post-edit: June 11th, 2026
+post-file: June10th-BackToReality.md
+post-date: June 10th, 2026
+post-edit: June 10th, 2026
 post-title: BACK TO REALITY
 blog-category: Ramblings
 
