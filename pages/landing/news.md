@@ -1,10 +1,10 @@
 post-folder: Landing
 post-file: Events.md
 post-date: October 19th, 2025
-post-edit: June 10th, 2026
-post-title: Events
+post-edit: June 13th, 2026
+post-title: News
 
-This page contains important info, current events, and archived events that already happened. Most of these are events that are forwarded from the discord server, which is not open to the public.
+This page contains important news, current events, and archived events that already happened. Some of these are forwarded from the discord server, which is not open to the public.
 
 # 📡 Signal Disruption (June 10th, 2026)
 
