@@ -1,0 +1,161 @@
+post-loadable: true
+post-folder: Landing
+post-file: Blog.md
+post-date: October 5th, 2025
+post-edit: June 14th, 2026
+post-title: Blog
+
+This acts as my personal note taking journal, most if not all of these entries are written while I am actively in the mindverse. Some of these are forwarded from the discord server, which is not open to the public.
+
+# 📝 Categories
+
+- 🧠 **Ramblings**
+  - Thoughts and ramblings I've taken while actively in the mindverse.
+- ⚖️ **Philosophy**
+  - My personal theories, ideas, and discoveries, I've made about the cosmos.
+- 🛰️ **Research**
+  - Relavent news articles and current events happening in the world that are related to the mindverse.
+- 💤 **Dreamscape**
+  - Vivid and memorable experiences I've had while in the dreamscape, which is a very rare occurrence for me.
+- 🍄 **Trip Report**
+  - Trip reports I've done while on all kinds of different substances, for scientific reasons.
+
+# > June 2026
+
+- 🧠 [June 14th, 2026: A Revelation Is Coming (Ramblings)](pages/blog/2026/june14th-revelationsoon.md)
+- 🛰️ [June 10th, 2026: Iran Closes Hormuz (Research)](pages/blog/2026/june10th-iranclosesagain.md)
+- 🧠 [June 10th, 2026: BACK TO REALITY (Ramblings)](pages/blog/2026/june10th-backtoreality.md)
+- 🧠 [June 10th, 2026: Went Too Crazy (Ramblings)](pages/blog/2026/june10th-toocrazy.md)
+- 🛰️ [June 9th, 2026: Iran Bombed Again (Research)](pages/blog/2026/june9th-iranbombomb.md)
+- 🛰️ [June 7th, 2026: Big Manila Shake (Research)](pages/blog/2026/june7th-bigmanilashake.md)
+- 🛰️ [June 1st, 2026: Flesh Eating Screwworm (Research)](pages/blog/2026/june1st-flesheatingscrewworm.md)
+
+# > May 2026
+
+- 🛰️ [May 28th, 2026: Rocket Explosion (Research)](pages/blog/2026/may28th-rocketexplosion.md)
+- 🧠 [May 28th, 2026: Weather Phenomenon](pages/blog/2026/may28th-weatherphenomenon.md)
+- 🧠 [May 25th, 2026: Mormon Day](pages/blog/2026/may25th-mormonday.md)
+- 🧠 [May 24th, 2026: Drugs Are Coming](pages/blog/2026/may24th-newdrugs.md)
+- 🛰️ [May 19th, 2026: Ebola Kills Hundreds (Research)](pages/blog/2026/may19th-eboladeaths.md)
+- 🛰️ [May 18th, 2026: Ebola Outbreak (Research)](pages/blog/2026/may18th-ebolaoutbreak.md)
+- 🧠 [May 16th, 2026: Face Control (Ramblings)](pages/blog/2026/may16th-facecontrol.md)
+- 🧠 [May 14th, 2026: Crystal Noises (Ramblings)](pages/blog/2026/may14th-crystalnoises.md)
+- 🧠 [May 10th, 2026: Jump Scares (Ramblings)](pages/blog/2026/may10th-jumpscares.md)
+- 🛰️ [May 8th, 2026: EF5 Tornados (Research)](pages/blog/2026/may8th-ef5tornados.md)
+- 🧠 [May 3rd, 2026: Brain Bleed (Ramblings)](pages/blog/2026/may3rd-brainbleed.md)
+
+# > April 2026
+
+- 🧠 [April 19th, 2026: Night Punches (Ramblings)](pages/blog/2026/april19th-nightpunches.md)
+- 🧠 [April 16th, 2026: Im Dying (Ramblings)](pages/blog/2026/april16th-imdying.md)
+- 🧠 [April 9th, 2026: Getting Buhlunkroed (Ramblings)](pages/blog/2026/april9th-buhlunkroed.md)
+- 🛰️ [April 3rd, 2026: Blood Storm (Research)](pages/blog/2026/april3rd-bloodstorm.md)
+- 🛰️ [April 1st, 2026: The Quake (Research)](pages/blog/2026/april1st-thequake.md)
+
+# > March 2026
+
+- 🧠 [March 29th, 2026: Eyeballs Melting (Ramblings)](pages/blog/2026/march29th-eyeballsmelting.md)
+- 🧠 [March 24th, 2026: The Comeback (Ramblings)](pages/blog/2026/march24th-thecomeback.md)
+- 💤 [March 19th, 2026: The Submarine (Dreamscape)](pages/blog/2026/march19th-thesubmarine.md)
+- 🧠 [March 18th, 2026: Spin Time (Ramblings)](pages/blog/2026/march18th-spintime.md)
+- 🧠 [March 5th, 2026: Flow State (Ramblings)](pages/blog/2026/march5th-flowstate.md)
+- 🧠 [March 3rd, 2026: The Mirror Continued (Ramblings)](pages/blog/2026/march3rd-themirrortwo.md)
+
+# > February 2026
+
+- 🧠 [February 28th, 2026: HERE WE GO (Ramblings)](pages/blog/2026/february28th-herewego.md)
+- 🧠 [February 22nd, 2026: The Mirror (Ramblings)](pages/blog/2026/february22nd-themirror.md)
+- 🧠 [February 21st, 2026: Habadaya (Ramblings)](pages/blog/2026/february21st-habadaya.md)
+- 🛰️ [February 21st, 2026: Black Hole (Research)](pages/blog/2026/february21st-blackhole.md)
+- 🧠 [February 19th, 2026: Yeah Man (Ramblings)](pages/blog/2026/february19th-yeahman.md)
+- 🧠 [February 10th, 2026: Tongue Rituals (Ramblings)](pages/blog/2026/february10th-tonguerituals.md)
+- 🧠 [February 8th, 2026: Bepis Of The Plow (Ramblings)](pages/blog/2026/february8th-bepisoftheplow.md)
+- 🧠 [February 7th, 2026: Time Traveling (Ramblings)](pages/blog/2026/february7th-timetraveling.md)
+- 🛰️ [February 5th, 2026: Time Illusion (Research)](pages/blog/2026/february5th-timeillusion.md)
+- 🛰️ [February 4th, 2026: More Winter Deaths (Research)](pages/blog/2026/february4th-morewinterdeaths.md)
+- 🧠 [February 3rd, 2026: Weather Event (Ramblings)](pages/blog/2026/february3rd-weatherevent.md)
+- 🧠 [February 2nd, 2026: Sex Organs (Ramblings)](pages/blog/2026/february2nd-sexorgans.md)
+
+# > January 2026
+
+- 🧠 [January 31st, 2026: Greenin Out (Ramblings)](pages/blog/2026/january31st-greeninout.md)
+- 🧠 [January 30th, 2026: THE CRAXUS (Ramblings)](pages/blog/2026/january30th-thecraxus.md)
+- 🧠 [January 28th, 2026: Hard Drug Bender (Ramblings)](pages/blog/2026/january28th-harddrugbender.md)
+- 🧠 [January 27th, 2026: Path To The Rye (Ramblings)](pages/blog/2026/january27th-pathtotherye.md)
+- 🛰️ [January 27th, 2026: Storm Deaths (Research)](pages/blog/2026/january27th-stormdeaths.md)
+- 🧠 [January 25th, 2026: Crowl Trutch (Ramblings)](pages/blog/2026/january25th-crowltrutch.md)
+- 🧠 [January 20th, 2026: All Around (Ramblings)](pages/blog/2026/january20th-allaround.md)
+- 🛰️ [January 20th, 2026: Catastrophic Storm (Research)](pages/blog/2026/january20th-catastrophicstorm.md)
+- 🧠 [January 14th, 2026: Nevermind (Ramblings)](pages/blog/2026/january14th-nevermind.md)
+
+# > December 2025
+
+- 🧠 [December 29th, 2025: Astrodanum Doc (Ramblings)](pages/blog/2025/december29th-astrodanumdoc.md)
+- 🧠 [December 21st, 2025: Prolexus (Ramblings)](pages/blog/2025/december21st-prolexus.md)
+- 🧠 [December 20th, 2025: Crumus (Ramblings)](pages/blog/2025/december20th-crumus.md)
+- 🧠 [December 15th, 2025: Clordoxian (Ramblings)](pages/blog/2025/december15th-clordoxian.md)
+- 🧠 [December 13th, 2025: Parallaxing (Ramblings)](pages/blog/2025/december13th-parallaxing.md)
+- 🧠 [December 12th, 2025: The Collective (Ramblings)](pages/blog/2025/december12th-thecollective.md)
+- 🛰️ [December 8th, 2025: Japan Earthquake (Research)](pages/blog/2025/december8th-japanearthquake.md)
+- 🧠 [December 4th, 2025: The Cops, Everytime (Ramblings)](pages/blog/2025/december4th-thecops.md)
+- 🧠 [December 3rd, 2025: Gorowtookus (Ramblings)](pages/blog/2025/december3rd-gorowtookus.md)
+
+# > November 2025
+
+- 🧠 [November 28th, 2025: The Dreamverse (Ramblings)](pages/blog/2025/november28th-thedreamverse.md)
+- 🧠 [November 24th, 2025: New Chant (Ramblings)](pages/blog/2025/november24th-newchant.md)
+- 🧠 [November 22nd, 2025: Jean Jelking (Ramblings)](pages/blog/2025/november22nd-jeanjelking.md)
+- 🧠 [November 17th, 2025: I AM AN ASTRODAUNUM (Ramblings)](pages/blog/2025/november17th-astrodaunum.md)
+- 💤 [November 7th, 2025: Vampire Gingers (Dreamscape)](pages/blog/2025/november7th-vampiregingers.md)
+- 🧠 [November 4th, 2025: Police Wont Stop (Ramblings)](pages/blog/2025/november4th-policewontstop.md)
+
+# > October 2025
+
+- 🧠 [October 31st, 2025: Harthogahmuel (Ramblings)](pages/blog/2025/october31st-harthogahmuel.md)
+- 🧠 [October 28th, 2025: Ghostwalk Ideas (Ramblings)](pages/blog/2025/october28th-ghostwalkideas.md)
+- 🧠 [October 26th, 2025: The Static (Ramblings)](pages/blog/2025/october26th-thestatic.md)
+- 🧠 [October 24th, 2025: Astroneer Dimension (Ramblings)](pages/blog/2025/october24th-astroneerdimension.md)
+- 🧠 [October 22nd, 2025: New Chant (Ramblings)](pages/blog/2025/october22nd-newchant.md)
+- 🧠 [October 21st, 2025: The Police Are Back (Ramblings)](pages/blog/2025/october21st-thepoliceareback.md)
+- ⚖️ [October 20th, 2025: Weatherman (Philosophy)](pages/blog/2025/october20th-weatherman.md)
+- 💤 [October 16th, 2025: ICE Agents (Dreamscape)](pages/blog/2025/october16th-iceagents.md)
+- 🧠 [October 18th, 2025: Going Deep Again (Ramblings)](pages/blog/2025/october18th-goingdeepagain.md)
+- 🧠 [October 15th, 2025: The Police (Ramblings)](pages/blog/2025/october15th-thepolice.md)
+- 🧠 [October 13th, 2025: Late Night Research (Ramblings)](pages/blog/2025/october13th-latenightresearch.md)
+- 🧠 [October 12th, 2025: Midnight Chanting (Ramblings)](pages/blog/2025/october12th-midnightchanting.md)
+- 🛰️ [October 12th, 2025: Tropical Flooding (Research)](pages/blog/2025/october12th-tropicalflooding.md)
+- 🧠 [October 11th, 2025: Server Progress (Ramblings)](pages/blog/2025/october11th-serverprogress.md)
+- ⚖️ [October 11th, 2025: Luminous Events (Philosophy)](pages/blog/2025/october11th-luminousevents.md)
+- 🧠 [October 10th, 2025: The Sacrafice (Ramblings)](pages/blog/2025/october10th-thesacrafice.md)
+- 🛰️ [October 6th, 2025: The Harvest Moon (Research)](pages/blog/2025/october6th-theharvestmoon.md)
+- 🧠 [October 5th, 2025: The Voices (Ramblings)](pages/blog/2025/october5th-thevoices.md)
+
+# > November 2024
+
+- 🛰️ [November 19th, 2024: Visual Cortex (Research)](pages/blog/2024/february19th-visualcortex.md)
+- 🍄 [November 12th, 2024: 300mg DXM Freebase + THCA (Trip Report)](pages/blog/2024/november12th-300mg.md)
+
+# > June 2024
+
+- 🍄 [June 17th, 2024: 300mg DXM Freebase + THCA (Trip Report)](pages/blog/2024/june17th-300mg.md)
+
+# > December 2023
+
+- 🍄 [December 30th, 2023: 720mg DXM Freebase + CBD + DPH (Trip Report)](pages/blog/2023/december30th-720mg.md)
+- 🍄 [December 12th, 2023: 300mg DXM Freebase (Trip Report)](pages/blog/2023/december12th-300mg.md)
+
+# > November 2023
+
+- 🍄 [November 19th, 2023: 240mg DXM Freebase (Trip Report)](pages/blog/2023/november19th-240mg.md)
+
+# > September 2023
+
+- 🍄 [September 2nd, 2023: 420mg DXM HBr (Trip Report)](pages/blog/2023/september2nd-420mg.md)
+
+# > July 2023
+
+- 🍄 [July 28th, 2023: 360mg DXM HBr (Trip Report)](pages/blog/2023/july28th-360mg.md)
+
+# > May 2023
+
+- 🍄 [May 5th 5th, 2023: 480mg DXM HBr (Trip Report)](pages/blog/2023/may5th-480mg.md)

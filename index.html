@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- HTML Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="description" content="A path to a higher level of understanding.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Mindverse</title>
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:url" content="https://themindverse.github.io/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="The Mindverse">
+    <meta property="og:description" content="A path to a higher level of understanding.">
+    <meta property="og:image" content="https://themindverse.github.io/assets/mindrays.jpg">
+    <meta property="og:image:width" content="1408">
+    <meta property="og:image:height" content="768">
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:domain" content="themindverse.github.io">
+    <meta name="twitter:url" content="https://themindverse.github.io/">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="The Mindverse">
+    <meta name="twitter:description" content="A path to a higher level of understanding.">
+    <meta name="twitter:image" content="https://themindverse.github.io/assets/mindrays.jpg">
+    <!-- Links -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <script src="js/config.js" defer></script>
+    <script src="js/theme.js" defer></script>
+    <script src="js/markdown.js" defer></script>
+    <script src="js/navigation.js" defer></script>
+    <script>
+        (function () { // This is to prevent a breif "flash" of the default dark theme when refreshing pages, if you were using the light theme.
+            const savedTheme = localStorage.getItem("theme");
+            if (savedTheme === "light") {
+                document.body.classList.add("light");
+            }
+        })();
+    </script>
+    <div class="container">
+    <header>
+        <h1 class="title">The Mindverse</h1>
+        <div class="nav">
+            <button class="ascii-btn" data-post="pages/landing/welcome.md">[WELCOME]</button>
+            <button class="ascii-btn" data-post="pages/landing/news.md">[NEWS]</button>
+            <button class="ascii-btn" data-post="pages/landing/guides.md">[GUIDES]</button>
+            <button class="ascii-btn" data-post="pages/landing/dimensions.md">[DIMENSIONS]</button>
+            <button class="ascii-btn" data-post="pages/landing/blog.md">[BLOG]</button>
+            <button class="ascii-btn" data-post="pages/landing/about.md">[ABOUT]</button>
+            <!-- <button class="ascii-btn" onclick="markdownDemo()">[MARKDOWN DEMO]</button> -->
+            <button id="theme-btn" class="ascii-btn"></button>
+        </div>
+    </header>
+        <main id="content">
+             <noscript>
+                <p>This site requires JavaScript to function.</p>
+            </noscript>
+        </main>
+        <footer class="footer">The mindverse was first discovered and documented by ItsBrank, beware of false shepherds.</footer>
+    </div>
+</body>
+</html>
