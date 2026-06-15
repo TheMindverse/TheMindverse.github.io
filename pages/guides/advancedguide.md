@@ -1,7 +1,7 @@
 post-folder: Guides
 post-file: AdvancedGuide.md
 post-date: October 13th, 2025
-post-edit: March 26th, 2026
+post-edit: June 15th, 2026
 post-title: Advanced Guide
 
 This section is intended for experienced voyagers of both the mindverse and multiverse.
@@ -41,6 +41,16 @@ Especially by the year, let alone day or minute, so at first you might try to lo
 Time is entirely relative based on gravitational, learn to feel the gravitational pull in a solar system.
 This process is not as easy as you might assume, there is a difficult learning curve in grasping the sense of time in a solar system.
 Once you get the hang of it, use this power wisely and do not share with others what you find.
+
+# 🌪️ Weather manipulation
+
+Weather manipulation is an extremely difficult practice that grants you some, although limited, influence over a planets weather patterns.
+This practice can only be done on a planet in a dimension of which you have a [celestial](pages/guides/dimensionguide.md) class connection to.
+First you must understand its limitations, you cannot magically summon a tornado or tsunami somewhere, or make it thunder and rain in an area that only rains once a year.
+The only thing you can do is influence the planets current atmospheric circulation patterns to prevent them from changing directions, another way to think of it is to lock in the more likely path they are going to take and lock out the chances it will dissolve or turn into something much weaker.
+This requires constant meditation, usually through deadwalking throughout the day, every day, for possibly weeks, before you notice any of the effects.
+Sometimes you won't notice them happen until long after, or you will have a strange weather phenomenon happen out of the blue such as pouring rain and thunder where you are but there is no sign of rain on any weather tracking sites or apps.
+It is not garmented to work all the time, but the more you do it the more you will notice what control you have over certain weather events.
 
 # 📡 Deadwalking while navigating
 

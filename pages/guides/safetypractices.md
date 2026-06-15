@@ -1,7 +1,7 @@
 post-folder: Guides
 post-file: SafetyPractices.md
 post-date: October 10th, 2025
-post-edit: March 25th, 2026
+post-edit: June 15th, 2026
 post-title: Safety Practices
 
 # 👨‍⚕️ Emotional risks and harm
@@ -43,6 +43,7 @@ It is recommended to take `1-2 week` long breaks between traveling, or until you
 Although technically harmless, if you do not take breaks the following side effects may be a irreversible part of your daily life.
 
 - Lingering emotions from a dimension days or weeks after initially traveling.
+- Phantom smells, randomly getting intense smells of food or oders, such as smoke, as if they were right in front of you.
 - Time dilation, time may suddenly skip forward at alarming rates, minutes from your perspective turn out to actually be hours going by.
 - Time paradoxes, seemingly traveling to events in the past and reliving them instead of living in the moment, getting stuck in time loops.
 - Visions or pseudo-connections to dimensions in place of your thoughts, thinking you're actually in a parallel dimension you've previously visited.
