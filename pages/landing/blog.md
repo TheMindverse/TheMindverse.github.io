@@ -2,7 +2,7 @@ post-loadable: true
 post-folder: Landing
 post-file: Blog.md
 post-date: October 5th, 2025
-post-edit: June 14th, 2026
+post-edit: June 15th, 2026
 post-title: Blog
 
 This acts as my personal note taking journal, most if not all of these entries are written while I am actively in the mindverse. Some of these are forwarded from the discord server, which is not open to the public.
@@ -22,6 +22,8 @@ This acts as my personal note taking journal, most if not all of these entries a
 
 # > June 2026
 
+- 🛰️ [June 15th, 2026: Bomber Crash (Research)](pages/blog/2026/june15th-bombercrash.md)
+- 🛰️ [June 14th, 2026: Elons A Trillionaire (Research)](pages/blog/2026/june14th-elontrillionaire.md)
 - 🧠 [June 14th, 2026: A Revelation Is Coming (Ramblings)](pages/blog/2026/june14th-revelationsoon.md)
 - 🛰️ [June 10th, 2026: Iran Closes Hormuz (Research)](pages/blog/2026/june10th-iranclosesagain.md)
 - 🧠 [June 10th, 2026: BACK TO REALITY (Ramblings)](pages/blog/2026/june10th-backtoreality.md)

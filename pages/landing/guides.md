@@ -1,7 +1,7 @@
 post-folder: Landing
 post-file: Guides.md
 post-date: October 10th, 2025
-post-edit: March 25th, 2026
+post-edit: June 15th, 2026
 post-title: Guides
 
 Here you'll find everything you need to know about the mindverse and the cosmos, if you are new to the process it is recommended to start reading them in order top to bottom.
@@ -41,6 +41,7 @@ These are only intended for experienced voyagers of both the mindverse and multi
 - [Advanced Guide](pages/guides/advancedguide.md)
   - [Navigating the multiverse](pages/guides/advancedguide.md)
   - [Learning to time travel](pages/guides/advancedguide.md)
+  - [Weather manipulation](pages/guides/advancedguide.md)
   - [Deadwalking while navigating](pages/guides/advancedguide.md)
   - [Theory of rebinding consciousness](pages/guides/advancedguide.md)
 
