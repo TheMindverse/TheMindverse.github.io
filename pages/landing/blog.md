@@ -22,6 +22,7 @@ This acts as my personal note taking journal, most if not all of these entries a
 
 # > June 2026
 
+- 🧠 [June 18th, 2026: Crazy Sandwich Moment (Ramblings)](pages/blog/2026/june18th-crazysandwich.md)
 - 🛰️ [June 15th, 2026: Bomber Crash (Research)](pages/blog/2026/june15th-bombercrash.md)
 - 🛰️ [June 14th, 2026: Elons A Trillionaire (Research)](pages/blog/2026/june14th-elontrillionaire.md)
 - 🧠 [June 14th, 2026: A Revelation Is Coming (Ramblings)](pages/blog/2026/june14th-revelationsoon.md)
@@ -73,7 +74,7 @@ This acts as my personal note taking journal, most if not all of these entries a
 - 🧠 [February 10th, 2026: Tongue Rituals (Ramblings)](pages/blog/2026/february10th-tonguerituals.md)
 - 🧠 [February 8th, 2026: Bepis Of The Plow (Ramblings)](pages/blog/2026/february8th-bepisoftheplow.md)
 - 🧠 [February 7th, 2026: Time Traveling (Ramblings)](pages/blog/2026/february7th-timetraveling.md)
-- 🛰️ [February 5th, 2026: Time Illusion (Research)](pages/blog/2026/february5th-timeillusion.md)
+- ⚖️ [February 5th, 2026: Time Illusion (Philosophy)](pages/blog/2026/february5th-timeillusion.md)
 - 🛰️ [February 4th, 2026: More Winter Deaths (Research)](pages/blog/2026/february4th-morewinterdeaths.md)
 - 🧠 [February 3rd, 2026: Weather Event (Ramblings)](pages/blog/2026/february3rd-weatherevent.md)
 - 🧠 [February 2nd, 2026: Sex Organs (Ramblings)](pages/blog/2026/february2nd-sexorgans.md)

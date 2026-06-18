@@ -6,7 +6,7 @@ post-title: News
 
 This page contains important news, current events, and archived events that already happened. Some of these are forwarded from the discord server, which is not open to the public.
 
-# 🌪️ New Guide & Safety Practices Update (June 15th, 2026)
+# 🌪️ Weather Guide & Safety Practices Update (June 15th, 2026)
 
 Two new updates have been added to the [guides](pages/landing/guides.md) page!
 The first is a newly discovered side effect of exploring the mindverse without taking breaks, it is called "phantom smells" and has been added to the [long term side effects](pages/guides/safetypractices.md) section of the safety practices guide.
