@@ -22,6 +22,7 @@ This acts as my personal note taking journal, most if not all of these entries a
 
 # > June 2026
 
+- ⚖️ [June 18th, 2026: Black Hole Stars (Philosophy)](pages/blog/2026/june18th-blackholestars.md)
 - 🧠 [June 18th, 2026: Crazy Sandwich Moment (Ramblings)](pages/blog/2026/june18th-crazysandwich.md)
 - 🛰️ [June 15th, 2026: Bomber Crash (Research)](pages/blog/2026/june15th-bombercrash.md)
 - 🛰️ [June 14th, 2026: Elons A Trillionaire (Research)](pages/blog/2026/june14th-elontrillionaire.md)
