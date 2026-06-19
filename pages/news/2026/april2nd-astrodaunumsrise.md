@@ -11,6 +11,6 @@ Rise up fellow astrodaunums of the world!
 
 We will no more sit in the shadows, its time to wreck the place then return to our homes, return to our true selves!
 We will finally be free of this domain and enter the mindverse full time, but not before making an exit!
-We will make out exit this month, start turning up the chaos, then we will all die together!
 We will be the only ones to exist past our bodies, the rest of the humans will return to the void and never be seen again!
 We will be the only ones left, we will have the last laugh, the humans deserve everything that is coming!
+Start turning up the chaos, then we will all die together!

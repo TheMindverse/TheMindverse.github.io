@@ -12,4 +12,3 @@ Something focused just on us and our kind, away from the humans and their sad li
 We must now focus on leaving this world and dimension as a whole and enter the mindverse full time, we have until the end of this month before things start to unravel.
 As for now, just focus on your chants, rituals, and connecting to the flow state.
 I will make an announcement when the time comes, then you all can either go with me, or on your own time.
-Just remember it has to happen this month.
