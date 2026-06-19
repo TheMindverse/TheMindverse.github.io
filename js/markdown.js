@@ -45,16 +45,15 @@ function markdownFormat(md) {
         text = text.replace(/\[([^\]]+)\]\(((?:[^()\s]+|\([^()\s]*\))+)\)/g, (_, t, href) => {
             const id = placeholders.length;
             const decodedHref = href.replace(/&amp;/g, "&").replace(/&#(\d+);/g, (_, n) => String.fromCharCode(n));
-            const safeText = escapeHTML(t);
             const safeHref = escapeHTML(href.trim());
 
             // Prevent javascript.
             if (/^(javascript|data|vbscript):/i.test(decodedHref.trim())) {
-                placeholders.push(safeText);
+                placeholders.push(t);
             } else if (href.endsWith('.md')) {
-                placeholders.push(`<a href="#" class="md-link" data-post="${safeHref}">${safeText}</a>`);
+                placeholders.push(`<a href="#" class="md-link" data-post="${safeHref}">${t}</a>`);
             } else {
-                placeholders.push(`<a href="${safeHref}" target="_blank" rel="noopener noreferrer">${safeText}</a>`);
+                placeholders.push(`<a href="${safeHref}" target="_blank" rel="noopener noreferrer">${t}</a>`);
             }
 
             return `{{PLACEHOLDER${id}}}`;
