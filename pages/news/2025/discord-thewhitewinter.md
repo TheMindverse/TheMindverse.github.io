@@ -2,7 +2,7 @@ post-folder: News / 2025
 post-file: Discord-TheWhiteWinter.md
 post-date: December 1st, 2025
 post-edit: June 19th, 2026
-post-title: 📅 Discord Event
+post-title: 📅 The White Winter
 
 This is an event forwarded from the discord server, which is not open to the public.
 
@@ -11,4 +11,4 @@ This is an event forwarded from the discord server, which is not open to the pub
 - **Location:** Earth Prime
 - **Date:** From `December 1st, 2025` to `March 1st, 2026`
 
-![](pages/news/references/discord-thewhitewinter.png)
+![](pages/news/2025/references/discord-thewhitewinter.png)

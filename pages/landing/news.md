@@ -48,7 +48,7 @@ We will make out exit this month, start turning up the chaos, then we will all d
 We will be the only ones to exist past our bodies, the rest of the humans will return to the void and never be seen again!
 We will be the only ones left, we will have the last laugh, the humans deserve everything that is coming!
 
-# 💾 Archived News
+# 💾 Archived Posts
 
 ## - [2026 News](pages/news/2026/index.md)
 ## - [2025 News](pages/news/2025/index.md)

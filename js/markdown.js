@@ -263,9 +263,9 @@ function markdownPost(md, info, edit, title, append) {
         postContent.textContent = "Loading...";
         postContent.innerHTML = markdownFormat(md);
 
-        post.appendChild(postInfo);
-        post.appendChild(postTitle);
-        post.appendChild(postContent);
+        post.appendChild(postInfo); // Tab, folder, file name, date, etc...
+        post.appendChild(postTitle); // Display title of the post.
+        post.appendChild(postContent); // Actual html content of the file formatted from markdown.
 
         if (append) {
             container.appendChild(post);
@@ -311,7 +311,7 @@ function markdownPostFile(fileContents, append) {
             } else if (line.startsWith("post-title: ")) {
                 mdTitle = line.slice(12).trim();
             } else if (line.startsWith("blog-category: ")) {
-                mdBlogCat = line.slice(15);
+                mdBlogCat = line.slice(15).trim();
             } else if (!line.startsWith("post-") && !line.startsWith("blog-") && !line.startsWith("dimension-")) {                
                 if (firstLine) {
                     firstLine = false;
@@ -324,7 +324,7 @@ function markdownPostFile(fileContents, append) {
             }
         }
 
-        if (fileContents.length > 1) {
+        if (mdTitle && fileContents.length > 1) {
             if (mdFolder) {
                 mdInfo = mdFolder;
             }
@@ -341,6 +341,18 @@ function markdownPostFile(fileContents, append) {
 
             if (mdBlogCat) {
                 mdTitle += (" / " + mdBlogCat);
+
+                if (mdBlogCat === "Ramblings") {
+                    mdTitle = ("🧠 " + mdTitle);
+                } else if (mdBlogCat === "Philosophy") {
+                    mdTitle = ("⚖️ " + mdTitle);
+                } else if (mdBlogCat === "Research") {
+                    mdTitle = ("🛰️ " + mdTitle);
+                } else if (mdBlogCat === "Dreamscape") {
+                    mdTitle = ("💤 " + mdTitle);
+                } else if (mdBlogCat === "Trip Report") {
+                    mdTitle = ("🍄 " + mdTitle);
+                }
             }
 
             if (mdInfo.endsWith(" / ")) {

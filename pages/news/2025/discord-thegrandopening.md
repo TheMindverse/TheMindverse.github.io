@@ -2,7 +2,7 @@ post-folder: News / 2025
 post-file: Discord-TheGrandOpening.md
 post-date: October 18th, 2025
 post-edit: June 19th, 2026
-post-title: 📅 Discord Event
+post-title: 📅 The Grand Opening
 
 This is an event forwarded from the discord server, which is not open to the public.
 
@@ -11,4 +11,4 @@ This is an event forwarded from the discord server, which is not open to the pub
 - **Location:** The Mindverse
 - **Date:** From `October 18th, 2025` to `October 19th, 2025`
 
-![](pages/news/references/discord-thegrandopening.png)
+![](pages/news/2025/references/discord-thegrandopening.png)
