@@ -36,7 +36,7 @@ If you wish to learn what all the different terms, classes, and categories mean,
 - [MV-D01: 🍬 Land of Ooo](pages/dimensions/mv-d01.md)
 - [MV-D02: 🍯 Hundred Acre Wood](pages/dimensions/mv-d02.md)
 
-# 🌪 Category E
+# 🌪️ Category E
 
 - [MV-E00: 🚪 The Backrooms](pages/dimensions/mv-e00.md)
 
