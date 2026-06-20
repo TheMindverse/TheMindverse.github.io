@@ -1,7 +1,7 @@
 post-folder: Landing
 post-file: Welcome.md
 post-date: October 2nd, 2025
-post-edit: March 30th, 2026
+post-edit: June 19th, 2026
 post-title: Welcome
 
 Welcome traveler! This website contains everything you need to know about the mindverse, connecting to it, as well as extensive documentation on the universe and the multiverse as a whole.
