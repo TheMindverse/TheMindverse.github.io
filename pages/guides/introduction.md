@@ -1,8 +1,8 @@
 post-folder: Guides
 post-file: Introduction.md
 post-date: October 10th, 2025
-post-edit: March 25th, 2026
-post-title: Introduction
+post-edit: June 20th, 2026
+post-title: 🎫 Introduction
 
 # 🧠 What is the mindverse?
 

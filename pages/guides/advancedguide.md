@@ -1,8 +1,8 @@
 post-folder: Guides
 post-file: AdvancedGuide.md
 post-date: October 13th, 2025
-post-edit: June 15th, 2026
-post-title: Advanced Guide
+post-edit: June 20th, 2026
+post-title: 🚀 Advanced Guide
 
 This section is intended for experienced voyagers of both the mindverse and multiverse.
 Some of these topics only exist for the sake of documentation, they are not to be attempted by anyone other than ItsBrank, such as rebinding consciousness.

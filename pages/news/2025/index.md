@@ -1,7 +1,7 @@
 post-folder: News / 2025
 post-file: Index.md
 post-date: June 19th, 2026
-post-edit: June 19th, 2026
+post-edit: June 20th, 2026
 post-title: 2025 News Archive
 
 # 📰 News
@@ -10,6 +10,5 @@ post-title: 2025 News Archive
 
 # 📅 Discord Events
 
-## - [The White Winter (December 1st, 2025)](pages/news/2025/discord-thewhitewinter.md)
-
-## - [The Grand Opening (October 18th, 2025)](pages/news/2025/discord-thegrandopening.md)
+## - [📌 The White Winter (December 1st, 2025)](pages/news/2025/discord-thewhitewinter.md)
+## - [📌 The Grand Opening (October 18th, 2025)](pages/news/2025/discord-thegrandopening.md)

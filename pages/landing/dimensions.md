@@ -1,8 +1,8 @@
 post-folder: Landing
 post-file: Dimensions.md
 post-date: October 10th, 2025
-post-edit: March 25th, 2026
-post-title: Dimensions
+post-edit: June 20th, 2026
+post-title: 📖 Dimensions
 
 This is a complete list of all the parallel universes I've personally visited in the multiverse.
 If you wish to learn what all the different terms, classes, and categories mean, check out the [dimension guide](pages/guides/dimensionguide.md).
@@ -15,7 +15,7 @@ If you wish to learn what all the different terms, classes, and categories mean,
 - [MV-A03: ☀️ Solar Greece](pages/dimensions/mv-a03.md)
 - [MV-A04: 🌈 Gay Catastrophe](pages/dimensions/mv-a04.md)
 - [MV-A05: 💘 Lovey Dovey](pages/dimensions/mv-a05.md)
-- [MV-A06: 🎧 Lofi World](pages/dimensions/mv-a06.md)
+- [MV-A06: ☕ Lofi World](pages/dimensions/mv-a06.md)
 
 # 🏰 Category B
 

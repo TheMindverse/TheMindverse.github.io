@@ -1,8 +1,8 @@
 post-folder: Guides
 post-file: BeginnersGuide.md
 post-date: October 10th, 2025
-post-edit: March 26th, 2026
-post-title: Beginners Guide
+post-edit: June 20th, 2026
+post-title: 👨‍🚀 Beginners Guide
 
 # 🪔 Meditation practices
 

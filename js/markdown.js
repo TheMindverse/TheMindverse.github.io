@@ -412,6 +412,7 @@ async function fetchText(filePath) {
     }
 }
 
+/*
 function markdownDemo() {
     let md =
 `
@@ -468,3 +469,4 @@ This is another codeblock.
 
     markdownPost(md, mdInfo, mdEdit, mdTitle, true);
 }
+*/

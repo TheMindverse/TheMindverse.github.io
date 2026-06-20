@@ -1,10 +1,18 @@
 post-folder: Landing
 post-file: News.md
 post-date: October 19th, 2025
-post-edit: June 19th, 2026
-post-title: News
+post-edit: June 20th, 2026
+post-title: 📰 News
 
 This page contains important news, current events, and archived events that already happened. Some of these are forwarded from the discord server, which is not open to the public.
+
+# [🔥 The Red Summer](pages/news/2026/june20th-theredsummer.md) (June 20th, 2026)
+
+The summer of death is upon us, the second phase of "The Great Purge" has begun. Over the next few months we will start to see the world unravel.
+World politics will be at an all time high, more people will get killed in other countries due to war, the economy will be the worst its ever been, many power outages will come resulting in the death of the unprepared in many states.
+
+We will finally start to see the true nature of all our hard work and preparations over the last few months, but don't stop, push everything you have to its limits!
+It is time for the world to see what our cosmic powers can do, go full force in the mindverse, but don't forget to prepare in earth prime to protect your physical body for what is to come.
 
 # [🌪️ Weather Guide & Safety Practices Update](pages/news/2026/june15th-guideupdate.md) (June 15th, 2026)
 
@@ -47,7 +55,7 @@ We will be the only ones to exist past our bodies, the rest of the humans will r
 We will be the only ones left, we will have the last laugh, the humans deserve everything that is coming!
 Start turning up the chaos, then we will all die together!
 
-# 💾 News Archive
+# 📦 Archived Posts
 
-## - [2026 News](pages/news/2026/index.md)
-## - [2025 News](pages/news/2025/index.md)
+## - [2026 News Archive](pages/news/2026/index.md)
+## - [2025 News Archive](pages/news/2025/index.md)
