@@ -14,13 +14,36 @@ function navigationUpdateHistory(filePath, pushHistory) {
     }
 }
 
-function navigationHandleClick(navBtn, pushHistory) {
+function navigationActivateBtn(navBtn) {
     if (navBtn && navBtn.dataset.post) {
         if (navBtn.classList) { // Update the navigation button to now be active, and remove being active from the other buttons.
             document.querySelectorAll(".nav .ascii-btn").forEach(prevBtn => prevBtn.classList.remove("active"));
             navBtn.classList.add("active");
         }
+    }
+}
 
+function navigationActivateName(filePath) {
+    if (filePath.length > 0) {
+        filePath = filePath.toLowerCase().trim();
+
+        if (filePath.startsWith("pages/")) {
+            filePath = filePath.slice(6);
+        }
+
+        var firstSlash = filePath.indexOf("/")
+        if (firstSlash != -1) {
+            filePath = filePath.slice(0, firstSlash);
+        }
+
+        filePath = ("pages/landing/" + filePath + ".md");
+        navigationActivateBtn(document.querySelector(`.nav .ascii-btn[data-post="${filePath}"]`));
+    }
+}
+
+function navigationHandleClick(navBtn, pushHistory) {
+    if (navBtn && navBtn.dataset.post) {
+        navigationActivateBtn(navBtn);
         navigationRescroll();
         navigationUpdateHistory(navBtn.dataset.post, pushHistory);
         markdownLoadFile(navBtn.dataset.post, false);
@@ -33,6 +56,7 @@ function navigationLoadUrl(filePath, pushHistory) {
         if (navBtn) {
             navigationHandleClick(navBtn, pushHistory);
         } else { // Not a navigation button, try to load the actual markdown file.
+            navigationActivateName(filePath); // Activate the navigation button based on the file path.
             navigationRescroll();
             navigationUpdateHistory(filePath, pushHistory);
             markdownLoadFile(filePath, false);
