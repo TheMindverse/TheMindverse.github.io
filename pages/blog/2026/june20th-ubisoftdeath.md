@@ -9,4 +9,4 @@ blog-category: Research
 
 > [https://www.thegamer.com/ubisoft-co-founder-claude-guillemot-dead/](https://www.thegamer.com/ubisoft-co-founder-claude-guillemot-dead/)
 
-> another one bites the dust...s
+> another one bites the dust...
