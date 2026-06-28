@@ -2,7 +2,7 @@ post-loadable: true
 post-folder: Landing
 post-file: Blog.md
 post-date: October 5th, 2025
-post-edit: June 27th, 2026
+post-edit: June 28th, 2026
 post-title: 📝 Blog
 
 This acts as my personal note taking journal, most if not all of these entries are written while I am actively in the mindverse. Some of these are forwarded from the discord server, which is not open to the public.
@@ -22,6 +22,7 @@ This acts as my personal note taking journal, most if not all of these entries a
 
 # > June 2026
 
+- 💤 [June 28th, 2026: The Piss Bandits (Dreamscape)](pages/blog/2026/june28th-pissbandits.md)
 - 🛰️ [June 26th, 2026: Iran Pounded AGAIN (Research)](pages/blog/2026/june26th-iranpounded.md)
 - 🧠 [June 26th, 2026: Salad Sham (Ramblings)](pages/blog/2026/june26th-saladsham.md)
 - 🧠 [June 25th, 2026: Coomer Credits (Ramblings)](pages/blog/2026/june25th-coomercredits.md)
