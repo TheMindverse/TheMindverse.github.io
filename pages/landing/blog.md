@@ -22,6 +22,7 @@ This acts as my personal note taking journal, most if not all of these entries a
 
 # > June 2026
 
+- 🛰️ [June 26th, 2026: Iran Pounded AGAIN (Research)](pages/blog/2026/june26th-iranpounded.md)
 - 🧠 [June 26th, 2026: Salad Sham (Ramblings)](pages/blog/2026/june26th-saladsham.md)
 - 🧠 [June 25th, 2026: Coomer Credits (Ramblings)](pages/blog/2026/june25th-coomercredits.md)
 - 🧠 [June 24th, 2026: QR Codes (Ramblings)](pages/blog/2026/june24th-qrcodes.md)
