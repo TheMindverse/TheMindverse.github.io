@@ -1,7 +1,7 @@
 post-folder: Blog / 2026
-post-file: June10th-BackToReality.md
+post-file: June24th-QRCodes.md
 post-date: June 24th, 2026
-post-edit: June 24th, 2026
+post-edit: June 27th, 2026
 post-title: QR Codes
 blog-category: Ramblings
 

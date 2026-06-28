@@ -2,7 +2,7 @@ post-loadable: true
 post-folder: Landing
 post-file: Blog.md
 post-date: October 5th, 2025
-post-edit: June 24th, 2026
+post-edit: June 27th, 2026
 post-title: 📝 Blog
 
 This acts as my personal note taking journal, most if not all of these entries are written while I am actively in the mindverse. Some of these are forwarded from the discord server, which is not open to the public.
@@ -22,6 +22,8 @@ This acts as my personal note taking journal, most if not all of these entries a
 
 # > June 2026
 
+- 🧠 [June 26th, 2026: Salad Sham (Ramblings)](pages/blog/2026/june26th-saladsham.md)
+- 🧠 [June 25th, 2026: Coomer Credits (Ramblings)](pages/blog/2026/june25th-coomercredits.md)
 - 🧠 [June 24th, 2026: QR Codes (Ramblings)](pages/blog/2026/june24th-qrcodes.md)
 - 🛰️ [June 20th, 2026: Ubisoft Co-Founder Dead (Research)](pages/blog/2026/june20th-ubisoftdeath.md)
 - ⚖️ [June 18th, 2026: Black Hole Stars (Philosophy)](pages/blog/2026/june18th-blackholestars.md)
