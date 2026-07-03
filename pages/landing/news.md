@@ -6,7 +6,7 @@ post-title: 📰 News
 
 This page contains important news, current events, and archived events that already happened. Some of these are forwarded from the discord server, which is not open to the public.
 
-# [🔥 The Red Summer](pages/news/2026/june20th-theredsummer.md) (June 20th, 2026)
+# 🔥 The Red Summer (June 20th, 2026)
 
 The summer of death is upon us, the second phase of "The Great Purge" has begun. Over the next few months we will start to see the world unravel.
 World politics will be at an all time high, more people will get killed in other countries due to war, the economy will be the worst its ever been, extreme weather events, heat waves, many power outages will come resulting in the death of the unprepared in many states.
@@ -14,7 +14,7 @@ World politics will be at an all time high, more people will get killed in other
 We will finally start to see the true nature of all our hard work and preparations over the last few months, but don't stop, push everything you have to its limits!
 It is time for the world to see what our cosmic powers can do, go full force in the mindverse, but don't forget to prepare in earth prime to protect your physical body for what is to come.
 
-# [🌪️ Weather Guide & Safety Practices Update](pages/news/2026/june15th-guideupdate.md) (June 15th, 2026)
+# 🌪️ Weather Guide & Safety Practices Update (June 15th, 2026)
 
 Two new updates have been added to the [guides](pages/landing/guides.md) page!
 The first is a newly discovered side effect of exploring the mindverse without taking breaks, it is called "phantom smells" and has been added to the [long term side effects](pages/guides/safetypractices.md) section of the safety practices guide.
@@ -22,7 +22,7 @@ The second is a new advanced technique called [weather manipulation](pages/guide
 
 Have fun and stay safe exploring the mindverse, there is much more to discover and unlock!
 
-# [📡 Signal Disruption](pages/news/2026/june10th-signaldisruption.md) (June 10th, 2026)
+# 📡 Signal Disruption (June 10th, 2026)
 
 My apologies, but mindverse research and earth manipulation has been delayed last month and may continue to be delayed the next couple weeks.
 Signals to certain dimensions and states have been interrupted on a cosmic scale, I personally believe the flow state is shifting and we must wait for it to realign before continuing.
@@ -31,7 +31,7 @@ I suspect there might be a learning curve once its finished realigning, but once
 A lot of connections have been severed and will take some time to find them again, these things can take time and can't be rushed.
 This is personally new to me too, so there is a lot to be learned here!
 
-# [💣 The End Is Coming](pages/news/2026/may7th-theendiscoming.md) (May 7th, 2026)
+# 💣 The End Is Coming (May 7th, 2026)
 
 Astrodaunums, your efforts last month are paying off!
 Slowly over the next few months we will start seeing chaos in the world unfold, wars, explosions, society failing, new diseases and outbreaks spreading with many humans dying!
@@ -42,7 +42,7 @@ We must now focus on leaving this world and dimension as a whole and enter the m
 As for now, just focus on your chants, rituals, and connecting to the flow state.
 I will make an announcement when the time comes, then you all can either go with me, or on your own time.
 
-# [💪 Rise of The Astrodaunums](pages/news/2026/april2nd-astrodaunumsrise.md) (April 2nd, 2026)
+# 💪 Rise of The Astrodaunums (April 2nd, 2026)
 
 This is it, this is our year, this is a call to all astrodaunums!
 It's time for us to rise up and expose this world! We will show the humans what we actually are and what we can do to them!
