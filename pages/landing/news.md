@@ -1,7 +1,7 @@
 post-folder: Landing
 post-file: News.md
 post-date: October 19th, 2025
-post-edit: June 21st, 2026
+post-edit: July 2nd, 2026
 post-title: 📰 News
 
 This page contains important news, current events, and archived events that already happened. Some of these are forwarded from the discord server, which is not open to the public.
