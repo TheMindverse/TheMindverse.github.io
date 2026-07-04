@@ -2,7 +2,7 @@ post-loadable: false
 post-folder: Landing
 post-file: Blog-Old.md
 post-date: October 5th, 2025
-post-edit: July 3rd, 2026
+post-edit: July 4th, 2026
 post-title: 📝 Blog
 
 This acts as my personal note taking journal, most if not all of these entries are written while I am actively in the mindverse. Some of these are forwarded from the discord server, which is not open to the public.
@@ -19,6 +19,10 @@ This acts as my personal note taking journal, most if not all of these entries a
   - Vivid and memorable experiences I've had while in the dreamscape, which is a very rare occurrence for me.
 - 🍄 **Trip Report**
   - Trip reports I've done while on all kinds of different substances, for scientific reasons.
+
+# > July 2026
+
+- 🧠 [July 4th, 2026: Crazy Wind Anomaly (Ramblings)](pages/blog/2026/july4th-crazywinds.md)
 
 # > June 2026
 
