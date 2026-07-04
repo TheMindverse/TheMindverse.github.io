@@ -1,6 +1,6 @@
 post-loadable: false
 post-folder: Landing
-post-file: Blog.md
+post-file: Blog-Old.md
 post-date: October 5th, 2025
 post-edit: July 3rd, 2026
 post-title: 📝 Blog
