@@ -10,9 +10,9 @@ This acts as my personal note taking journal, most if not all of these entries a
 # 📇 Categories
 
 - 🧠 **Ramblings**
-  - Thoughts and ramblings I've taken while actively in the mindverse.
+  - My thoughts and ramblings, most likely written while in the mindverse.
 - ⚖️ **Philosophy**
-  - My personal theories, ideas, and discoveries, I've made about the cosmos.
+  - Personal theories, ideas, and discoveries, about the cosmos as a whole.
 - 🛰️ **Research**
   - Relavent news articles and current events happening in the world that are related to the mindverse.
 - 💤 **Dreamscape**
