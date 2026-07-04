@@ -1,22 +1,8 @@
-post-loadable: true
-post-folder: Landing
-post-file: Blog.md
-post-date: October 5th, 2025
+post-folder: Blog / 2026
+post-file: Archive.md
+post-date: July 4th, 2026
 post-edit: July 4th, 2026
-post-title: 📝 Blog
-
-This acts as my personal note taking journal, most if not all of these entries are written while I am actively in the mindverse. Some of these are forwarded from the discord server, which is not open to the public.
-
-# 📇 Categories
-
-- 🧠 **Ramblings**
-  - Thoughts and ramblings I've taken while actively in the mindverse.
-- ⚖️ **Philosophy**
-  - My personal theories, ideas, and discoveries, I've made about the cosmos.
-- 🛰️ **Research**
-  - Relavent news articles and current events happening in the world that are related to the mindverse.
-- 💤 **Dreamscape**
-  - Vivid and memorable experiences I've had while in the dreamscape, which is a very rare occurrence for me.
+post-title: 2026 Blog Archive
 
 # > July 2026
 
@@ -99,8 +85,3 @@ This acts as my personal note taking journal, most if not all of these entries a
 - 🧠 [January 20th, 2026: All Around (Ramblings)](pages/blog/2026/january20th-allaround.md)
 - 🛰️ [January 20th, 2026: Catastrophic Storm (Research)](pages/blog/2026/january20th-catastrophicstorm.md)
 - 🧠 [January 14th, 2026: Nevermind (Ramblings)](pages/blog/2026/january14th-nevermind.md)
-
-# 📦 Archived Posts
-
-## - [2026 Blog Archive](pages/blog/2026/archive.md)
-## - [2025 Blog Archive](pages/blog/2025/archive.md)

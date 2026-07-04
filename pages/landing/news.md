@@ -57,5 +57,5 @@ Start turning up the chaos, then we will all die together!
 
 # 📦 Archived Posts
 
-## - [2026 News Archive](pages/news/2026/index.md)
-## - [2025 News Archive](pages/news/2025/index.md)
+## - [2026 News Archive](pages/news/2026/archive.md)
+## - [2025 News Archive](pages/news/2025/archive.md)
