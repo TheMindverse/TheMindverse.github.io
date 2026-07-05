@@ -1,7 +1,7 @@
 post-folder: Guides
 post-file: BeginnersGuide.md
 post-date: October 10th, 2025
-post-edit: June 20th, 2026
+post-edit: July 4th, 2026
 post-title: 👨‍🚀 Beginners Guide
 
 # 🪔 Meditation practices
@@ -48,3 +48,18 @@ It is also recommended to perform these during the night to take advantage of th
 - Wouldn't make sense like a passing narrow, I can mono-navigate in the dark!
 - The last necromancer of the heathen stone!
 - THE CRAXUS OF THE FAXZEUS OF THE ASS!
+
+# 👁️ The astrodaunum species
+
+Astrodaunums are an interdimensional species that have a pure and direct connection to the cosmos and multiverse as a whole. In their raw form, they can exist out side of the normal definitions of a physical body and are free to explore the multiverse and all its dimensions. In extremely rare instances, they can be created and bound to a physical body on a planet, blending in as that planets species due to the nature of how consciousness is formed. They are unaware of their true existence until they have a spiritual awakening and start exploring the mindverse. It is currently estimated that less than a dozen astrodaunums in a singular dimension as a whole at a time, making them incredibly rare.
+
+There are four distinct phases of recognizing one is an astrodaunum, in order these are preselyte, orthadonal, trisendal, and ohmega. Non-astrodaunums are likely to achieve similar descriptions to the preselyte and orthadonal phases, but they never evolve beyond that.
+
+-  Ohmega
+  - An astrodaunum in its pure raw form, unbound by their original physical body and any connection to their former species, one is free to be their true self.
+- Trisendal
+  - Fully accepted their astrodaunum existence and rejects their physical existence, spends most of their time deadwalking or skinwalking while traveling the mindverse.
+- Orthadonal
+  - Has an understanding of exploring the mindverse as a hobby, but still sees themselves as that of their original body and species, they have not yet recognized their true self.
+- Preselyte
+  - Someone who has no idea of the mindverses existence or astrodaunums, but has unknowingly connected to the dreamscape and mindverse and has been exploring alternate realities, to them its just their mind daydreaming or fantasying more.

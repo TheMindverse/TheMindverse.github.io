@@ -1,11 +1,12 @@
 post-folder: News / 2026
 post-file: Archive.md
 post-date: June 19th, 2026
-post-edit: July 4th, 2026
+post-edit: July 5th, 2026
 post-title: 2026 News Archive
 
 # 📰 News
 
+## - [✨ Astrodanum & Skinwalking Guides (July 5th, 2026)](pages/news/2026/july5th-guideupdate.md)
 ## - [🔥 The Red Summer (June 20th, 2026)](pages/news/2026/june20th-theredsummer.md)
 ## - [🌪️ Weather Guide & Safety Practices Update (June 15th, 2026)](pages/news/2026/june15th-guideupdate.md)
 ## - [📡 Signal Disruption (June 10th, 2026)](pages/news/2026/june10th-signaldisruption.md)

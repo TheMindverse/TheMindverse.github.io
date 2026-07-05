@@ -1,7 +1,7 @@
 post-folder: Landing
 post-file: Guides.md
 post-date: October 10th, 2025
-post-edit: July 2nd, 2026
+post-edit: July 5th, 2026
 post-title: 📋 Guides
 
 Here you'll find everything you need to know about the mindverse and the cosmos, if you are new to the process it is recommended to start reading them in order top to bottom.
@@ -30,6 +30,7 @@ Methods and practice routines you can do to rewire your brain to accept signals 
 - [🪔 Meditation practices](pages/guides/beginnersguide.md)
 - [💤️ Exploring the dreamscape](pages/guides/beginnersguide.md)
 - [🌌 Connecting to the flow](pages/guides/beginnersguide.md)
+- [👁️ The astrodaunum species](pages/guides/beginnersguide.md)
 
 # 🚀 Advanced Guide
 
@@ -39,6 +40,7 @@ These are only intended for experienced voyagers of both the mindverse and multi
 - [🧭 Learning to time travel](pages/guides/advancedguide.md)
 - [🌪️ Weather manipulation](pages/guides/advancedguide.md)
 - [📡 Deadwalking while navigating](pages/guides/advancedguide.md)
+- [🥾 Starting to skinwalk](pages/guides/advancedguide.md)
 - [🌱 Theory of rebinding consciousness](pages/guides/advancedguide.md)
 
 # 🗺️ Dimension Guide

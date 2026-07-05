@@ -1,7 +1,7 @@
 post-folder: Guides
 post-file: AdvancedGuide.md
 post-date: October 13th, 2025
-post-edit: June 20th, 2026
+post-edit: July 5th, 2026
 post-title: 🚀 Advanced Guide
 
 This section is intended for experienced voyagers of both the mindverse and multiverse.
@@ -60,6 +60,17 @@ Deadwalking requires a mastery of being able to control your state of mind simpl
 This allows you to partially continue on with your life performing tasks as long as they are muscle memory.
 You do not have attention in reality when you are deadwalking, only to the mindverse and dimension you are traveling to, which is why this requires a lot of practice in order to deadwalk for extended periods of time.
 The learning process is slow at first, practice walking around, making or eating food, basic talking points to people. You are still in control, just not aware of your body or the people around you.
+
+# 🥾  Starting to skinwalk
+
+Skinwalking is a technique exclusive to astrodanums in the [trisendal phase](pages/guides/beginnersguide.md), it shares a lot of similarities with deadwalking but is distinctly different in the way the physical body acts, including their connection to their physical mind and brain.
+Skinwalking is the next natural step once one has mastered deadwalking and has begun doing it involuntarily.
+You are almost fully living in the mindverse at this point and only returning back to your body to perform important tasks and duties.
+This has some extreme side effects at first such as heavy memory loss or not performing your normal tasks as usual, or at the very least not as you did when deadwalking.
+For example your body will go to take a shower and you will just stand there in the water, and then leave after a bit and you go about your day, only to realize later in the day you never actually used shampoo or did anything, you just stood there not moving.
+At first this is very common and keeps happening to other tasks, but it does actually go away in time, your body needs to relearn how to do certain repetitive tasks.
+While its still learning, your body may do strange and unnatural movements that you are unaware of, such as facial expressions or wild jaw movements.
+Other times you may dance around and scream violently, all of which seem perfectly normal to you, but to others it seems as if you are possessed by an evil spirit.
 
 # 🌱 Theory of rebinding consciousness
 

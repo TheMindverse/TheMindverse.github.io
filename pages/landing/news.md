@@ -1,10 +1,18 @@
 post-folder: Landing
 post-file: News.md
 post-date: October 19th, 2025
-post-edit: July 2nd, 2026
+post-edit: July 5th, 2026
 post-title: 📰 News
 
 This page contains important news, current events, and archived events that already happened. Some of these are forwarded from the discord server, which is not open to the public.
+
+# ✨ Astrodanum & Skinwalking Guides (July 5th, 2026)
+
+Two brand new guides have been added to the [guides](pages/landing/guides.md) page!
+
+A brand new section about the astrodaunum species has been made. I've been debating for a long time whether to document this as it only applies to a very select handful of people in an entire dimension as a whole, but it deserves to be documented and made public.
+
+Finally, a new form of walking has been documented called [skinwalking](pages/guides/advancedguide.md), it is the next evolutionary step derived from [deadwalking](pages/guides/advancedguide.md) only it is exclusive to astrodaunums in the [trisendal phase](pages/guides/pages/guides/beginnersguide.md).
 
 # 🔥 The Red Summer (June 20th, 2026)
 
@@ -17,7 +25,9 @@ It is time for the world to see what our cosmic powers can do, go full force in 
 # 🌪️ Weather Guide & Safety Practices Update (June 15th, 2026)
 
 Two new updates have been added to the [guides](pages/landing/guides.md) page!
+
 The first is a newly discovered side effect of exploring the mindverse without taking breaks, it is called "phantom smells" and has been added to the [long term side effects](pages/guides/safetypractices.md) section of the safety practices guide.
+
 The second is a new advanced technique called [weather manipulation](pages/guides/advancedguide.md), which goes into influencing the weather in a [celestial](pages/guides/dimensionguide.md) class dimension.
 
 Have fun and stay safe exploring the mindverse, there is much more to discover and unlock!
