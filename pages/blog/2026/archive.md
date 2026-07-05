@@ -1,11 +1,12 @@
 post-folder: Blog / 2026
 post-file: Archive.md
 post-date: July 4th, 2026
-post-edit: July 4th, 2026
+post-edit: July 5th, 2026
 post-title: 2026 Blog Archive
 
 # > July 2026
 
+- 🧠 [July 5th, 2026: Attack of The Beetles (Ramblings)](pages/blog/2026/july5th-beetleattack.md)
 - 🧠 [July 4th, 2026: Fuck The British (Ramblings)](pages/blog/2026/july4th-fuckbritian.md)
 - 🧠 [July 4th, 2026: Crazy Wind Anomaly (Ramblings)](pages/blog/2026/july4th-crazywinds.md)
 
