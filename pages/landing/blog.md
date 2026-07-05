@@ -20,6 +20,7 @@ This acts as my personal note taking journal, most if not all of these entries a
 
 # > July 2026
 
+- 🧠 [July 4th, 2026: Fuck The British (Ramblings)](pages/blog/2026/july4th-fuckbritian.md)
 - 🧠 [July 4th, 2026: Crazy Wind Anomaly (Ramblings)](pages/blog/2026/july4th-crazywinds.md)
 
 # > June 2026
