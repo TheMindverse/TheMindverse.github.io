@@ -1,7 +1,7 @@
 post-folder: Guides
 post-file: AdvancedGuide.md
 post-date: October 13th, 2025
-post-edit: July 5th, 2026
+post-edit: July 6th, 2026
 post-title: 🚀 Advanced Guide
 
 This section is intended for experienced voyagers of both the mindverse and multiverse.
@@ -38,7 +38,7 @@ Due to the nature of infinitely, there are infinite possibilities of every actio
 Once you get the hang of navigating the multiverse, you can travel in time to a sense by finding a dimension in the desired time period with a world as closest to yours.
 This thought is obvious and natural, the only hard part is knowing what time it is.
 Especially by the year, let alone day or minute, so at first you might try to look for dates. Don't waste your time because there is a much simpler and accurate way.
-Time is entirely relative based on gravitational, learn to feel the gravitational pull in a solar system.
+Time is entirely relative based on gravity, learn to feel the gravitational pull in a solar system.
 This process is not as easy as you might assume, there is a difficult learning curve in grasping the sense of time in a solar system.
 Once you get the hang of it, use this power wisely and do not share with others what you find.
 
