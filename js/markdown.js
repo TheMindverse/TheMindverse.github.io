@@ -344,6 +344,8 @@ function markdownPostFile(fileContents, append) {
 
                 if (mdBlogCat === "Ramblings") {
                     mdTitle = ("🧠 " + mdTitle);
+                } else if (mdBlogCat === "Shower Thoughts") {
+                    mdTitle = ("🧼 " + mdTitle);
                 } else if (mdBlogCat === "Philosophy") {
                     mdTitle = ("⚖️ " + mdTitle);
                 } else if (mdBlogCat === "Research") {

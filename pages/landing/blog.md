@@ -2,7 +2,7 @@ post-loadable: true
 post-folder: Landing
 post-file: Blog.md
 post-date: October 5th, 2025
-post-edit: July 5th, 2026
+post-edit: July 7th, 2026
 post-title: 📝 Blog
 
 This acts as my personal note taking journal, most if not all of these entries are written while I am actively in the mindverse. Some of these are forwarded from the discord server, which is not open to the public.
@@ -11,6 +11,8 @@ This acts as my personal note taking journal, most if not all of these entries a
 
 - 🧠 **Ramblings**
   - My thoughts and ramblings, most likely written while in the mindverse.
+- 🧼 **Shower Thoughts**
+  - One off thoughts that come to me out of no where, which are oddly profound.
 - ⚖️ **Philosophy**
   - Personal theories, ideas, and discoveries, about the cosmos as a whole.
 - 🛰️ **Research**
@@ -20,6 +22,8 @@ This acts as my personal note taking journal, most if not all of these entries a
 
 # > July 2026
 
+- 🧼 [July 6th, 2026: Baked Beans (Shower Thoughts)](pages/blog/2026/july6th-bakedbeans.md)
+- 🧼 [July 6th, 2026: Towel Paradox (Shower Thoughts)](pages/blog/2026/july6th-towelparadox.md)
 - 🧠 [July 5th, 2026: Attack of The Beetles (Ramblings)](pages/blog/2026/july5th-beetleattack.md)
 - 🧠 [July 4th, 2026: Fuck The British (Ramblings)](pages/blog/2026/july4th-fuckbritian.md)
 - 🧠 [July 4th, 2026: Crazy Wind Anomaly (Ramblings)](pages/blog/2026/july4th-crazywinds.md)
@@ -28,8 +32,8 @@ This acts as my personal note taking journal, most if not all of these entries a
 
 - 💤 [June 28th, 2026: The Piss Bandits (Dreamscape)](pages/blog/2026/june28th-pissbandits.md)
 - 🛰️ [June 26th, 2026: Iran Pounded AGAIN (Research)](pages/blog/2026/june26th-iranpounded.md)
-- 🧠 [June 26th, 2026: Salad Sham (Ramblings)](pages/blog/2026/june26th-saladsham.md)
-- 🧠 [June 25th, 2026: Coomer Credits (Ramblings)](pages/blog/2026/june25th-coomercredits.md)
+- 🧼 [June 26th, 2026: Salad Sham (Shower Thoughts)](pages/blog/2026/june26th-saladsham.md)
+- 🧼 [June 25th, 2026: Coomer Credits (Shower Thoughts)](pages/blog/2026/june25th-coomercredits.md)
 - 🧠 [June 24th, 2026: QR Codes (Ramblings)](pages/blog/2026/june24th-qrcodes.md)
 - 🛰️ [June 20th, 2026: Ubisoft Co-Founder Dead (Research)](pages/blog/2026/june20th-ubisoftdeath.md)
 - ⚖️ [June 18th, 2026: Black Hole Stars (Philosophy)](pages/blog/2026/june18th-blackholestars.md)

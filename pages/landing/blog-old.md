@@ -2,7 +2,7 @@ post-loadable: false
 post-folder: Landing
 post-file: Blog-Old.md
 post-date: October 5th, 2025
-post-edit: July 5th, 2026
+post-edit: July 7th, 2026
 post-title: 📝 Blog
 
 This acts as my personal note taking journal, most if not all of these entries are written while I am actively in the mindverse. Some of these are forwarded from the discord server, which is not open to the public.
@@ -11,6 +11,8 @@ This acts as my personal note taking journal, most if not all of these entries a
 
 - 🧠 **Ramblings**
   - My thoughts and ramblings, most likely written while in the mindverse.
+- 🧼 **Shower Thoughts**
+  - One off thoughts that come to me out of no where, which are oddly profound.
 - ⚖️ **Philosophy**
   - Personal theories, ideas, and discoveries, about the cosmos as a whole.
 - 🛰️ **Research**
