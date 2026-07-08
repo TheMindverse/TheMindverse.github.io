@@ -1,7 +1,7 @@
 post-folder: Guides
 post-file: SafetyPractices.md
 post-date: October 10th, 2025
-post-edit: June 20th, 2026
+post-edit: July 8th, 2026
 post-title: 🛡️ Safety Practices
 
 # 👨‍⚕️ Emotional risks and harm
@@ -48,4 +48,4 @@ Although technically harmless, if you do not take breaks the following side effe
 - Time paradoxes, seemingly traveling to events in the past and reliving them instead of living in the moment, getting stuck in time loops.
 - Visions or pseudo-connections to dimensions in place of your thoughts, thinking you're actually in a parallel dimension you've previously visited.
 - Rare interdimensional events, such as hearing voices in the walls or people screaming at you, or different places you've visited in another dimension stitching into your reality.
-- Unintentionally connecting to the mindverse without noticing, also known as involuntary deadwalking.
+- Unintentionally connecting to the mindverse without noticing, also known as involuntary [deadwalking](pages/guides/advancedguide.md).
