@@ -13,11 +13,11 @@ The categories used in [dimensions](pages/landing/dimensions.md) represent how d
 
 # 📖 Classifications
 
-- **None:** Has no classification from a universal and dimensional standpoint.
-- **Physical:** The dimension where your consciousness is bound to inside of your brain.
+- **None:** Has no classification on a dimensional level.
+- **Physical:** The dimension where your consciousness is bound to your physical brain.
 - **Apparition:** Hallucinations that can be confused with alternate dimensions or mental states due to the brains altered perception of signals.
 - **Chimera:** Occurs while in a lucid dream like state, visions and emotions connect to your subconscious giving you glimpses into previously unseen worlds.
-- **Astral:** The state of being you enter when using the mindverse, it lets you see and feel connections to other dimensions in the multiverse
+- **Astral:** The state of being you enter when using the mindverse, it lets you see and feel connections to other dimensions in the multiverse.
 - **Spectral:** Cosmic and spiritual connection, you can observe peacefully but you do not fully belong.
 - **Ethereal:** Brain connection to a dimension, visions, memories, and feelings start to merge with yours.
 - **Celestial:** Body and brain integration, the dimension accepts that your consciousness could belong there.
