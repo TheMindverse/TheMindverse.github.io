@@ -1,18 +1,15 @@
 post-folder: Guides
 post-file: DimensionGuide.md
 post-date: October 10th, 2025
-post-edit: June 20th, 2026
+post-edit: July 9th, 2026
 post-title: 🗺️ Dimension Guide
 
 The [dimensions](pages/landing/dimensions.md) page is a way for me to document my personal experiences into navigating the different layers of the multiverse.
-When I visit a parallel universe I will attempt to map out each one I find.
-Each entry contains info, descriptions, unique identifiers, and difficulty and risks; as well as some personal notes that I've sent while actively in each dimension mentally.
+When I visit a parallel universe I will attempt to map out each one I find. Each entry contains info, descriptions, unique identifiers, and difficulty and risks; as well as some personal notes that I've sent while actively in each dimension mentally.
 
 # 📇 Categories
 
-The categories used in [dimensions](pages/landing/dimensions.md) represent how different a dimension is relative to [earth prime](pages/dimensions/mv-a00.md), the further down the alphabet the categories are the more foreign and hostile a dimension can become.
-The difficulty and safety risks typically increase as well but this is not always the case, be sure to fully read all available documentation and experiences related to a dimension before attempting to travel there.
-The reference images are just examples, it is impossible to actually represent what I experience there in perfect detail to humans, a lot of the concepts of certain worlds don't exist in our dimension.
+The categories used in [dimensions](pages/landing/dimensions.md) represent how different a dimension is relative to [earth prime](pages/dimensions/mv-a00.md), the further down the alphabet the categories are the more foreign and hostile a dimension can become. The difficulty and safety risks typically increase as well but this is not always the case, be sure to fully read all available documentation and experiences related to a dimension before attempting to travel there. The reference images are just examples, it is impossible to actually represent what I experience there in perfect detail to humans, a lot of the concepts of certain worlds don't exist in our dimension.
 
 # 📖 Classifications
 
