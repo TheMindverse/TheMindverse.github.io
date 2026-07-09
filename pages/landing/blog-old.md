@@ -2,7 +2,7 @@ post-loadable: false
 post-folder: Landing
 post-file: Blog-Old.md
 post-date: October 5th, 2025
-post-edit: July 7th, 2026
+post-edit: July 9th, 2026
 post-title: 📝 Blog
 
 This acts as my personal note taking journal, most if not all of these entries are written while I am actively in the mindverse. Some of these are forwarded from the discord server, which is not open to the public.
@@ -24,6 +24,9 @@ This acts as my personal note taking journal, most if not all of these entries a
 
 # > July 2026
 
+- 🧠 [July 9th, 2026: Yogurt Toxin (Ramblings)](pages/blog/2026/july9th-yogurttoxin.md)
+- 🛰️ [July 8th, 2026: More Fucking Bombs (Research)](pages/blog/2026/july8th-morefuckingbombs.md)
+- 🧠 [July 7th, 2026: Scrumpleten (Ramblings)](pages/blog/2026/july7th-scrumpleten.md)
 - 🧼 [July 6th, 2026: Baked Beans (Shower Thoughts)](pages/blog/2026/july6th-bakedbeans.md)
 - 🧼 [July 6th, 2026: Towel Paradox (Shower Thoughts)](pages/blog/2026/july6th-towelparadox.md)
 - 🧠 [July 5th, 2026: Attack of The Beetles (Ramblings)](pages/blog/2026/july5th-beetleattack.md)

@@ -1,11 +1,14 @@
 post-folder: Blog / 2026
 post-file: Archive.md
 post-date: July 4th, 2026
-post-edit: July 7th, 2026
+post-edit: July 9th, 2026
 post-title: 2026 Blog Archive
 
 # > July 2026
 
+- 🧠 [July 9th, 2026: Yogurt Toxin (Ramblings)](pages/blog/2026/july9th-yogurttoxin.md)
+- 🛰️ [July 8th, 2026: More Fucking Bombs (Research)](pages/blog/2026/july8th-morefuckingbombs.md)
+- 🧠 [July 7th, 2026: Scrumpleten (Ramblings)](pages/blog/2026/july7th-scrumpleten.md)
 - 🧼 [July 6th, 2026: Baked Beans (Shower Thoughts)](pages/blog/2026/july6th-bakedbeans.md)
 - 🧼 [July 6th, 2026: Towel Paradox (Shower Thoughts)](pages/blog/2026/july6th-towelparadox.md)
 - 🧠 [July 5th, 2026: Attack of The Beetles (Ramblings)](pages/blog/2026/july5th-beetleattack.md)
