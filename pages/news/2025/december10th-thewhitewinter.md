@@ -1,22 +1,16 @@
 post-folder: News / 2025
 post-file: December10th-TheWhiteWinter.md
 post-date: December 10th, 2025
-post-edit: June 19th, 2026
+post-edit: July 9th, 2026
 post-title: ❄️ The White Winter
 
-The winter of reckoning is approaching us, one of the harshest winters of the last two decades is forming and you only have a month or two to prepare.
-This great winter is a result of all our time exploring the universe, connecting our consciousness to the cosmos, and being recognized by the collective consciousnesses of the multiverse.
+The winter of reckoning is approaching us, one of the harshest winters of the last two decades is forming and you only have a month or two to prepare. This great winter is a result of all our time exploring the universe, connecting our consciousness to the cosmos, and being recognized by the collective consciousnesses of the multiverse.
 
-Its purpose is to kill off the very weak of our species and wreck havoc on parts of society that will never form the necessary connections to the universe like we have.
-It is just the first of many stages of "The Great Purge", this winter is just the beginning of something greater and we are the only ones who know its true purpose.
-Educate yourself on what is to come, what to expect, and how to survive.
+Its purpose is to kill off the very weak of our species and wreck havoc on parts of society that will never form the necessary connections to the universe like we have. It is just the first of many stages of "The Great Purge", this winter is just the beginning of something greater and we are the only ones who know its true purpose. Educate yourself on what is to come, what to expect, and how to survive.
 
 ## 🍜 Food, Water, & Cooking
 
-Stock up on plenty of shelf stable foods and water, as well as a method to obtain a constant source of water such as boiling snow at an efficient rate.
-Here are some non-perishable goods that are essential for your survival.
-The rule of thumb for the amount of water needed is one gallon per day, per person.
-When the power goes out, even if you have a gas stove that doesn't require electricity, you should still stock up portable camping stoves, as well as alternative methods to light them.
+Stock up on plenty of shelf stable foods and water, as well as a method to obtain a constant source of water such as boiling snow at an efficient rate. Here are some non-perishable goods that are essential for your survival. The rule of thumb for the amount of water needed is one gallon per day, per person. When the power goes out, even if you have a gas stove that doesn't require electricity, you should still stock up portable camping stoves, as well as alternative methods to light them.
 
 - **Food**
   - **Protein:** Canned meat (refer to the canned goods section), beef jerky, various nuts, seeds, and legumes, protein powder.
