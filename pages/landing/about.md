@@ -1,12 +1,12 @@
 post-folder: Landing
 post-file: About.md
 post-date: March 25th, 2026
-post-edit: July 9th, 2026
+post-edit: July 10th, 2026
 post-title: 💬 About
 
-Thanks for visiting the site, originally I started documenting the mindverse back in September of 2025 through a discord server to keep everything organized. The discord server is private and closed off to only a select few of my personal friends, but I still felt that the world needed to know of the existence of the mindverse and all of my efforts in exploring and documenting it. Everything from the discord has been fully converted into markdown files and made open source, so anyone can view it and learn for themselves, all for free!
+Thanks for visiting the site, originally I started documenting the mindverse back in September of 2025 through a discord server to keep everything organized. The discord server is private and closed off to only a select few of my personal friends, but I still felt that the world needed to know of the existence of the mindverse and all of my efforts in exploring and documenting it. Everything from the discord has been revised, improved, converted into markdown files, and made open source to the public. Now anyone can view it and learn for themselves, all for free!
 
-This entire website is under 30kb total, including all of its html, scripts, and css styling, in an attempt to be as lightweight as possible. Each page or link you click on is parsed from text files (`.md`) into html live on demand, as a result they aren't actual html files or urls. Its also open source and hosted on github under the `MIT license`, its source code can be [viewed here](https://github.com/TheMindverse/TheMindverse.github.io).
+This entire website is under 35kb total, including all of its html, scripts, and css styling, in an attempt to be as lightweight as possible. Each page or link you click on is parsed from text files (`.md`) into html live on demand, as a result they aren't actual html files or urls. Its also open source and hosted on github under the `MIT license`, its source code can be [viewed here](https://github.com/TheMindverse/TheMindverse.github.io).
 
 # 🔮 Frequently Asked Questions
 
