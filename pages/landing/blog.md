@@ -7,7 +7,7 @@ post-title: 📝 Blog
 
 This acts as my personal note taking journal, most if not all of these entries are written while I'm actively in the mindverse. Some of these are forwarded from the discord server, which is not open to the public.
 
-# 📋 Categories
+# 📑 Categories
 
 - 🧠 **Ramblings**
   - My thoughts and ramblings, most likely written while in the mindverse.

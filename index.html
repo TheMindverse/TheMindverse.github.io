@@ -31,7 +31,7 @@
     <script src="js/markdown.js" defer></script>
     <script src="js/navigation.js" defer></script>
     <script>
-        (function () { // This is to prevent a breif "flash" of the default dark theme when refreshing pages, if you were using the light theme.
+        (function () { // This is to prevent a brief "flash" of the default dark theme when refreshing pages if you were using the light theme.
             const savedTheme = localStorage.getItem("theme");
             if (savedTheme === "light") {
                 document.body.classList.add("light");

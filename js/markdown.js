@@ -329,7 +329,7 @@ function markdownPostFile(fileContents, append) {
             }
         }
 
-        if (mdTitle && (fileContents.length > 32)) {
+        if (mdTitle && (fileContents.length > 16)) { // Something was not parsed right if its less than 16 characters total, or the file isn't setup right.
             if (mdFolder) {
                 mdInfo = mdFolder;
             }
