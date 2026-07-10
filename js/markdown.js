@@ -465,10 +465,11 @@ This is another codeblock.
 ![](https://markdown-here.com/img/icon256.png)
 `;
 
-    let mdInfo = "Test / Test.html / January 1st, 1969"; 
-    let mdEdit = "";
+    let mdInfo = "Test / Test.html"; 
+    let mdDate = "January 1st, 2077";
+    let mdEdit = "January 2nd, 2077";
     let mdTitle = "Markdown Demo";
 
-    markdownPost(md, mdInfo, mdEdit, mdTitle, true);
+    markdownPost(md, mdInfo, mdDate, mdEdit, mdTitle, true);
 }
 */

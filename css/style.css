@@ -41,7 +41,6 @@ header {
     text-decoration: none;
     color: inherit;
     cursor: pointer;
-    margin-bottom: 10px;
 }
 
 .nav a:hover {
@@ -157,11 +156,11 @@ body.light .post-title::before {
 
 /* Footer */
 .footer {
-    margin-top: 40px;
     font-size: 12px;
     color: #888888;
     border-top: 1px solid #444;
     padding-top: 20px;
+    margin-top: 25px;
 }
 
 body.light .footer {
@@ -227,10 +226,10 @@ body.light ::selection {
     background: #131313;
     border-radius: 6px;
     padding: 10px;
-    margin: 0;
     overflow-x: auto;
     white-space: pre;
     word-wrap: normal;
+    margin: 0;
 }
 
 .md img {
@@ -251,11 +250,11 @@ body.light ::selection {
 }
 
 .md blockquote {
+    background-color: rgba(233, 54, 148, 0.05);
     border-left: 3px solid #e93694;
     border-radius: 2px;
-    margin: 16px 0;
     padding: 12px 16px;
-    background-color: rgba(233, 54, 148, 0.05);
+    margin: 16px 0;
 }
 
 body.light .md pre {
