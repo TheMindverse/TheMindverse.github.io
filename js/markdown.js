@@ -174,13 +174,13 @@ function markdownFormat(md) {
             const content = processInlineFormatting(listMatch[3]);
 
             // Open required <ul> levels.
-            while (listStack.length < level + 1) {
+            while (listStack.length < (level + 1)) {
                 currentListHTML += "<ul>";
                 listStack.push(true);
             }
 
             // Close excess <ul> levels.
-            while (listStack.length > level + 1) {
+            while (listStack.length > (level + 1)) {
                 if (openItem) {
                     currentListHTML += "</li>";
                     openItem = false;
@@ -235,7 +235,7 @@ function markdownFormat(md) {
     return finalHTML;
 }
 
-function markdownPost(md, info, edit, title, append) {
+function markdownPost(md, info, date, edit, title, append) {
     if (md && info && title) {
         const container = document.getElementById("content");
 
@@ -246,12 +246,16 @@ function markdownPost(md, info, edit, title, append) {
         postInfo.className = "post-info";
         postInfo.textContent = `${info}`;
 
+        const postDate = document.createElement("div");
+        postDate.className = "post-date";
+        postDate.textContent = date;
+
         if (edit) {
             const editSpan = document.createElement("span");
             editSpan.className = "post-tooltip";
             editSpan.textContent = "*";
             editSpan.title = `Last Edited: ${edit}`;
-            postInfo.appendChild(editSpan);
+            postDate.appendChild(editSpan);
         }
 
         const postTitle = document.createElement("div");
@@ -264,6 +268,7 @@ function markdownPost(md, info, edit, title, append) {
         postContent.innerHTML = markdownFormat(md);
 
         post.appendChild(postInfo); // Tab, folder, file name, date, etc...
+        post.appendChild(postDate); // Original post date and when was last edited.
         post.appendChild(postTitle); // Display title of the post.
         post.appendChild(postContent); // Actual html content of the file formatted from markdown.
 
@@ -324,7 +329,7 @@ function markdownPostFile(fileContents, append) {
             }
         }
 
-        if (mdTitle && fileContents.length > 1) {
+        if (mdTitle && (fileContents.length > 32)) {
             if (mdFolder) {
                 mdInfo = mdFolder;
             }
@@ -332,11 +337,6 @@ function markdownPostFile(fileContents, append) {
             if (mdFile) {
                 if (mdInfo) { mdInfo += " / "; }
                 mdInfo += mdFile;
-            }
-
-            if (mdDate) {
-                if (mdInfo) { mdInfo += " / "; }
-                mdInfo += mdDate;
             }
 
             if (mdBlogCat) {
@@ -361,7 +361,7 @@ function markdownPostFile(fileContents, append) {
                 mdInfo = mdInfo.slice(0, (mdInfo.length - 3));
             }
 
-            markdownPost(fileContents.slice(0, -1), mdInfo, mdEdit, mdTitle, append); // Slice to remove the last new line added when rebuilding the string.
+            markdownPost(fileContents.slice(0, -1), mdInfo, mdDate, mdEdit, mdTitle, append); // Slice to remove the last new line added when rebuilding the string.
             return true;
         }
     }
