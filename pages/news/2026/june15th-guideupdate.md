@@ -1,7 +1,7 @@
 post-folder: News / 2026
 post-file: June15th-GuideUpdate.md
 post-date: June 15th, 2026
-post-edit: July 4th, 2026
+post-edit: July 10th, 2026
 post-title: 🌪️ Weather Guide & Safety Practices Update
 
 Two new updates have been added to the [guides](pages/landing/guides.md) page!

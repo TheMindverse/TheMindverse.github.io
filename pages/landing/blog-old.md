@@ -7,7 +7,7 @@ post-title: 📝 Blog
 
 This acts as my personal note taking journal, most if not all of these entries are written while I'm actively in the mindverse. Some of these are forwarded from the discord server, which is not open to the public.
 
-# 📇 Categories
+# 📋 Categories
 
 - 🧠 **Ramblings**
   - My thoughts and ramblings, most likely written while in the mindverse.
@@ -16,7 +16,7 @@ This acts as my personal note taking journal, most if not all of these entries a
 - ⚖️ **Philosophy**
   - Personal theories, ideas, and discoveries, about the cosmos as a whole.
 - 🛰️ **Research**
-  - Relavent news articles and current events happening in the world that are related to the mindverse.
+  - Relevant news articles and current events happening in the world that are related to the mindverse.
 - 💤 **Dreamscape**
   - Vivid and memorable experiences I've had while in the dreamscape, which is a very rare occurrence for me.
 - 🍄 **Trip Report**

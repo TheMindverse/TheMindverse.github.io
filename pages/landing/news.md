@@ -1,12 +1,12 @@
 post-folder: Landing
 post-file: News.md
 post-date: October 19th, 2025
-post-edit: July 9th, 2026
+post-edit: July 10th, 2026
 post-title: 📰 News
 
 This page contains important news, current events, and archived events that already happened. Some of these are forwarded from the discord server, which is not open to the public.
 
-# ✨ Astrodanum & Skinwalking Guides (July 5th, 2026)
+# 🎉 Astrodanum & Skinwalking Guides (July 5th, 2026)
 
 Two brand new guides have been added to the [guides](pages/landing/guides.md) page!
 

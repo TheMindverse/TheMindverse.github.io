@@ -2,7 +2,7 @@ post-folder: Landing
 post-file: Welcome.md
 post-date: October 2nd, 2025
 post-edit: July 10th, 2026
-post-title: 📚 Welcome
+post-title: 🧠 Welcome
 
 Welcome traveler! This website contains everything you need to know about the mindverse, as well as extensive documentation on the universe and the multiverse as a whole.
 
@@ -10,7 +10,7 @@ With the proper education, training, and willpower, you can learn to rewire your
 
 Start your journey and achieve higher level of understanding today!
 
-# 🧭 Getting Started
+# 🚀 Getting Started
 
 If you are looking to become a neophyte, head on over to the [guides](pages/landing/guides.md) page and start with reading [introduction](pages/guides/introduction.md). This will give you a basic understanding of what the mindverse is, how it works, and how to begin your journey.
 

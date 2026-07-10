@@ -2,7 +2,7 @@ post-folder: News / 2026
 post-file: July5th-GuideUpdate.md
 post-date: July 5th, 2026
 post-edit: July 5th, 2026
-post-title: ✨ Astrodanum & Skinwalking Guides
+post-title: 🎉 Astrodanum & Skinwalking Guides
 
 Two brand new guides have been added to the [guides](pages/landing/guides.md) page!
 

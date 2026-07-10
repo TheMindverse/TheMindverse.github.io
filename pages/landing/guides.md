@@ -1,8 +1,8 @@
 post-folder: Landing
 post-file: Guides.md
 post-date: October 10th, 2025
-post-edit: July 5th, 2026
-post-title: 📋 Guides
+post-edit: July 10th, 2026
+post-title: 📚 Guides
 
 Here you'll find everything you need to know about the mindverse and the cosmos, if you are new to the process it is recommended to start reading them in order top to bottom.
 
