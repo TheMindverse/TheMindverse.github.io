@@ -6,7 +6,7 @@ post-title: 📚 Welcome
 
 Welcome traveler! This website contains everything you need to know about the mindverse, as well as extensive documentation on the universe and the multiverse as a whole.
 
-With the proper education, training, and willpower, you can learn to rewire your brain to navigate the multiverse. Travel to parallel dimensions, experience entire new lives and worlds, gain new abilities, and unlock the secrets of the cosmos, all through the mindverse alone.
+With the proper education, training, and willpower, you can learn to rewire your brain to navigate the multiverse. Travel to parallel dimensions, experience entire new lives and worlds, gain new abilities, and unlock the secrets of the cosmos, all through the mindverse!
 
 Start your journey and achieve higher level of understanding today!
 
