@@ -1,7 +1,7 @@
 post-folder: Dimensions
 post-file: MV-A00.md
 post-date: October 10th, 2025
-post-edit: March 26th, 2026
+post-edit: July 9th, 2026
 post-title: MV-A00 / Earth Prime
 
 # 📋 Cosmic Entry
@@ -14,9 +14,7 @@ post-title: MV-A00 / Earth Prime
 
 # 📑 Description
 
-Earth prime is the current dimension my consciousness, and possibly yours if you're reading this, is constructed in.
-It is the dimension used to compare other dimensions such as its id, name, classification, and descriptions.
-Earth prime is relative to us alone, we are not the center of the multiverse, other worlds and beings have their own categorization systems relative to the dimension their consciousness is constructed in.
+Earth prime is the current dimension my consciousness, and most likely yours if you're reading this, is constructed in. It is the dimension used to compare other dimensions such as its id, name, classification, and descriptions. Earth prime is relative to us alone, we are not the center of the multiverse, other worlds and beings have their own categorization systems relative to the dimension their consciousness is constructed in.
 
 # 📝 Notes
 

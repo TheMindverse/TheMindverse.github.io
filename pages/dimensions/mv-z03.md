@@ -1,7 +1,7 @@
 post-folder: Dimensions
 post-file: MV-Z03.md
 post-date: October 17th, 2025
-post-edit: March 26th, 2026
+post-edit: July 9th, 2026
 post-title: MV-Z03 /  The Dreamscape
 
 # 📋 Cosmic Entry
@@ -14,8 +14,7 @@ post-title: MV-Z03 /  The Dreamscape
 
 # 📑 Description
 
-The dreamscape is a method similar to the mindscape that can be used to view dimensions from the multiverse, this is very limited and does not allow for true consciousness navigation like the mindverse does.
-The visions and experiences you have while in the dreamscape work on a subconscious level, you can overwrite your natural REM sleep signals with ones from the cosmos, although this method is largely one way and you have little control of where you go other than some basic influence of your memories and emotions.
+The dreamscape is a method similar to the mindscape that can be used to view dimensions from the multiverse, this is very limited and does not allow for true consciousness navigation like the mindverse does. The visions and experiences you have while in the dreamscape work on a subconscious level, you can overwrite your natural REM sleep signals with ones from the cosmos, although this method is largely one way and you have little control of where you go other than some basic influence of your memories and emotions.
 
 # 📝 Notes
 
