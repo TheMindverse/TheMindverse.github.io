@@ -5,14 +5,14 @@ post-date: October 5th, 2025
 post-edit: July 10th, 2026
 post-title: 📝 Blog
 
-This acts as my personal note taking journal, most if not all of these entries are written while I am actively in the mindverse. Some of these are forwarded from the discord server, which is not open to the public.
+This acts as my personal note taking journal, most if not all of these entries are written while I'm actively in the mindverse. Some of these are forwarded from the discord server, which is not open to the public.
 
 # 📇 Categories
 
 - 🧠 **Ramblings**
   - My thoughts and ramblings, most likely written while in the mindverse.
 - 🧼 **Shower Thoughts**
-  - One off thoughts that come to me out of no where, which are oddly profound.
+  - Profound one off thoughts that come to me out of no where, powerful and impactful.
 - ⚖️ **Philosophy**
   - Personal theories, ideas, and discoveries, about the cosmos as a whole.
 - 🛰️ **Research**
