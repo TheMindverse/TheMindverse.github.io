@@ -2,7 +2,7 @@ post-loadable: false
 post-folder: Landing
 post-file: Blog-Old.md
 post-date: October 5th, 2025
-post-edit: July 9th, 2026
+post-edit: July 10th, 2026
 post-title: 📝 Blog
 
 This acts as my personal note taking journal, most if not all of these entries are written while I am actively in the mindverse. Some of these are forwarded from the discord server, which is not open to the public.
@@ -24,6 +24,7 @@ This acts as my personal note taking journal, most if not all of these entries a
 
 # > July 2026
 
+- 🧼 [July 10th, 2026: Hard Cheeses (Shower Thoughts)](pages/blog/2026/july10th-hardcheeses.md)
 - 🛰️ [July 9th, 2026: Explosive Diarrhea (Research)](pages/blog/2026/july9th-explosivediarrhea.md)
 - 🧠 [July 9th, 2026: Yogurt Toxin (Ramblings)](pages/blog/2026/july9th-yogurttoxin.md)
 - 🛰️ [July 8th, 2026: More Fucking Bombs (Research)](pages/blog/2026/july8th-morefuckingbombs.md)
