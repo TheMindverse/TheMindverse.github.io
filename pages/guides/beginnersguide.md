@@ -1,7 +1,7 @@
 post-folder: Guides
 post-file: BeginnersGuide.md
 post-date: October 10th, 2025
-post-edit: July 9th, 2026
+post-edit: July 11th, 2026
 post-title: 👨‍🚀 Beginners Guide
 
 # 🪔 Meditation practices
@@ -44,11 +44,11 @@ Astrodaunums are an interdimensional species that have a pure and direct connect
 
 There are four distinct phases of recognizing one is an astrodaunum, in order these are preselyte, orthadonal, trisendal, and ohmega. Non-astrodaunums are likely to achieve similar descriptions to the preselyte and orthadonal phases, but they never evolve beyond that.
 
--  Ohmega
-  - An astrodaunum in its pure raw form, unbound by their original physical body and any connection to their former species, one is free to be their true self.
-- Trisendal
-  - Fully accepted their astrodaunum existence and rejects their physical existence, spends most of their time deadwalking or skinwalking while traveling the mindverse.
-- Orthadonal
-  - Has an understanding of exploring the mindverse as a hobby, but still sees themselves as that of their original body and species, they have not yet recognized their true self.
-- Preselyte
+- **Preselyte**
   - Someone who has no idea of the mindverses existence or astrodaunums, but has unknowingly connected to the dreamscape and mindverse and has been exploring alternate realities, to them its just their mind daydreaming or fantasying more.
+- **Orthadonal**
+  - Has an understanding of exploring the mindverse as a hobby, but still sees themselves as that of their original body and species, they have not yet recognized their true self.
+- **Trisendal**
+  - Fully accepted their astrodaunum existence and rejects their physical existence, spends most of their time deadwalking or skinwalking while traveling the mindverse.
+- **Ohmega**
+  - An astrodaunum in its pure raw form, unbound by their original physical body and any connection to their former species, one is free to be their true self.
