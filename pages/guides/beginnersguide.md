@@ -45,7 +45,7 @@ Astrodaunums are an interdimensional species that have a pure and direct connect
 There are four distinct phases of recognizing one is an astrodaunum, in order these are preselyte, orthadonal, trisendal, and ohmega. Non-astrodaunums are likely to achieve similar descriptions to the preselyte and orthadonal phases, but they never evolve beyond that.
 
 - **Preselyte**
-  - Someone who has no idea of the mindverses existence or astrodaunums, but has unknowingly connected to the dreamscape and mindverse and has been exploring alternate realities, to them its just their mind daydreaming or fantasying more.
+  - Someone who has no idea of the mindverses existence or astrodaunums, but has unknowingly connected to the dreamscape and mindverse, and has been exploring alternate realities; to them its just their mind daydreaming or fantasizing more.
 - **Orthadonal**
   - Has an understanding of exploring the mindverse as a hobby, but still sees themselves as that of their original body and species, they have not yet recognized their true self.
 - **Trisendal**
