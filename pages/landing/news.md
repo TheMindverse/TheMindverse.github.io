@@ -1,7 +1,7 @@
 post-folder: Landing
 post-file: News.md
 post-date: October 19th, 2025
-post-edit: July 10th, 2026
+post-edit: July 13th, 2026
 post-title: 📰 News
 
 This page contains important news, current events, and archived events that already happened. Some of these are forwarded from the discord server, which is not open to the public.
@@ -12,7 +12,7 @@ Two brand new guides have been added to the [guides](pages/landing/guides.md) pa
 
 A brand new section about the astrodaunum species has been made. I've been debating for a long time whether to document this as it only applies to a very select handful of people in an entire dimension as a whole, but it deserves to be documented and made public.
 
-Finally, a new form of walking has been documented called [skinwalking](pages/guides/advancedguide.md), it is the next evolutionary step derived from [deadwalking](pages/guides/advancedguide.md) only it is exclusive to astrodaunums in the [trisendal phase](pages/guides/pages/guides/beginnersguide.md).
+Finally, a new form of walking has been documented called [skinwalking](pages/guides/advancedguide.md), it is the next evolutionary step derived from [deadwalking](pages/guides/advancedguide.md) only it is exclusive to astrodaunums in the [trisendal phase](pages/guides/beginnersguide.md).
 
 # 🔥 The Red Summer (June 20th, 2026)
 
