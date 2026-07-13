@@ -235,7 +235,7 @@ function markdownFormat(md) {
     return finalHTML;
 }
 
-function markdownPost(md, info, date, edit, title, append) {
+function markdownPost(md, info, date, editDate, title, append) {
     if (md && info && title) {
         const container = document.getElementById("content");
 
@@ -246,15 +246,24 @@ function markdownPost(md, info, date, edit, title, append) {
         postInfo.className = "post-info";
         postInfo.textContent = `${info}`;
 
+        // Shorten the date so it displays better on mobile.
+        if ((date.length > 6) && date.includes(" ")) {
+            date = (date.slice(0, 3) + date.slice(date.indexOf(" ")));
+        }
+
         const postDate = document.createElement("div");
         postDate.className = "post-date";
         postDate.textContent = date;
 
-        if (edit) {
+        if (editDate) {
+            if ((editDate.length > 6) && editDate.includes(" ")) {
+                editDate = (editDate.slice(0, 3) + editDate.slice(editDate.indexOf(" ")));
+            }
+
             const editSpan = document.createElement("span");
             editSpan.className = "post-tooltip";
             editSpan.textContent = "*";
-            editSpan.title = `Last Edited: ${edit}`;
+            editSpan.title = `Last Edited: ${editDate}`;
             postDate.appendChild(editSpan);
         }
 
