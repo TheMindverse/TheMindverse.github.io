@@ -1,7 +1,7 @@
 post-folder: Blog / 2026
 post-file: Archive.md
 post-date: July 4th, 2026
-post-edit: July 10th, 2026
+post-edit: July 12th, 2026
 post-title: 2026 Blog Archive
 
 # > July 2026
@@ -32,7 +32,6 @@ post-title: 2026 Blog Archive
 - 🧠 [June 14th, 2026: A Revelation Is Coming (Ramblings)](pages/blog/2026/june14th-revelationsoon.md)
 - 🛰️ [June 10th, 2026: Iran Closes Hormuz (Research)](pages/blog/2026/june10th-iranclosesagain.md)
 - 🧠 [June 10th, 2026: BACK TO REALITY (Ramblings)](pages/blog/2026/june10th-backtoreality.md)
-- 🧠 [June 10th, 2026: Went Too Crazy (Ramblings)](pages/blog/2026/june10th-toocrazy.md)
 - 🛰️ [June 9th, 2026: Iran Bombed Again (Research)](pages/blog/2026/june9th-iranbombomb.md)
 - 🛰️ [June 7th, 2026: Big Manila Shake (Research)](pages/blog/2026/june7th-bigmanilashake.md)
 - 🛰️ [June 1st, 2026: Flesh Eating Screwworm (Research)](pages/blog/2026/june1st-flesheatingscrewworm.md)
