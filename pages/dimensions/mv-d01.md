@@ -1,8 +1,8 @@
 post-folder: Dimensions
 post-file: MV-D01.md
 post-date: October 19th, 2025
-post-edit: July 9th, 2026
-post-title: MV-D01 / Land of Ooo
+post-edit: July 13th, 2026
+post-title: 🍬 MV-D01 / Land of Ooo
 
 # 📋 Cosmic Entry
 

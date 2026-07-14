@@ -1,8 +1,8 @@
 post-folder: Dimensions
 post-file: MV-Z00.md
 post-date: October 17th, 2025
-post-edit: July 9th, 2026
-post-title: MV-Z00 /  The Void
+post-edit: July 13th, 2026
+post-title: ⚫ MV-Z00 /  The Void
 
 # 📋 Cosmic Entry
 
@@ -14,7 +14,7 @@ post-title: MV-Z00 /  The Void
 
 # 📑 Description
 
-The dark void beyond the mindverse, multiverse, and the flow. It larger than everything beyond the infinite multiverse as a whole. The true scale and concept of the void is impossible for any conscious being to conceptualize, no matter the physical body.
+The dark void of nothing beyond the multiverse, [the flow](pages/dimensions/mv-z01.md), and [the machinescape](pages/dimensions/mv-z02.md). It's larger than everything in the infinite multiverse and outer states of existence as a whole. The true scale and concept of the void is impossible for any conscious being to conceptualize, no matter the physical body.
 
 # 📝 Notes
 

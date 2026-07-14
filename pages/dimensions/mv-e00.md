@@ -1,8 +1,8 @@
 post-folder: Dimensions
 post-file: MV-E00.md
 post-date: October 16th, 2025
-post-edit: July 9th, 2026
-post-title: MV-E00 / The Backrooms
+post-edit: July 13th, 2026
+post-title: 🚪 MV-E00 / The Backrooms
 
 # 📋 Cosmic Entry
 

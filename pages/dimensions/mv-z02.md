@@ -1,8 +1,8 @@
 post-folder: Dimensions
 post-file: MV-Z02.md
 post-date: October 17th, 2025
-post-edit: July 9th, 2026
-post-title: MV-Z02 /  The Machinescape
+post-edit: July 13th, 2026
+post-title: ⚙️ MV-Z02 /  The Machinescape
 
 # 📋 Cosmic Entry
 

@@ -1,8 +1,8 @@
 post-folder: Dimensions
 post-file: MV-Z04.md
 post-date: October 18th, 2025
-post-edit: July 9th, 2026
-post-title: MV-Z04 /  The Shadow
+post-edit: July 13th, 2026
+post-title: 🧥 MV-Z04 /  The Shadow
 
 # 📋 Cosmic Entry
 

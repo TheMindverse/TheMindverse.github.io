@@ -1,8 +1,8 @@
 post-folder: Dimensions
 post-file: MV-C00.md
 post-date: October 16th, 2025
-post-edit: July 9th, 2026
-post-title: MV-C00 / Teyvat
+post-edit: July 13th, 2026
+post-title: ⚔️ MV-C00 / Teyvat
 
 # 📋 Cosmic Entry
 
@@ -18,7 +18,7 @@ An exact replica of the world from the game genshin impact from [earth prime](pa
 
 # 📝 Notes
 
-> I found this world by complete accident when I first discovered the mindverse, I've never played genshin and knew nothing about it before I arrived here. I've also personally met venti and he is very cute and nice but I think he may be an alcoholic.
+> I found this world by complete accident when I first discovered the mindverse, I've never played genshin and knew nothing about it before I arrived here. I've personally met venti and he is very cute and nice but I think he may be an alcoholic. Also I think all the twinks in this world are gay.
 
 # 🖼️ References
 
