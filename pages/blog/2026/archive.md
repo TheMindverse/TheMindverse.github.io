@@ -1,11 +1,13 @@
 post-folder: Blog / 2026
 post-file: Archive.md
 post-date: July 4th, 2026
-post-edit: July 12th, 2026
+post-edit: July 13th, 2026
 post-title: 2026 Blog Archive
 
 # > July 2026
 
+- 🧠 [July 13th, 2026: Pajama Sam Dimension (Ramblings)](pages/blog/2026/july13th-pajamasam.md)
+- 🛰️ [July 13th, 2026: More Poops (Research)](pages/blog/2026/july13th-morepoops.md)
 - 🧼 [July 10th, 2026: Hard Cheeses (Shower Thoughts)](pages/blog/2026/july10th-hardcheeses.md)
 - 🛰️ [July 9th, 2026: Explosive Diarrhea (Research)](pages/blog/2026/july9th-explosivediarrhea.md)
 - 🧠 [July 9th, 2026: Yogurt Toxin (Ramblings)](pages/blog/2026/july9th-yogurttoxin.md)
