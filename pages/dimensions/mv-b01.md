@@ -1,8 +1,8 @@
 post-folder: Dimensions
 post-file: MV-B01.md
 post-date: October 15th, 2025
-post-edit: July 9th, 2026
-post-title: MV-B01 / Dead World
+post-edit: July 13th, 2026
+post-title: 🧟 MV-B01 / Dead World
 
 # 📋 Cosmic Entry
 
@@ -18,7 +18,7 @@ Almost the exact same as the walking dead show from [earth prime](pages/dimensio
 
 # 📝 Notes
 
-> One of my favorite dimensions to hang out in, no responsibilities, can loot anything and go anywhere, scavenge for food and build shelter, its everything you could want in a zombie apocalypse world. Building up defenses on a home and wandering into down for weapons and supplies are the most fun, but between that there's not much to do for entertainment.
+> One of my favorite dimensions to hang out in, no responsibilities, can loot anything and go anywhere, scavenge for food and build shelter, its everything you could want in a zombie apocalypse world. Building up defenses on a home and wandering into down for weapons and supplies are the most fun, but between that there's not much to do for entertainment. You can also straight up just kill people here! Its so fun! I love killing people!
 
 # 🖼️ References
 

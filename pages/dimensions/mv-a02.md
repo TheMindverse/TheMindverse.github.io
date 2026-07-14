@@ -1,8 +1,8 @@
 post-folder: Dimensions
 post-file: MV-A02.md
 post-date: October 11th, 2025
-post-edit: July 9th, 2026
-post-title: MV-A02 / Nine Zero
+post-edit: July 13th, 2026
+post-title: ⏳ MV-A02 / Nine Zero
 
 # 📋 Cosmic Entry
 
@@ -14,7 +14,7 @@ post-title: MV-A02 / Nine Zero
 
 # 📑 Description
 
-Appears to be what [earth prime](pages/dimensions/mv-a00.md) would be in the next 200-300 years, along with the fact I seem to be the center of attention. Everyone likes me, everything always goes my way, I'm successful and have a career, it's like the world itself was built for me and me alone. Similar dimensions must exist for every conscious being due to the nature of infinite possibilities, and they are the easiest pathways to find first form a connection to the mindverse.
+An exact copy of [earth prime](pages/dimensions/mv-a00.md) in all of its 90s glory, its as if time never seems to progress here. Technology, innovation, and style, have all reached their peak for this dimension in the 90s and forever seem to be stuck at an evolutionary standstill. What's even more odd is everyone seems to be completely oblivious, the progression of humanity as a whole hasn't changed in decades and no one is concerned or tries anything new.
 
 # 📝 Notes
 

@@ -1,8 +1,8 @@
 post-folder: Dimensions
 post-file: MV-A05.md
 post-date: October 13th, 2025
-post-edit: July 9th, 2026
-post-title: MV-A05 / Lovey Dovey
+post-edit: July 13th, 2026
+post-title: 💘 MV-A05 / Lovey Dovey
 
 # 📋 Cosmic Entry
 
@@ -14,7 +14,7 @@ post-title: MV-A05 / Lovey Dovey
 
 # 📑 Description
 
-Many different versions and variations of this world exist, but this is the closest one I could find in the same time and technological period as [earth prime](pages/dimensions/mv-a00.md). In this world, everyone is guaranteed to have a soulmate and and instant match, no one is single, and a lot of the world and public buildings are focused around love and hearts. Nothing too special about it other than that.
+Many different versions and variations of this world exist, but this is the closest one I could find in the same time and technological period as [earth prime](pages/dimensions/mv-a00.md). In this world, everyone is guaranteed to have a soulmate and and instant match, no one is single, and a lot of the world and public buildings are focused around love and hearts, other version of this dimension are fully based around classical mythology themes (mainly cupid). Nothing too special about it other than that.
 
 # 📝 Notes
 

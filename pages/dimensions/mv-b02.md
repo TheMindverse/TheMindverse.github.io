@@ -1,8 +1,8 @@
 post-folder: Dimensions
 post-file: MV-B02.md
 post-date: October 15th, 2025
-post-edit: July 9th, 2026
-post-title: MV-B02 / Middle Earth
+post-edit: July 13th, 2026
+post-title: 🧙 MV-B02 / Middle Earth
 
 # 📋 Cosmic Entry
 

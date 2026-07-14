@@ -1,8 +1,8 @@
 post-folder: Dimensions
 post-file: MV-A04.md
 post-date: October 13th, 2025
-post-edit: July 9th, 2026
-post-title: MV-A04 / Gay Catastrophe
+post-edit: July 13th, 2026
+post-title: 🌈 MV-A04 / Gay Catastrophe
 
 # 📋 Cosmic Entry
 
@@ -14,7 +14,7 @@ post-title: MV-A04 / Gay Catastrophe
 
 # 📑 Description
 
-Looks to be the same exact time period as [earth prime](pages/dimensions/mv-a00.md), only the last two generations of kids that were born are all gay, every single one of them, no straight or bisexual people, everyone is gay. Now that the older generation is dying out or can't have kids anymore, the newer gay generation is seemingly left to die out. They have zero intention of figuring out a solution to people no longer reproducing and it doesn't seem like they care. A few big corporation first invested trillions into finding the cause or a possible "cure", as there being no new people being born that would mean the end of capitalism and profits for their business within their lifetime, but eventually they realized if they found a cure all the homosexuals made it clear they have no intentions of taking it, as well as no intentions of reproducing if they were forced to take it. Most small business died out quickly and the big corporation that are left merged into one big conglomerate to try to survive, there are a few pharmaceutical companies that are still researching the original cause but they can't find a definitive answer other than a possible evolutionary backfire activating the wrong genes.
+Looks to be the same exact time period as [earth prime](pages/dimensions/mv-a00.md), only the last two generations of kids that were born are all gay, every single one of them, no straights, some bisexual people, but mostly everyone is gay. Now that the older generation is dying out or can't have kids anymore, the newer gay generation is seemingly left to die out. They have zero intention of figuring out a solution to people no longer reproducing and it doesn't seem like they care. A few big corporation first invested trillions into finding the cause or a possible "cure", as there being no new people being born that would mean the end of capitalism and profits for their business within their lifetime, but eventually they realized if they found a cure all the homosexuals made it clear they have no intentions of taking it, as well as no intentions of reproducing if they were forced to take it. Most small business died out quickly and the big corporation that are left merged into one big conglomerate to try to survive, there are a few pharmaceutical companies that are still researching the original cause but they can't find a definitive answer other than a possible evolutionary backfire activating the wrong genes.
 
 # 📝 Notes
 
