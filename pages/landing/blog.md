@@ -2,7 +2,7 @@ post-loadable: true
 post-folder: Landing
 post-file: Blog.md
 post-date: October 5th, 2025
-post-edit: July 13th, 2026
+post-edit: July 14th, 2026
 post-title: 📝 Blog
 
 This acts as my personal note taking journal, most if not all of these entries are written while I'm actively in the mindverse. Some of these are forwarded from the discord server, which is not open to the public.
@@ -22,6 +22,7 @@ This acts as my personal note taking journal, most if not all of these entries a
 
 # > July 2026
 
+- 🧠 [July 14th, 2026: Cream Chockra Rip (Ramblings)](pages/blog/2026/july14th-creamchockra.md)
 - 🧠 [July 13th, 2026: Pajama Sam Dimension (Ramblings)](pages/blog/2026/july13th-pajamasam.md)
 - 🛰️ [July 13th, 2026: More Poops (Research)](pages/blog/2026/july13th-morepoops.md)
 - 🧼 [July 10th, 2026: Hard Cheeses (Shower Thoughts)](pages/blog/2026/july10th-hardcheeses.md)
