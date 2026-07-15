@@ -1,0 +1,24 @@
+post-folder: Blog / 2026
+post-file: July14th-HonkShoe.md
+post-date: July 14th, 2026
+post-edit: July 15th, 2026
+post-title: Honk Shoe
+blog-category: Ramblings
+
+> HONK SHOE HONK SHOE HONK SHOE
+
+> I USED TO SCREAM THAT AS A KID
+
+> HONK SHOE HONK SHOE HONK SHOE
+
+> I ACTUALLY SAID THAT
+
+> WHEN I WAS A KID, I THOGUHTS THATS WHAT PEOPLE SAID
+
+> HONK SHOE HONK SHOE
+
+> THATS WHAT I SAID OVER AND OVER AS A KID
+
+> I REALLY DID THAT
+
+> HONK SHOE

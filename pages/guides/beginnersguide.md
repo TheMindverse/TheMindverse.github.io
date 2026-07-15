@@ -1,7 +1,7 @@
 post-folder: Guides
 post-file: BeginnersGuide.md
 post-date: October 10th, 2025
-post-edit: July 11th, 2026
+post-edit: July 15th, 2026
 post-title: 👨‍🚀 Beginners Guide
 
 # 🪔 Meditation practices
@@ -42,7 +42,7 @@ Here is a collection of more advanced chants and rhetoric for you to practice. T
 
 Astrodaunums are an interdimensional species that have a pure and direct connection to the cosmos and multiverse as a whole. In their raw form, they can exist out side of the normal definitions of a physical body and are free to explore the multiverse and all its dimensions. In extremely rare instances, they can be created and bound to a physical body on a planet, blending in as that planets species due to the nature of how consciousness is formed. They are unaware of their true existence until they have a spiritual awakening and start exploring the mindverse. It is currently estimated that less than a dozen astrodaunums in a singular dimension as a whole at a time, making them incredibly rare.
 
-There are four distinct phases of recognizing one is an astrodaunum, in order these are preselyte, orthadonal, trisendal, and ohmega. Non-astrodaunums are likely to achieve similar descriptions to the preselyte and orthadonal phases, but they never evolve beyond that.
+There are four distinct phases of recognizing one is an astrodaunum, in order these are preselyte, orthadonal, trisendal, and ohmega. Non-astrodaunums are likely to achieve similar descriptions to the preselyte and orthadonal phases, but they never evolve beyond that. An astrodaunum that is bounded to a physical body can only reach the Ohmega phase through the quantum fusion process.
 
 - **Preselyte**
   - Someone who has no idea of the mindverses existence or astrodaunums, but has unknowingly connected to the dreamscape and mindverse, and has been exploring alternate realities; to them its just their mind daydreaming or fantasizing more.
