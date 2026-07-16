@@ -245,24 +245,22 @@ function markdownPost(md, info, date, editDate, title, append) {
         postInfo.className = "post-info";
         postInfo.textContent = `${info}`;
 
+        let dateShort = date;
+
         // Shorten the date so it displays better on mobile, and make it look a little less cluttered.
         if ((date.length > 6) && date.includes(" ")) {
-            date = (date.slice(0, 3) + date.slice(date.indexOf(" ")));
+            dateShort = (date.slice(0, 3) + date.slice(date.indexOf(" ")));
         }
 
         const postDate = document.createElement("div");
         postDate.className = "post-date";
-        postDate.textContent = date;
+        postDate.textContent = dateShort;
 
         if (editDate) {
-            if ((editDate.length > 6) && editDate.includes(" ")) {
-                editDate = (editDate.slice(0, 3) + editDate.slice(editDate.indexOf(" ")));
-            }
-
             const editSpan = document.createElement("span");
             editSpan.className = "post-tooltip";
             editSpan.textContent = "*";
-            editSpan.title = `Last Edited: ${editDate}`;
+            editSpan.title = `Posted: ${date}\nEdited: ${editDate}`;
             postDate.appendChild(editSpan);
         }
 

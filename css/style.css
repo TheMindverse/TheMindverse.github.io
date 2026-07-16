@@ -33,7 +33,7 @@ header {
 
 .title::before {
     content: ">";
-    margin-right: 15px;
+    margin-right: 10px;
 }
 
 /* Navigation */
@@ -141,13 +141,13 @@ body.light .post-date {
 .post-title {
     font-size: 25px;
     margin-top: 30px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 .post-title::before {
     content: "#";
     color: #949494;
-    margin-right: 0.5em;
+    margin-right: 10px;
 }
 
 body.light .post-title::before {
