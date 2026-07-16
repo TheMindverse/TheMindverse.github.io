@@ -2,7 +2,7 @@ post-folder: Blog / 2025
 post-file: Archive.md
 post-date: July 4th, 2026
 post-edit: July 4th, 2026
-post-title: 2025 Blog Archive
+post-title: 📦 2025 Blog Archive
 
 # > December 2025
 

@@ -1,8 +1,8 @@
 post-folder: News / 2025
 post-file: Archive.md
 post-date: June 19th, 2026
-post-edit: July 4th, 2026
-post-title: 2025 News Archive
+post-edit: July 16th, 2026
+post-title: 📦 2025 News Archive
 
 # 📰 News
 

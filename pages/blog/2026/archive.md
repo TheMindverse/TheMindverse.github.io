@@ -1,11 +1,12 @@
 post-folder: Blog / 2026
 post-file: Archive.md
 post-date: July 4th, 2026
-post-edit: July 15th, 2026
-post-title: 2026 Blog Archive
+post-edit: July 16th, 2026
+post-title: 📦 2026 Blog Archive
 
 # > July 2026
 
+- 🧠 [July 16th, 2026: Canadian Smoke (Ramblings)](pages/blog/2026/july16th-canadiansmoke.md)
 - 🧠 [July 15th, 2026: Being Erased (Ramblings)](pages/blog/2026/july15th-beingerased.md)
 - 🧠 [July 14th, 2026: Honk Shoe (Ramblings)](pages/blog/2026/july14th-honkshoe.md)
 - 🧠 [July 14th, 2026: Cream Chockra Rip (Ramblings)](pages/blog/2026/july14th-creamchockra.md)

@@ -2,8 +2,8 @@ post-loadable: false
 post-folder: Blog / 2023
 post-file: Archive.md
 post-date: July 15th, 2026
-post-edit: July 15th, 2026
-post-title: 2023 Blog Archive
+post-edit: July 16th, 2026
+post-title: 📦 2023 Blog Archive
 
 # > December 2023
 
