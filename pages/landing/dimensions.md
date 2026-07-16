@@ -1,7 +1,7 @@
 post-folder: Landing
 post-file: Dimensions.md
 post-date: October 10th, 2025
-post-edit: July 9th, 2026
+post-edit: July 15th, 2026
 post-title: 📖 Dimensions
 
 This is a complete list of all the parallel universes I've personally visited in the multiverse. If you wish to learn the proper nomenclature for all the categories and, check out the [dimension guide](pages/guides/dimensionguide.md).
@@ -28,6 +28,7 @@ This is a complete list of all the parallel universes I've personally visited in
 - [MV-C01: ⛏️ Hoxxes IV](pages/dimensions/mv-c01.md)
 - [MV-C02: 🪐 Sylva](pages/dimensions/mv-c02.md)
 - [MV-C03: 🍞 The Overworld](pages/dimensions/mv-c03.md)
+- [MV-C04: 🧦 Land of Darkness](pages/dimensions/mv-c04.md)
 
 # 🎨 Category D
 
