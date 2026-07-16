@@ -1,3 +1,4 @@
+post-loadable: false
 post-folder: Blog / 2024
 post-file: Archive.md
 post-date: July 15th, 2026
