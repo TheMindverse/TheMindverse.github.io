@@ -238,7 +238,6 @@ function markdownFormat(md) {
 function markdownPost(md, info, date, editDate, title, append) {
     if (md && info && title) {
         const container = document.getElementById("content");
-
         const post = document.createElement("div");
         post.className = "post";
 
@@ -246,7 +245,7 @@ function markdownPost(md, info, date, editDate, title, append) {
         postInfo.className = "post-info";
         postInfo.textContent = `${info}`;
 
-        // Shorten the date so it displays better on mobile.
+        // Shorten the date so it displays better on mobile, and make it look a little less cluttered.
         if ((date.length > 6) && date.includes(" ")) {
             date = (date.slice(0, 3) + date.slice(date.indexOf(" ")));
         }
@@ -276,9 +275,9 @@ function markdownPost(md, info, date, editDate, title, append) {
         postContent.textContent = "Loading...";
         postContent.innerHTML = markdownFormat(md);
 
-        post.appendChild(postInfo); // Tab, folder, file name, date, etc...
-        post.appendChild(postDate); // Original post date and when was last edited.
-        post.appendChild(postTitle); // Display title of the post.
+        post.appendChild(postInfo); // Tab, folder, file name, etc...
+        post.appendChild(postDate); // Post date and when was last edited.
+        post.appendChild(postTitle); // Title of the post.
         post.appendChild(postContent); // Actual html content of the file formatted from markdown.
 
         if (append) {
