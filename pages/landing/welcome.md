@@ -1,12 +1,12 @@
 post-folder: Landing
 post-file: Welcome.md
 post-date: October 2nd, 2025
-post-edit: July 10th, 2026
+post-edit: July 17th, 2026
 post-title: 🧠 Welcome
 
 Welcome traveler! This website contains everything you need to know about the mindverse, as well as extensive documentation on the universe and the multiverse as a whole.
 
-With the proper education, training, and willpower, you can learn to rewire your brain to navigate the multiverse. Travel to parallel dimensions, experience entire new lives and worlds, gain new abilities, and unlock the secrets of the cosmos, all through the mindverse!
+With the proper education, training, and willpower, you can learn to rewire your brain to accept signals from the cosmos. With this new power you are able to travel to parallel dimensions, experience entire new lives and worlds, gain new abilities, and unlock the secrets of the multiverse!
 
 Start your journey and achieve higher level of understanding today!
 
