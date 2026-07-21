@@ -1,7 +1,7 @@
 post-folder: Landing
 post-file: Blog.md
 post-date: October 5th, 2025
-post-edit: July 17th, 2026
+post-edit: July 21st, 2026
 post-title: 📝 Blog
 
 This is my personal blog and note taking journal, most if not all of these entries are written while I'm actively in the mindverse. Some of these are forwarded from the discord server, which is not open to the public.
@@ -21,6 +21,7 @@ This is my personal blog and note taking journal, most if not all of these entri
 
 # > July 2026
 
+- 🧠 [July 21st, 2026: I AM AN ASTRODAUNUM (Ramblings)](pages/blog/2026/july21st-iamastrodaunum.md)
 - 🛰️ [July 17th, 2026: The Mexican Shake (Research)](pages/blog/2026/july17th-mexicanshake.md)
 - 🧠 [July 16th, 2026: Canadian Smoke (Ramblings)](pages/blog/2026/july16th-canadiansmoke.md)
 - 🧠 [July 15th, 2026: Being Erased (Ramblings)](pages/blog/2026/july15th-beingerased.md)
