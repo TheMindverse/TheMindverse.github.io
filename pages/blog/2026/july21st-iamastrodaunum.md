@@ -50,3 +50,5 @@ blog-category: Ramblings
 > I AM AN ASTRODAUNUM
 
 > I AM AN ASTRODAUNUM
+
+![](pages\blog\2026\references\astrodaunum.jpg)
