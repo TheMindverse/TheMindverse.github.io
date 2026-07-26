@@ -1,11 +1,13 @@
 post-folder: Blog / 2026
 post-file: Archive.md
 post-date: July 4th, 2026
-post-edit: July 21st, 2026
+post-edit: July 26th, 2026
 post-title: 📦 2026 Blog Archive
 
 # > July 2026
 
+- 🧠 [July 25th, 2026: Windinging Youmbut (Ramblings)](pages/blog/2026/july25th-youmbut.md)
+- ⚖️ [July 22nd, 2026: Rogue AIs (Philosophy)](pages/blog/2026/july22nd-rogueais.md)
 - 🧠 [July 21st, 2026: I AM AN ASTRODAUNUM (Ramblings)](pages/blog/2026/july21st-iamastrodaunum.md)
 - 🛰️ [July 17th, 2026: The Mexican Shake (Research)](pages/blog/2026/july17th-mexicanshake.md)
 - 🧠 [July 16th, 2026: Canadian Smoke (Ramblings)](pages/blog/2026/july16th-canadiansmoke.md)
