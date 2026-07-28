@@ -2,7 +2,7 @@ post-loadable: false
 post-folder: Landing
 post-file: Blog-Old.md
 post-date: October 5th, 2025
-post-edit: July 26th, 2026
+post-edit: July 28th, 2026
 post-title: 📝 Blog
 
 This is my personal blog and note taking journal, most if not all of these entries are written while I'm actively in the mindverse. Some of these are forwarded from the discord server, which is not open to the public.
@@ -24,6 +24,7 @@ This is my personal blog and note taking journal, most if not all of these entri
 
 # > July 2026
 
+- 🧠 [July 27th, 2026: Jungle Queer (Ramblings)](pages/blog/2026/july27th-junglequeer.md)
 - 🧠 [July 25th, 2026: Windinging Youmbut (Ramblings)](pages/blog/2026/july25th-youmbut.md)
 - ⚖️ [July 22nd, 2026: Rogue AIs (Philosophy)](pages/blog/2026/july22nd-rogueais.md)
 - 🧠 [July 21st, 2026: I AM AN ASTRODAUNUM (Ramblings)](pages/blog/2026/july21st-iamastrodaunum.md)
