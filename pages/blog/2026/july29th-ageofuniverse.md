@@ -9,4 +9,4 @@ blog-category: Philosophy
 
 > [https://www.youtube.com/watch?v=zVt5XnzpGwQ](https://www.youtube.com/watch?v=zVt5XnzpGwQ)
 
-> > its 13 billion years old, fyi, but only in this current loop of creation and destruction
+> its 13 billion years old, fyi, but only in this current loop of creation and destruction
