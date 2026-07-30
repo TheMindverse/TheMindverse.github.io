@@ -1,7 +1,7 @@
 post-folder: Landing
 post-file: About.md
 post-date: March 25th, 2026
-post-edit: July 10th, 2026
+post-edit: July 30th, 2026
 post-title: 🔮 About
 
 Thanks for visiting the site, originally I started documenting the mindverse back in September of 2025 through a discord server to keep everything organized. The discord server is private and closed off to only a select few of my personal friends, but I still felt that the world needed to know of the existence of the mindverse and all of my efforts in exploring and documenting it. Everything from the discord has been revised, improved, converted into markdown files, and made open source to the public. Now anyone can view it and learn for themselves, all for free!
@@ -11,7 +11,7 @@ This entire website is under 35kb total, including all of its html, scripts, and
 # 💬 Frequently Asked Questions
 
 - **[Q]** Who is the oracle?
-- **[A]** The oracle is the name given to the mindverses discoverer, ItsBrank, he is also the first known [astrodaunum](pages/guides/beginnersguide.md) in the current dimension.
+- **[A]** The oracle is the name given to the mindverses discoverer, Zuclingthorp, he is also the first known [astrodaunum](pages/guides/beginnersguide.md) in the current dimension.
 
 - **[Q]** Is this a type of religion?
 - **[A]** Nope! We do not worship any gods or deities, only the raw nature of the cosmos and the universe as a whole.
