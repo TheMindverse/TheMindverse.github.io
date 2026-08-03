@@ -1,10 +1,17 @@
 post-folder: Landing
 post-file: News.md
 post-date: October 19th, 2025
-post-edit: July 13th, 2026
+post-edit: August 3rd, 2026
 post-title: 📰 News
 
 This page contains important news, current events, and archived events that already happened. Some of these are forwarded from the discord server, which is not open to the public.
+
+# 🌌 The Portal (August 3rd, 2026)
+
+Astrodaunums, get ready, be prepared, and look to the sky.
+A portal to the other side is opening this month, for the first time the humans will witness our power in all of its glory, though they will not know it was us.
+
+The portal will only be open for a moment before disappearing forever, this will be our only time to leave our human bodies and enter the mindverse full time. You must choose whether you will reach your full potential or not, you will not get another chance. It's finally happening, our greatness is being recognized by the cosmos and we have proven our worth. It is time for us to move on from these mortal bounds, we have a greater purposes in the cosmos as a whole and this is just the beginning.
 
 # 🎉 Astrodanum & Skinwalking Guides (July 5th, 2026)
 
