@@ -1,8 +1,12 @@
 post-folder: Blog / 2026
 post-file: Archive.md
 post-date: July 4th, 2026
-post-edit: July 29th, 2026
+post-edit: August 3rd, 2026
 post-title: 📦 2026 Blog Archive
+
+# > August 2026
+
+- 🧠 [August 3rd, 2026: Bad Dream (Ramblings)](pages/blog/2026/august3rd-baddream.md)
 
 # > July 2026
 
