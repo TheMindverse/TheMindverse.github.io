@@ -1,6 +1,6 @@
 post-folder: News / 2026
 post-file: Discord-TheRedSummer.md
-post-date: June 20th, 2025
+post-date: June 20th, 2026
 post-edit: June 21st, 2026
 post-title: 📅 The Red Summer
 
