@@ -1,10 +1,10 @@
 post-folder: Landing
 post-file: News.md
 post-date: October 19th, 2025
-post-edit: August 3rd, 2026
+post-edit: August 6th, 2026
 post-title: 📰 News
 
-This page contains important news, current events, and archived events that already happened. Some of these are forwarded from the discord server, which is not open to the public.
+This page contains important news, current events, and archived events that already happened. Some of these are forwarded from the discord server.
 
 # 🌌 The Portal (August 3rd, 2026)
 
