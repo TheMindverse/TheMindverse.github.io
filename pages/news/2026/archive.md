@@ -16,4 +16,5 @@ post-title: 📦 2026 News Archive
 
 # 📅 Discord Events
 
+## - [📌 Operation Ghostwalk (August 4th, 2026)](pages/news/2026/discord-operationghostwalk.md)
 ## - [📌 The Red Summer (June 21st, 2026)](pages/news/2026/discord-theredsummer.md)

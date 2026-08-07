@@ -1,7 +1,7 @@
 post-folder: Blog / 2026
 post-file: Archive.md
 post-date: July 4th, 2026
-post-edit: August 3rd, 2026
+post-edit: August 6th, 2026
 post-title: 📦 2026 Blog Archive
 
 # > August 2026
