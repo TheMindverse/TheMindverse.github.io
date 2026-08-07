@@ -1,11 +1,13 @@
 post-folder: Blog / 2026
 post-file: Archive.md
 post-date: July 4th, 2026
-post-edit: August 6th, 2026
+post-edit: August 7th, 2026
 post-title: 📦 2026 Blog Archive
 
 # > August 2026
 
+- 🛰️ [August 7th, 2026: Luddite Virus (Research)](pages/blog/2026/august7th-ludditevirus.md)
+- 🛰️ [August 6th, 2026: Protein Leaf (Research)](pages/blog/2026/august6th-proteinleaf.md)
 - 🧠 [August 3rd, 2026: Bad Dream (Ramblings)](pages/blog/2026/august3rd-baddream.md)
 
 # > July 2026

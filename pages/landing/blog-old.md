@@ -2,7 +2,7 @@ post-loadable: false
 post-folder: Landing
 post-file: Blog-Old.md
 post-date: October 5th, 2025
-post-edit: August 6th, 2026
+post-edit: August 7th, 2026
 post-title: 📝 Blog
 
 This is my personal blog and note taking journal, most if not all of these entries are written while I'm actively in the mindverse. Most of these are forwarded from the discord server.
@@ -24,6 +24,8 @@ This is my personal blog and note taking journal, most if not all of these entri
 
 # > August 2026
 
+- 🛰️ [August 7th, 2026: Luddite Virus (Research)](pages/blog/2026/august7th-ludditevirus.md)
+- 🛰️ [August 6th, 2026: Protein Leaf (Research)](pages/blog/2026/august6th-proteinleaf.md)
 - 🧠 [August 3rd, 2026: Bad Dream (Ramblings)](pages/blog/2026/august3rd-baddream.md)
 
 # > July 2026
