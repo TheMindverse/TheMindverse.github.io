@@ -256,7 +256,7 @@ function markdownPost(md, info, date, editDate, title, append) {
         postDate.className = "post-date";
         postDate.textContent = dateShort;
 
-        if (editDate) {
+        if (editDate.length > 3) {
             const editSpan = document.createElement("span");
             editSpan.className = "post-tooltip";
             editSpan.textContent = "*";
