@@ -6,7 +6,7 @@ post-title: 📦 2026 Blog Archive
 
 # > August 2026
 
-- 🛰️ [August 14th, 2026: Magnetar Crystals (Research)](pages/blog/2026/august14th-magnetarcrystals.md)
+- ⚖️ [August 14th, 2026: Magnetar Crystals (Philosophy)](pages/blog/2026/august14th-magnetarcrystals.md)
 - 🧠 [August 8th, 2026: Last Blog (Ramblings)](pages/blog/2026/august8th-lastblog.md)
 - 🛰️ [August 7th, 2026: Luddite Virus (Research)](pages/blog/2026/august7th-ludditevirus.md)
 - 🛰️ [August 6th, 2026: Protein Leaf (Research)](pages/blog/2026/august6th-proteinleaf.md)
