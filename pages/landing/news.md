@@ -1,10 +1,12 @@
 post-folder: Landing
 post-file: News.md
 post-date: October 19th, 2025
-post-edit: August 6th, 2026
+post-edit: August 15th, 2026
 post-title: 📰 News
 
-This page contains important news, current events, and archived events that already happened. Some of these are forwarded from the discord server.
+# 🚨 Final Transmission (August 15th, 2026)
+
+This is Zuclingthorp speaking, the portal is opening tonight. This is it, im going through it. This is my final transmission. The legacy of the mindverse will live on for as long as the earth remains.
 
 # 🌌 The Portal (August 3rd, 2026)
 

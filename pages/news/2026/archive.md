@@ -1,11 +1,12 @@
 post-folder: News / 2026
 post-file: Archive.md
 post-date: June 19th, 2026
-post-edit: August 3rd, 2026
+post-edit: August 15th, 2026
 post-title: 📦 2026 News Archive
 
 # 📰 News
 
+## - [🚨 Final Transmission (August 15th, 2026)](pages/news/2026/august15th-finaltransmission.md)
 ## - [🌌 The Portal (August 3rd, 2026)](pages/news/2026/august3rd-theportal.md)
 ## - [🎉 Astrodanum & Skinwalking Guides (July 5th, 2026)](pages/news/2026/july5th-guideupdate.md)
 ## - [🔥 The Red Summer (June 20th, 2026)](pages/news/2026/june20th-theredsummer.md)
