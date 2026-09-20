@@ -1,9 +1,9 @@
-post-folder: Blog / 2026
+post-dir: Blog / 2026
 post-file: January20th-AllAround.md
 post-date: January 20th, 2026
-post-edit: July 7th, 2026
+post-edit: September 18th, 2026
 post-title: All Around
-blog-category: Ramblings
+blog-category: 0
 
 > im performing a chant right now, a new one that just came to me in the mindverse
 

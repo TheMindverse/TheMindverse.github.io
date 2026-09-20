@@ -1,9 +1,9 @@
-post-folder: Blog / 2026
+post-dir: Blog / 2026
 post-file: July9th-ExplosiveDiarrhea.md
 post-date: July 9th, 2026
-post-edit: July 10th, 2026
+post-edit: September 18th, 2026
 post-title: Explosive Diarrhea
-blog-category: Research
+blog-category: 1
 
 > # Explosive Diarrhea Parasite Spreads: Taco Bell Pulls Key Ingredients
 

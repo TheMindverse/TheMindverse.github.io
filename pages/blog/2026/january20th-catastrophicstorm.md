@@ -1,9 +1,9 @@
-post-folder: Blog / 2026
+post-dir: Blog / 2026
 post-file: January20th-CatastrophicStorm.md
 post-date: January 20th, 2026
-post-edit: March 28th, 2026
+post-edit: September 18th, 2026
 post-title: Catastrophic Storm
-blog-category: Research
+blog-category: 1
 
 > # Forecasters warn of a ‘potentially catastrophic’ storm from Texas to the Carolinas
 

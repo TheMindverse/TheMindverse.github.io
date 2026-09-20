@@ -1,7 +1,7 @@
-post-folder: Dimensions
+post-dir: Dimensions
 post-file: MV-B00.md
 post-date: October 15th, 2025
-post-edit: July 13th, 2026
+post-edit: September 18th, 2026
 post-title: 🐱 MV-B00 / Nine Lives
 
 # 📋 Cosmic Entry

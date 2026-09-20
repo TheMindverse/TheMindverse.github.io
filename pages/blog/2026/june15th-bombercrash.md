@@ -1,9 +1,9 @@
-post-folder: Blog / 2026
+post-dir: Blog / 2026
 post-file: June15th-BomberCrash.md
 post-date: June 15th, 2026
-post-edit: June 15th, 2026
+post-edit: September 18th, 2026
 post-title: Bomber Crash
-blog-category: Research
+blog-category: 1
 
 > # 8 crew members dead after B-52 bomber crashes at California’s Edwards Air Force Bas
 

@@ -1,17 +1,17 @@
-post-folder: Blog / 2023
+post-dir: Blog / 2023
 post-file: September2nd-420mg.md
 post-date: September 2nd, 2023
-post-edit: March 30th, 2026
+post-edit: September 17th, 2026
 post-title: 420mg DXM HBr
-blog-category: Trip Report
+blog-category: 5
 
 - **Date:** September 2nd, 2023
 - **Body Weight:** 105 Pounds
 - **Dosage:** 420mg DXM HBr
 
-# Comeup
+# Come-up
 
-> Comeup was very pleasant compared to other trips, I sat down in bed with headphones ready and was jamming out having a blast listening to music. Closed my eyes and as time went on I slowly felt like my body was moving all around with the music. Fast drops and feelings like I was falling or flying, which caused me to feel nauseous. After it got more intense that's when I stopped the music and paused to throw up. After that I felt fine, laid back down in bed.
+> Come up was very pleasant compared to other trips, I sat down in bed with headphones ready and was jamming out having a blast listening to music. Closed my eyes and as time went on I slowly felt like my body was moving all around with the music. Fast drops and feelings like I was falling or flying, which caused me to feel nauseous. After it got more intense that's when I stopped the music and paused to throw up. After that I felt fine, laid back down in bed.
 
 # Peak
 

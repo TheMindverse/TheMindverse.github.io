@@ -1,9 +1,9 @@
-post-folder: Blog / 2026
+post-dir: Blog / 2026
 post-file: April9th-Buhlunkroed.md
 post-date: April 9th, 2026
-post-edit: April 10th, 2026
+post-edit: September 18th, 2026
 post-title: Getting Buhlunkroed
-blog-category: Ramblings
+blog-category: 0
 
 > im getting buhlunkroed right now haha
 

@@ -1,7 +1,7 @@
-post-folder: News / 2026
+post-dir: News / 2026
 post-file: August3rd-ThePortal.md
 post-date: August 3rd, 2026
-post-edit: August 3rd, 2026
+post-edit: September 18th, 2026
 post-title: 🌌 The Portal
 
 Astrodaunums, get ready, be prepared, and look to the sky.

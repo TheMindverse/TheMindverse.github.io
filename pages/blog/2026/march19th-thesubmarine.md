@@ -1,9 +1,9 @@
-post-folder: Blog / 2026
+post-dir: Blog / 2026
 post-file: March19th-TheSubmarine.md
 post-date: March 19th, 2026
-post-edit: March 26th, 2026
+post-edit: September 18th, 2026
 post-title: The Submarine
-blog-category: Dreamscape
+blog-category: 4
 
 > I had a nightmare last night I was on a submarine above the deepest part of the ocean, I forget what happened exactly but something went wrong and we lost power and there was a leak. One side filled with water and we started floating downward pointed straight down. We were waiting for some kind of backup power to kick in or something and it just never happened.
 

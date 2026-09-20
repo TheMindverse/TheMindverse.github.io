@@ -1,7 +1,7 @@
-post-folder: Guides
+post-dir: Guides
 post-file: SafetyPractices.md
 post-date: October 10th, 2025
-post-edit: July 9th, 2026
+post-edit: September 18th, 2026
 post-title: 🛡️ Safety Practices
 
 # 👨‍⚕️ Emotional risks and harm

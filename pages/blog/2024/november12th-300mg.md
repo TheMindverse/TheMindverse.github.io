@@ -1,15 +1,15 @@
-post-folder: Blog / 2024
+post-dir: Blog / 2024
 post-file: November12th-300mg.md
 post-date: November 12th, 2024
-post-edit: March 30th, 2026
+post-edit: September 17th, 2026
 post-title: 300mg DXM Freebase + THCA
-blog-category: Trip Report
+blog-category: 5
 
 - **Date:** November 12th, 2024
 - **Body Weight:** 110 Pounds
 - **Dosage:** 300mg DXM Freebase, THCA Vape
 
-# Comeup
+# Come-up
 
 > Starting play some games of DRG while I waited for the dxm to kick in, taking hits from vape from time to time. Eventually in the middle of a mission it hit really hard all the sudden. Was super dizzy and couldn't focus, had to quit the mission. Started listening to some music at this point trying to figure out what to play when it kicks in more. Eventually I landed on a zen meditation playlist I made prior.
 

@@ -1,9 +1,9 @@
-post-folder: Blog / 2026
+post-dir: Blog / 2026
 post-file: June1st-IranBombBomb.md
 post-date: June 9th, 2026
-post-edit: June 10th, 2026
+post-edit: September 18th, 2026
 post-title: Iran Bombed Again
-blog-category: Research
+blog-category: 1
 
 > # US military launches new strikes on Iran after Apache downing
 

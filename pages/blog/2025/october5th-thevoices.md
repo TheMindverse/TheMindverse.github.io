@@ -1,9 +1,9 @@
-post-folder: Blog / 2025
+post-dir: Blog / 2025
 post-file: October5th-TheVoices.md
 post-date: October 5th, 2025
-post-edit: March 26th, 2026
+post-edit: September 18th, 2026
 post-title: The Voices
-blog-category: Ramblings
+blog-category: 0
 
 > im in the mindverse right now and having a very rare event occur
 

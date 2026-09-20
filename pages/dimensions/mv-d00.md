@@ -1,7 +1,7 @@
-post-folder: Dimensions
+post-dir: Dimensions
 post-file: MV-D00.md
 post-date: October 19th, 2025
-post-edit: July 13th, 2026
+post-edit: September 18th, 2026
 post-title: 🌊 MV-D00 / Blue Hills
 
 # 📋 Cosmic Entry

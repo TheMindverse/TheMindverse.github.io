@@ -1,9 +1,9 @@
-post-folder: Blog / 2026
+post-dir: Blog / 2026
 post-file: July4th-CrazyWinds.md
 post-date: July 4th, 2026
-post-edit: July 4th, 2026
+post-edit: September 18th, 2026
 post-title: Crazy Wind Anomaly
-blog-category: Ramblings
+blog-category: 2
 
 > another weather anomaly happened yesterday (friday)
 

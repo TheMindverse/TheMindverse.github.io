@@ -1,9 +1,9 @@
-post-folder: Blog / 2026
+post-dir: Blog / 2026
 post-file: February4th-MoreWinterDeaths.md
 post-date: February 4th, 2026
-post-edit: March 28th, 2026
+post-edit: September 18th, 2026
 post-title: More Winter Deaths
-blog-category: Research
+blog-category: 1
 
 > # At Least 35 Dead and Almost 400 Injured as 6.5 Feet of Snow Hits Japan
 

@@ -1,9 +1,9 @@
-post-folder: Blog / 2026
+post-dir: Blog / 2026
 post-file: June14th-ElonTrillionaire.md
 post-date: June 14th, 2026
-post-edit: June 15th, 2026
+post-edit: September 18th, 2026
 post-title: Elons A Trillionaire
-blog-category: Research
+blog-category: 1
 
 > # Elon Musk Becomes the World’s First Trillionaire
 

@@ -1,9 +1,9 @@
-post-folder: Blog / 2026
+post-dir: Blog / 2026
 post-file: March29th-EeyeballsMelting.md
 post-date: March 29th, 2026
-post-edit: March 29th, 2026
+post-edit: September 18th, 2026
 post-title: Eyeballs Melting
-blog-category: Ramblings
+blog-category: 0
 
 > MIRROR EVENT WAS JUT HAPPENING
 

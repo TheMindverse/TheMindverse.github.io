@@ -1,7 +1,7 @@
-post-folder: News / 2025
+post-dir: News / Discord / 2025
 post-file: Discord-TheGrandOpening.md
 post-date: October 18th, 2025
-post-edit: June 19th, 2026
+post-edit: September 18th, 2026
 post-title: 📅 The Grand Opening
 
 This is an event forwarded from the discord server, which is not open to the public.

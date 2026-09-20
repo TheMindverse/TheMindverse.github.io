@@ -1,9 +1,9 @@
-post-folder: Blog / 2026
+post-dir: Blog / 2026
 post-file: July29th-AgeOfUniverse.md
 post-date: July 29th, 2026
-post-edit: July 29th, 2026
+post-edit: September 18th, 2026
 post-title: Age Of Universe
-blog-category: Philosophy
+blog-category: 2
 
 > # New Method Finally Confirms the Age of the Universe
 

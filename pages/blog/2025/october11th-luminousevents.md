@@ -1,9 +1,9 @@
-post-folder: Blog / 2025
+post-dir: Blog / 2025
 post-file: October11th-LuminousEvents.md
 post-date: October 11th, 2025
-post-edit: March 28th, 2026
+post-edit: September 18th, 2026
 post-title: Luminous Events
-blog-category: Philosophy
+blog-category: 2
 
 > # Astronaut Captures Rare Jellyfish-Like Phenomenon Above Thunderstorm Clouds
 

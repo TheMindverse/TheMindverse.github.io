@@ -1,9 +1,9 @@
-post-folder: Blog / 2025
+post-dir: Blog / 2025
 post-file: October6th-TheHarvestMoon.md
 post-date: October 6th, 2025
-post-edit: March 28th, 2026
+post-edit: September 18th, 2026
 post-title: The Harvest Moon
-blog-category: Research
+blog-category: 1
 
 > # The Harvest Moon rises tonight: See the 1st supermoon of 2025 brighten October's sky
 

@@ -1,15 +1,15 @@
-post-folder: Blog / 2023
+post-dir: Blog / 2023
 post-file: July28th-360mg.md
 post-date: July 28th, 2023
-post-edit: March 30th, 2026
+post-edit: September 17th, 2026
 post-title: 360mg DXM HBr
-blog-category: Trip Report
+blog-category: 5
 
 - **Date:** July 28th, 2023
 - **Body Weight:** 103 Pounds
 - **Dosage:** 360mg DXM HBr
 
-# Comeup
+# Come-up
 
 > Incredibly sleep deprived, been up since yesterday and I dosed at 3pm. I couldn't feel my body and I kept yawning, my mind did not feel tired but I knew my body was exhausted. Listened to some music for about 30 min and decided I'd try and sleep while tripping and hope I wake up fine.
 

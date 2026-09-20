@@ -1,7 +1,7 @@
-post-folder: Guides
+post-dir: Guides
 post-file: DimensionGuide.md
 post-date: October 10th, 2025
-post-edit: July 9th, 2026
+post-edit: September 18th, 2026
 post-title: 🗺️ Dimension Guide
 
 The [dimensions](pages/landing/dimensions.md) page is a way for me to document my personal experiences into navigating the different layers of the multiverse.

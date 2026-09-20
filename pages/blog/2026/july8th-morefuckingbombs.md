@@ -1,9 +1,9 @@
-post-folder: Blog / 2026
+post-dir: Blog / 2026
 post-file: July8th-MoreFuckingBombs.md
 post-date: July 8th, 2026
-post-edit: July 9th, 2026
+post-edit: September 18th, 2026
 post-title: More Fucking Bombs
-blog-category: Research
+blog-category: 1
 
 > # US military launches strikes against Iran, Central Command says
 

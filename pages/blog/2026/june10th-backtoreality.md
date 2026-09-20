@@ -1,9 +1,9 @@
-post-folder: Blog / 2026
+post-dir: Blog / 2026
 post-file: June10th-BackToReality.md
 post-date: June 10th, 2026
-post-edit: June 10th, 2026
+post-edit: September 18th, 2026
 post-title: BACK TO REALITY
-blog-category: Ramblings
+blog-category: 0
 
 > i just realized something...
 

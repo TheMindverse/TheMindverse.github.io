@@ -1,9 +1,9 @@
-post-folder: Blog / 2026
+post-dir: Blog / 2026
 post-file: August7th-LudditeVirus.md
 post-date: August 7th, 2026
-post-edit: August 7th, 2026
+post-edit: September 18th, 2026
 post-title: Luddite Virus
-blog-category: Research
+blog-category: 1
 
 > # Safety fears as scientists make first viruses designed by AI
 

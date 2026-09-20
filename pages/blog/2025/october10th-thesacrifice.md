@@ -1,9 +1,9 @@
-post-folder: Blog / 2025
-post-file: October10th-TheVoices.md
+post-dir: Blog / 2025
+post-file: October10th-TheSacrifice.md
 post-date: October 10th, 2025
-post-edit: March 26th, 2026
-post-title: The Sacrafice
-blog-category: Ramblings
+post-edit: September 18th, 2026
+post-title: The Sacrifice
+blog-category: 0
 
 > back in the mindverse for friday highday
 

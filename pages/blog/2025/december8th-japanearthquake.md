@@ -1,9 +1,9 @@
-post-folder: Blog / 2025
+post-dir: Blog / 2025
 post-file: December8th-JapanEarthquake.md
 post-date: December 8th, 2025
-post-edit: March 28th, 2026
+post-edit: September 18th, 2026
 post-title: Japan Earthquake
-blog-category: Research
+blog-category: 1
 
 > # Japan rattled by 7.5-magnitude earthquake, authorities warn of aftershocks
 

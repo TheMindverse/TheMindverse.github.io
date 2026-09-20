@@ -1,9 +1,9 @@
-post-folder: Blog / 2026
+post-dir: Blog / 2026
 post-file: April1st-TheQuake.md
 post-date: April 1st, 2026
-post-edit: April 3rd, 2026
+post-edit: September 18th, 2026
 post-title: The Quake
-blog-category: Research
+blog-category: 1
 
 > # One killed and buildings damaged as magnitude 7.4 earthquake strikes Indonesia
 

@@ -1,9 +1,9 @@
-post-folder: Blog / 2025
+post-dir: Blog / 2025
 post-file: October15th-ThePolice.md
 post-date: October 15th, 2025
-post-edit: March 26th, 2026
+post-edit: September 18th, 2026
 post-title: The Police
-blog-category: Ramblings
+blog-category: 0
 
 > the police have been circling my house for the last three days now
 

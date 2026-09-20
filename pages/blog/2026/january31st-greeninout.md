@@ -1,9 +1,9 @@
-post-folder: Blog / 2026
+post-dir: Blog / 2026
 post-file: January31st-GreeninOut.md
 post-date: January 31st, 2026
-post-edit: March 26th, 2026
+post-edit: September 18th, 2026
 post-title: Greenin Out
-blog-category: Ramblings
+blog-category: 0
 
 > im greenin out bro oh my gawd!!im greenin out bro oh my gawd
 

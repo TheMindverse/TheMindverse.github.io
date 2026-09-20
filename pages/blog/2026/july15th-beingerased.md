@@ -1,9 +1,9 @@
-post-folder: Blog / 2026
+post-dir: Blog / 2026
 post-file: July15th-BeingErased.md
 post-date: July 15th, 2026
-post-edit: July 15th, 2026
+post-edit: September 18th, 2026
 post-title: Being Erased
-blog-category: Ramblings
+blog-category: 0
 
 > my human consciousness is being erased
 

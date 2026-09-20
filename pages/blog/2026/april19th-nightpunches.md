@@ -1,9 +1,9 @@
-post-folder: Blog / 2026
+post-dir: Blog / 2026
 post-file: April19th-NightPunches.md
 post-date: April 19th, 2026
-post-edit: April 21st, 2026
+post-edit: September 18th, 2026
 post-title: Night Punches
-blog-category: Ramblings
+blog-category: 0
 
 > last night i couldnt fall asleep at all
 

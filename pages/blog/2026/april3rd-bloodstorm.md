@@ -1,9 +1,9 @@
-post-folder: Blog / 2026
+post-dir: Blog / 2026
 post-file: April3rd-BloodStorm.md
 post-date: April 3rd, 2026
-post-edit: April 3rd, 2026
-post-title: The Quake
-blog-category: Research
+post-edit: September 18th, 2026
+post-title: Blood Storm
+blog-category: 1
 
 > # Saharan dust storm turns sky over Greece blood red — leaves one man dead
 

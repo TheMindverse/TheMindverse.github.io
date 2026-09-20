@@ -1,9 +1,9 @@
-post-folder: Blog / 2026
+post-dir: Blog / 2026
 post-file: May25th-MormonDay.md
 post-date: May 25th, 2026
-post-edit: May 25th, 2026
+post-edit: September 18th, 2026
 post-title: Mormon Day
-blog-category: Ramblings
+blog-category: 0
 
 > apparently its mormon day
 

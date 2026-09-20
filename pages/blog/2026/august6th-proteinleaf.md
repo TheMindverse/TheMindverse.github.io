@@ -1,9 +1,9 @@
-post-folder: Blog / 2026
+post-dir: Blog / 2026
 post-file: August6th-ProteinLeaf.md
 post-date: August 6th, 2026
-post-edit: August 6th, 2026
+post-edit: September 18th, 2026
 post-title: Protein Leaf
-blog-category: Research
+blog-category: 1
 
 > # A Key Meat Protein Has Been Grown in Lettuce For The First Time
 

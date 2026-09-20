@@ -1,9 +1,9 @@
-post-folder: Blog / 2026
+post-dir: Blog / 2026
 post-file: February7th-TimeTraveling.md
 post-date: February 7th, 2026
-post-edit: March 26th, 2026
+post-edit: September 18th, 2026
 post-title: Time Traveling
-blog-category: Ramblings
+blog-category: 0
 
 > im back in the mindverse for the first time in awhile
 

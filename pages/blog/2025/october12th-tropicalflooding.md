@@ -1,9 +1,9 @@
-post-folder: Blog / 2025
+post-dir: Blog / 2025
 post-file: October12th-TropicalFlooding.md
 post-date: October 12th, 2025
-post-edit: March 28th, 2026
+post-edit: September 18th, 2026
 post-title: Tropical Flooding
-blog-category: Research
+blog-category: 1
 
 > # New Jersey declares emergency as nor’easter approaches, while Alaska flooding carries away homes
 

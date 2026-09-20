@@ -1,9 +1,9 @@
-post-folder: Blog / 2026
+post-dir: Blog / 2026
 post-file: June18th-CrazySandwich.md
 post-date: June 18th, 2026
-post-edit: June 18th, 2026
+post-edit: September 18th, 2026
 post-title: Crazy Sandwich Moment
-blog-category: Ramblings
+blog-category: 0
 
 > bro im high and made a sandwich and i cut it in half like u normally do right
 

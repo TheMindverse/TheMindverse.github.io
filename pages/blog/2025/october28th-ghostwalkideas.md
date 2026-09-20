@@ -1,9 +1,9 @@
-post-folder: Blog / 2025
+post-dir: Blog / 2025
 post-file: October28th-GhostwalkIdeas.md
 post-date: October 28th, 2025
-post-edit: March 26th, 2026
+post-edit: September 18th, 2026
 post-title: The Static
-blog-category: Ramblings
+blog-category: 0
 
 > i havent decided how im going to die for the ghostwalk
 

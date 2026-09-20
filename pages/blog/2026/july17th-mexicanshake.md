@@ -1,9 +1,9 @@
-post-folder: Blog / 2026
+post-dir: Blog / 2026
 post-file: July17th-MexicanShake.md
 post-date: July 17th, 2026
-post-edit: July 17th, 2026
+post-edit: September 18th, 2026
 post-title: The Mexican Shake
-blog-category: Research
+blog-category: 1
 
 > # Powerful earthquake hits Mexico-Guatemala border, triggering temporary tsunami alert
 

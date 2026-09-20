@@ -1,7 +1,7 @@
-post-folder: Dimensions
+post-dir: Dimensions
 post-file: MV-A02.md
 post-date: October 11th, 2025
-post-edit: July 13th, 2026
+post-edit: September 18th, 2026
 post-title: ⏳ MV-A02 / Nine Zero
 
 # 📋 Cosmic Entry

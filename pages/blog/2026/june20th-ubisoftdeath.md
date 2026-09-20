@@ -1,9 +1,9 @@
-post-folder: Blog / 2026
+post-dir: Blog / 2026
 post-file: June20th-UbisoftDeath.md
 post-date: June 20th, 2026
-post-edit: June 20th, 2026
+post-edit: September 18th, 2026
 post-title: Ubisoft Co-Founder Dead
-blog-category: Research
+blog-category: 1
 
 > # Ubisoft Co-Founder Dead In Plane Crash
 

@@ -1,9 +1,9 @@
-post-folder: Blog / 2025
+post-dir: Blog / 2025
 post-file: October12th-MidnightChanting.md
 post-date: October 12th, 2025
-post-edit: March 26th, 2026
+post-edit: September 18th, 2026
 post-title: Midnight Chanting
-blog-category: Ramblings
+blog-category: 0
 
 > i am csee for i am me i can see for i am me i can see for i am me i can see for ai am me i can see for i a am me i can see for i am me i can see for i am me i can see for i am me
 

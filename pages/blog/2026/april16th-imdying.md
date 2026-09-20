@@ -1,9 +1,9 @@
-post-folder: Blog / 2026
+post-dir: Blog / 2026
 post-file: April16th-ImDying.md
 post-date: April 16th, 2026
-post-edit: April 21st, 2026
+post-edit: September 18th, 2026
 post-title: Im Dying
-blog-category: Ramblings
+blog-category: 0
 
 > i can feel my body decaying
 

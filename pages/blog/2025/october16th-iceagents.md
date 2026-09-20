@@ -1,9 +1,9 @@
-post-folder: Blog / 2025
+post-dir: Blog / 2025
 post-file: October16th-ICEAgents.md
 post-date: October 16th, 2025
-post-edit: March 26th, 2026
+post-edit: September 18th, 2026
 post-title: ICE Agents
-blog-category: Dreamscape
+blog-category: 4
 
 > Last night I decided to visit the dreamscape for the first time in many months
 

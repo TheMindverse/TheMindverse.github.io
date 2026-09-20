@@ -1,9 +1,9 @@
-post-folder: Blog / 2026
+post-dir: Blog / 2026
 post-file: May3rd-BrainBleed.md
 post-date: May 3rd, 2026
-post-edit: May 14th, 2026
+post-edit: September 18th, 2026
 post-title: Brain Bleed
-blog-category: Ramblings
+blog-category: 0
 
 > i just had my first ever nose bleed, that freaked the shit out of me
 

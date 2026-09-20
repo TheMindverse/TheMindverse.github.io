@@ -1,15 +1,15 @@
-post-folder: Blog / 2024
+post-dir: Blog / 2024
 post-file: June17th-300mg.md
 post-date: June 17th, 2024
-post-edit: March 30th, 2026
+post-edit: September 17th, 2026
 post-title: 300mg DXM Freebase + THCA
-blog-category: Trip Report
+blog-category: 5
 
 - **Date:** June 17th, 2024
 - **Body Weight:** 108 Pounds
 - **Dosage:** 300mg DXM Freebase, THCA Vape
 
-# Comeup
+# Come-up
 
 > Dosed the dxm and been steadily vaping thca while I waited for it to kick in. Felt the typical body high of weed, body feels very warm and fuzzy, then after about an hour I started feeling the dxm. The body load shifted from being warm and fuzzy to numb and distant. Started to lose feeling in my body and forget I had arms and legs as I started to get vertigo. Once it started kicking in more and my mind was getting more distant from my body I turned off my pc and laid down in bed.
 

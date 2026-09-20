@@ -1,9 +1,9 @@
-post-folder: Blog / 2026
+post-dir: Blog / 2026
 post-file: February22nd-TheMirror.md
 post-date: February 22nd, 2026
-post-edit: March 26th, 2026
+post-edit: September 18th, 2026
 post-title: The Mirror
-blog-category: Ramblings
+blog-category: 0
 
 > THE MIRROR
 

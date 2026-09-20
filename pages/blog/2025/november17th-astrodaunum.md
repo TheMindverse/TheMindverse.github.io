@@ -1,9 +1,9 @@
-post-folder: Blog / 2025
+post-dir: Blog / 2025
 post-file: November17th-Astrodaunum.md
 post-date: November 17th, 2025
-post-edit: March 26th, 2026
+post-edit: September 18th, 2026
 post-title: I AM AN ASTRODAUNUM
-blog-category: Ramblings
+blog-category: 0
 
 > astrodaunum is what my species is called, i may be stuck inside a human body but i am not human
 

@@ -1,9 +1,9 @@
-post-folder: Blog / 2025
+post-dir: Blog / 2025
 post-file: October20th-Weatherman.md
 post-date: October 20th, 2025
-post-edit: March 26th, 2026
+post-edit: September 18th, 2026
 post-title: Weatherman
-blog-category: Philosophy
+blog-category: 2
 
 > been thinking, ive been spending most of my time in the mindverse exploring dimensions 
 

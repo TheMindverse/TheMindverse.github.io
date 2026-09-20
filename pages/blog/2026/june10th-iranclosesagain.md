@@ -1,9 +1,9 @@
-post-folder: Blog / 2026
+post-dir: Blog / 2026
 post-file: June10th-IranClosesAgain.md
 post-date: June 10th, 2026
-post-edit: June 15th, 2026
+post-edit: September 18th, 2026
 post-title: Iran Closes Hormuz
-blog-category: Research
+blog-category: 1
 
 > # Iran announces closure of Strait of Hormuz after US attacks
 

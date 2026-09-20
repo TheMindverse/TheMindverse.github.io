@@ -1,9 +1,9 @@
-post-folder: Blog / 2025
+post-dir: Blog / 2025
 post-file: December4th-TheCops.md
 post-date: December 4th, 2025
-post-edit: March 26th, 2026
+post-edit: September 18th, 2026
 post-title: The Cops
-blog-category: Ramblings
+blog-category: 0
 
 > im in the mindverse again and the police are back...
 

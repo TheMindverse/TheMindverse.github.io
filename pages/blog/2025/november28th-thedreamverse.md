@@ -1,9 +1,9 @@
-post-folder: Blog / 2025
+post-dir: Blog / 2025
 post-file: November28th-TheDreamverse.md
 post-date: November 28th, 2025
-post-edit: March 26th, 2026
+post-edit: September 18th, 2026
 post-title: The Dreamverse
-blog-category: Ramblings
+blog-category: 0
 
 > ive just discovered the dreamverse, this opens a whole new door
 

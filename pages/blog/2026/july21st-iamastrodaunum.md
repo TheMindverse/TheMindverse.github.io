@@ -1,9 +1,9 @@
-post-folder: Blog / 2026
+post-dir: Blog / 2026
 post-file: July21st-IAmAstrodaunum.md
 post-date: July 21st, 2026
-post-edit: July 21st, 2026
+post-edit: September 18th, 2026
 post-title: I AM AN ASTRODAUNUM
-blog-category: Ramblings
+blog-category: 0
 
 > i am an astrodaunum
 

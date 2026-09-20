@@ -1,7 +1,7 @@
 // Button navigation logic, as well as browser history states.
 
 function navigationRescroll() {
-    window.scrollTo({ top: 0, behavior: "instant" }); // Reset scroll to top.
+    window.scrollTo({ top: 0, behavior: "auto" }); // Reset scroll to top.
 }
 
 function navigationUpdateHistory(filePath, pushHistory) {
@@ -17,7 +17,7 @@ function navigationUpdateHistory(filePath, pushHistory) {
 function navigationActivateBtn(navBtn) {
     if (navBtn && navBtn.dataset.post) {
         if (navBtn.classList) { // Update the navigation button to now be active, and remove being active from the other buttons.
-            document.querySelectorAll(".nav .ascii-btn").forEach(prevBtn => prevBtn.classList.remove("active"));
+            document.querySelectorAll(".nav .ascii-btn[data-post]").forEach(prevBtn => prevBtn.classList.remove("active"));
             navBtn.classList.add("active");
         }
     }
@@ -25,7 +25,7 @@ function navigationActivateBtn(navBtn) {
 
 function navigationActivateName(filePath) {
     if (filePath.length > 0) {
-        filePath = filePath.toLowerCase().trim();
+        filePath = filePath.trim();
 
         if (filePath.startsWith("pages/")) {
             filePath = filePath.slice(6);
@@ -44,9 +44,7 @@ function navigationActivateName(filePath) {
 function navigationHandleClick(navBtn, pushHistory) {
     if (navBtn && navBtn.dataset.post) {
         navigationActivateBtn(navBtn);
-        navigationRescroll();
-        navigationUpdateHistory(navBtn.dataset.post, pushHistory);
-        markdownLoadFile(navBtn.dataset.post, false);
+        navigationLoadContent(navBtn.dataset.post, pushHistory);
     }
 }
 
@@ -57,10 +55,19 @@ function navigationLoadUrl(filePath, pushHistory) {
             navigationHandleClick(navBtn, pushHistory);
         } else { // Not a navigation button, try to load the actual markdown file.
             navigationActivateName(filePath); // Activate the navigation button based on the file path.
-            navigationRescroll();
-            navigationUpdateHistory(filePath, pushHistory);
-            markdownLoadFile(filePath, false);
+            navigationLoadContent(filePath, pushHistory);
         }
+    }
+}
+
+function navigationLoadContent(filePath, pushHistory) {
+    navigationRescroll();
+    navigationUpdateHistory(filePath, pushHistory);
+
+    if (!filePath.endsWith("news.md")) {
+        markdownLoadFile(filePath, false);
+    } else {
+        markdownLoadNews();
     }
 }
 
@@ -75,15 +82,15 @@ function navigationLoadHash() {
 
 function navigationInit() {
     // Setup navigation button clicks to load the landing files.
-    document.querySelectorAll(".nav .ascii-btn").forEach(navBtn => {
+    document.querySelectorAll(".nav .ascii-btn[data-post]").forEach(navBtn => {
         navBtn.addEventListener("click", () => navigationHandleClick(navBtn, true));
     });
 
     // Setup custom link handlers which load markdown files, they also support acting as navigation buttons.
     document.addEventListener("click", (event) => {
         const link = event.target.closest(".md-link");
-        if (link && link.dataset.post) {
-             event.preventDefault();
+        if (link && link.dataset.post && link.dataset.post.endsWith(".md")) {
+            event.preventDefault();
             navigationLoadUrl(link.dataset.post, true);
         }
     });

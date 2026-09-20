@@ -1,9 +1,9 @@
-post-folder: Blog / 2026
+post-dir: Blog / 2026
 post-file: May18th-EbolaOutbreak.md
 post-date: May 18th, 2026
-post-edit: May 18th, 2026
+post-edit: September 18th, 2026
 post-title: Ebola Outbreak
-blog-category: Research
+blog-category: 1
 
 > # DRC Ebola outbreak affecting 'small number of Americans,' CDC says
 

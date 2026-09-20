@@ -1,9 +1,9 @@
-post-folder: Blog / 2023
+post-dir: Blog / 2023
 post-file: November19th-240mg.md
 post-date: November 19th, 2023
-post-edit: March 30th, 2026
+post-edit: September 17th, 2026
 post-title: 240mg DXM Freebase
-blog-category: Trip Report
+blog-category: 5
 
 - **Date:** November 19th, 2023
 - **Body Weight:** 108 Pounds

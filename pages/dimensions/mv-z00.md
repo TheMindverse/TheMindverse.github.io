@@ -1,7 +1,7 @@
-post-folder: Dimensions
+post-dir: Dimensions
 post-file: MV-Z00.md
 post-date: October 17th, 2025
-post-edit: July 13th, 2026
+post-edit: September 18th, 2026
 post-title: ⚫ MV-Z00 /  The Void
 
 # 📋 Cosmic Entry

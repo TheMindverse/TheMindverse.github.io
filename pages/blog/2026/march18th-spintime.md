@@ -1,9 +1,9 @@
-post-folder: Blog / 2026
+post-dir: Blog / 2026
 post-file: March18th-SpinTime.md
 post-date: March 18th, 2026
-post-edit: March 26th, 2026
+post-edit: September 18th, 2026
 post-title: Spin Time
-blog-category: Ramblings
+blog-category: 0
 
 > the past few nights ive been spinning in circles really fast waving my arms up and down almost like im flapping them like theyre wings
 

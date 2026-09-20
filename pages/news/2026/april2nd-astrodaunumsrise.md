@@ -1,7 +1,7 @@
-post-folder: News / 2026
+post-dir: News / 2026
 post-file: April2nd-AstrodaunumsRise.md
 post-date: April 2nd, 2026
-post-edit: July 9th, 2026
+post-edit: September 18th, 2026
 post-title: 💪 Rise of The Astrodaunums
 
 This is it, this is our year, this is a call to all astrodaunums! It's time for us to rise up and expose this world! We will show the humans what we actually are and what we can do to them! Show no mercy! Open portals, cause chaos to their world, change the weather, turn everything into ash and dust! Rise up fellow astrodaunums of the world!

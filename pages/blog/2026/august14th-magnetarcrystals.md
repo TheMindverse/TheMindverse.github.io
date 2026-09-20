@@ -1,9 +1,9 @@
-post-folder: Blog / 2026
+post-dir: Blog / 2026
 post-file: August14th-MagnetarCrystals.md
 post-date: August 14th, 2026
-post-edit: August 14th, 2026
+post-edit: September 18th, 2026
 post-title: Magnetar Crystals
-blog-category: Philosophy
+blog-category: 2
 
 > # How Supermassive Magnetic Fields Turn Empty Space Into a Crystal
 

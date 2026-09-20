@@ -1,9 +1,9 @@
-post-folder: Blog / 2026
+post-dir: Blog / 2026
 post-file: July16th-CanadianSmoke.md
 post-date: July 16th, 2026
-post-edit: July 16th, 2026
+post-edit: September 18th, 2026
 post-title: Canadian Smoke
-blog-category: Ramblings
+blog-category: 0
 
 > fuckin canada fuckin up our air man
 

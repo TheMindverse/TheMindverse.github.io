@@ -1,7 +1,7 @@
-post-folder: Landing
+post-dir: Landing
 post-file: Dimensions.md
 post-date: October 10th, 2025
-post-edit: July 15th, 2026
+post-edit: September 18th, 2026
 post-title: 📖 Dimensions
 
 This is a complete list of all the parallel universes I've personally visited in the multiverse. If you wish to learn the proper nomenclature for all the categories and, check out the [dimension guide](pages/guides/dimensionguide.md).

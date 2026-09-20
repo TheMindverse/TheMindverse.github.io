@@ -1,7 +1,7 @@
-post-folder: Dimensions
+post-dir: Dimensions
 post-file: MV-A03.md
 post-date: October 13th, 2025
-post-edit: July 13th, 2026
+post-edit: September 18th, 2026
 post-title: ☀️ MV-A03 / Solar Greece
 
 # 📋 Cosmic Entry

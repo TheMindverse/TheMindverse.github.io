@@ -1,9 +1,9 @@
-post-folder: Blog / 2026
+post-dir: Blog / 2026
 post-file: July5th-BeetleAttack.md
 post-date: July 5th, 2026
-post-edit: July 5th, 2026
+post-edit: September 18th, 2026
 post-title: Attack of The Beetles
-blog-category: Ramblings
+blog-category: 0
 
 > holy fuck i was just attacked by a swarm of rabid june beetles 
 

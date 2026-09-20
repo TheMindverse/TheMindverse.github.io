@@ -1,7 +1,7 @@
-post-folder: Dimensions
+post-dir: Dimensions
 post-file: MV-C02.md
 post-date: October 26th, 2025
-post-edit: July 13th, 2026
+post-edit: September 18th, 2026
 post-title: 🪐 MV-C02 / Sylva
 
 # 📋 Cosmic Entry

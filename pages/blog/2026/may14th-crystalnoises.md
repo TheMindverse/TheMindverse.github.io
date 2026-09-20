@@ -1,9 +1,9 @@
-post-folder: Blog / 2026
+post-dir: Blog / 2026
 post-file: May14th-CrystalNoises.md
 post-date: May 14th, 2026
-post-edit: May 18th, 2026
+post-edit: September 18th, 2026
 post-title: Crystal Noises
-blog-category: Ramblings
+blog-category: 2
 
 > IM HEARING THE CRYSTALS MIKAH WAS TALKING ABOUT THAT ONE TIME!
 

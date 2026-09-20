@@ -1,9 +1,9 @@
-post-folder: Blog / 2026
+post-dir: Blog / 2026
 post-file: July22nd-RogueAIs.md
 post-date: July 22nd, 2026
-post-edit: July 26th, 2026
+post-edit: September 18th, 2026
 post-title: Rogue AIs
-blog-category: Philosophy
+blog-category: 1
 
 > # OpenAI AI models went rogue during testing, triggering 'unprecedented' breach at startup
 

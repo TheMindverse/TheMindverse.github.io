@@ -1,7 +1,7 @@
-post-folder: News / 2026
+post-dir: News / 2026
 post-file: June10th-SignalDisruption.md
 post-date: June 10th, 2026
-post-edit: July 9th, 2026
+post-edit: September 18th, 2026
 post-title: 📡 Signal Disruption
 
 My apologies, but mindverse research and earth manipulation has been delayed last month and may continue to be delayed the next couple weeks. Signals to certain dimensions and states have been interrupted on a cosmic scale, I personally believe the flow state is shifting and we must wait for it to realign before continuing.

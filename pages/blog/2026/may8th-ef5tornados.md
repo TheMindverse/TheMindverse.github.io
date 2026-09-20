@@ -1,9 +1,9 @@
-post-folder: Blog / 2026
+post-dir: Blog / 2026
 post-file: May8th-EF5Tornados.md
 post-date: May 8th, 2026
-post-edit: May 8th, 2026
+post-edit: September 18th, 2026
 post-title: EF5 Tornados
-blog-category: Research
+blog-category: 1
 
 > # EF5 tornado destroys 95% of Greensburg, Kansas
 

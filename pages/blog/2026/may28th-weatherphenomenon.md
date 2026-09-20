@@ -1,9 +1,9 @@
-post-folder: Blog / 2026
+post-dir: Blog / 2026
 post-file: May28th-WeatherPhenomenon.md
 post-date: May 28th, 2026
-post-edit: May 28th, 2026
+post-edit: September 18th, 2026
 post-title: Weather Phenomenon
-blog-category: Ramblings
+blog-category: 2
 
 > something crazy is going on rn
 

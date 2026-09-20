@@ -1,9 +1,9 @@
-post-folder: Blog / 2025
+post-dir: Blog / 2025
 post-file: November7th-VampireGingers.md
 post-date: November 7th, 2025
-post-edit: March 26th, 2026
+post-edit: September 18th, 2026
 post-title: Ginger Vampires
-blog-category: Dreamscape
+blog-category: 4
 
 > I had a dream that the entire world was taken over by gingers with afros and giant rat teeth
 

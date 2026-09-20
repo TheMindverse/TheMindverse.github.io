@@ -1,7 +1,7 @@
-post-folder: Dimensions
+post-dir: Dimensions
 post-file: MV-Z06.md
 post-date: March 3rd, 2026
-post-edit: July 13th, 2026
+post-edit: September 18th, 2026
 post-title: 🎭 MV-Z06 /  The Mirror
 
 # 📋 Cosmic Entry

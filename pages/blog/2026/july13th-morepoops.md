@@ -1,9 +1,9 @@
-post-folder: Blog / 2026
+post-dir: Blog / 2026
 post-file: July13th-MorePoops.md
 post-date: July 13th, 2026
-post-edit: July 13th, 2026
+post-edit: September 18th, 2026
 post-title: More Poops
-blog-category: Research
+blog-category: 1
 
 > # US outbreak of parasite causing ‘watery diarrhea’ rises to more than 2,800
 

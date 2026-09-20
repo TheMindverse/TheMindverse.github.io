@@ -1,9 +1,9 @@
-post-folder: Blog / 2026
+post-dir: Blog / 2026
 post-file: May24th-NewDrugs.md
 post-date: May 24th, 2026
-post-edit: May 25th, 2026
+post-edit: September 18th, 2026
 post-title: Drugs Are Coming
-blog-category: Ramblings
+blog-category: 0
 
 > ive been sober since march 6th
 

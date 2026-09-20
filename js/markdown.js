@@ -11,52 +11,152 @@ function markdownFormat(md) {
             .replace(/&/g, "&amp;")
             .replace(/</g, "&lt;")
             .replace(/>/g, "&gt;")
-            .replace(/"/g, "&quot;");
+            .replace(/"/g, "&quot;")
+            .replace(/'/g, "&#39;");
+    }
+
+    function decodeHTML(str) {
+        const textarea = document.createElement("textarea");
+        textarea.innerHTML = String(str);
+        return textarea.value;
+    }
+
+    // Validate a URL before putting it into an HTML attribute.
+    // Only allow normal web/mail/telephone links and relative URLs.
+    function sanitizeLinkUrl(rawUrl) {
+        const decodedUrl = decodeHTML(rawUrl).trim();
+
+        if (!decodedUrl) {
+            return null;
+        }
+
+        try {
+            const parsedUrl = new URL(decodedUrl, document.baseURI);
+            const protocol = parsedUrl.protocol.toLowerCase();
+
+            if (!["http:", "https:", "mailto:", "tel:"].includes(protocol)) {
+                return null;
+            }
+
+            return decodedUrl;
+        } catch (err) {
+            return null;
+        }
+    }
+
+    // Images intentionally have a smaller allow-list than normal links.
+    function sanitizeImageUrl(rawUrl) {
+        const decodedUrl = decodeHTML(rawUrl).trim();
+
+        if (!decodedUrl) {
+            return null;
+        }
+
+        try {
+            const parsedUrl = new URL(decodedUrl, document.baseURI);
+            const protocol = parsedUrl.protocol.toLowerCase();
+
+            if (!["http:", "https:"].includes(protocol)) {
+                return null;
+            }
+
+            return decodedUrl;
+        } catch (err) {
+            return null;
+        }
+    }
+
+    // Return a normalized path when a link points to a same-origin Markdown file.
+    // External .md links are left as normal external links.
+    function getInternalMarkdownPath(rawUrl) {
+        const decodedUrl = decodeHTML(rawUrl).trim();
+
+        if (!decodedUrl) {
+            return null;
+        }
+
+        try {
+            const parsedUrl = new URL(decodedUrl, document.baseURI);
+
+            if (parsedUrl.origin !== window.location.origin) {
+                return null;
+            }
+
+            if (!parsedUrl.pathname.toLowerCase().endsWith(".md")) {
+                return null;
+            }
+
+            // The navigation.js functions expect a markdown file path without a leading slash.
+            return parsedUrl.pathname.replace(/^\/+/, "");
+        } catch (err) {
+            return null;
+        }
+    }
+
+    // Use a unique token for placeholders so user content is extremely unlikely to collide with the temporary values used while parsing.
+    const placeholderToken = (typeof crypto !== "undefined" && typeof crypto.randomUUID === "function") ? crypto.randomUUID() : `${Date.now()}_${Math.random().toString(36).slice(2)}`;
+
+    function makePlaceholder(type, id) {
+        return `__MD_${placeholderToken}_${type}_${id}__`;
     }
 
     function processInlineFormatting(text) {
         text = escapeHTML(text);
-        let placeholders = [];
+        const placeholders = [];
 
         // Escape characters.
         text = text.replace(/\\([\\`*_\[\]()])/g, (_, char) => {
             const id = placeholders.length;
             placeholders.push(char);
-            return `{{PLACEHOLDER${id}}}`;
+            return makePlaceholder("INLINE", id);
         });
 
         // Inline Code.
         text = text.replace(/`([^`]+?)`/g, (_, code) => {
             const id = placeholders.length;
-            placeholders.push(`<code>${escapeHTML(code)}</code>`);
-            return `{{PLACEHOLDER${id}}}`;
+            placeholders.push(`<code>${code}</code>`);
+            return makePlaceholder("INLINE", id);
         });
 
         // Images.
         text = text.replace(/!\[(.*?)\]\((.*?)\)/g, (_, alt, src) => {
             const id = placeholders.length;
-            placeholders.push(
-                `<img src="${escapeHTML(src)}" alt="${escapeHTML(alt)}">`
-            );
-            return `{{PLACEHOLDER${id}}}`;
+            const safeSrc = sanitizeImageUrl(src);
+
+            if (safeSrc) {
+                placeholders.push(
+                    `<img src="${escapeHTML(safeSrc)}" alt="${alt}">`
+                );
+            } else {
+                // Remove an unsafe image URL but preserve the alt text.
+                placeholders.push(alt);
+            }
+
+            return makePlaceholder("INLINE", id);
         });
 
         // Links.
         text = text.replace(/\[([^\]]+)\]\(((?:[^()\s]+|\([^()\s]*\))+)\)/g, (_, t, href) => {
             const id = placeholders.length;
-            const decodedHref = href.replace(/&amp;/g, "&").replace(/&#(\d+);/g, (_, n) => String.fromCharCode(n));
-            const safeHref = escapeHTML(href.trim());
+            const safeHref = sanitizeLinkUrl(href);
+            const internalPath = getInternalMarkdownPath(href);
 
-            // Prevent javascript.
-            if (/^(javascript|data|vbscript):/i.test(decodedHref.trim())) {
+            // Prevent javascript:, data:, vbscript:, and other unsupported schemes.
+            if (!safeHref) {
                 placeholders.push(t);
-            } else if (href.endsWith('.md')) {
-                placeholders.push(`<a href="#" class="md-link" data-post="${safeHref}">${t}</a>`);
+            } else if (internalPath) {
+                // Keep the real href so the link still has a useful fallback if JavaScript is unavailable, while navigation.js intercepts it.
+                const escapedPath = escapeHTML(internalPath);
+                placeholders.push(
+                    `<a href="${escapedPath}" class="md-link" data-post="${escapedPath}">${t}</a>`
+                );
             } else {
-                placeholders.push(`<a href="${safeHref}" target="_blank" rel="noopener noreferrer">${t}</a>`);
+                placeholders.push(
+                    `<a href="${escapeHTML(safeHref)}" target="_blank" rel="noopener noreferrer">${t}</a>`
+                );
             }
 
-            return `{{PLACEHOLDER${id}}}`;
+            return makePlaceholder("INLINE", id);
         });
 
         // Bold and italic.
@@ -64,42 +164,91 @@ function markdownFormat(md) {
         text = text.replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
         text = text.replace(/\*(?!\*)([^*]+?)\*(?!\*)/g, "<em>$1</em>");
 
-        // Restore placeholders.
-        text = text.replace(/{{PLACEHOLDER(\d+)}}/g, (_, id) => placeholders[id]);
+        // Restore only placeholders generated by this parser invocation.
+        const escapedPlaceholderToken = placeholderToken.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+        const inlinePlaceholderRegex = new RegExp(`__MD_${escapedPlaceholderToken}_INLINE_(\\d+)__`, "g");
+        text = text.replace(inlinePlaceholderRegex, (placeholder, id) => {
+            return placeholders[Number(id)] ?? placeholder;
+        });
+
         return text;
     }
 
     // Extract code blocks.
     const codeBlocks = [];
     md = md.replace(/```([\s\S]*?)```/g, (_, code) => {
-        const cleaned = code.replace(/^\n/, '');
-        const placeholder = `{{CODEBLOCK${codeBlocks.length}}}`;
+        const cleaned = code.replace(/^\n/, "");
+        const placeholder = makePlaceholder("CODE", codeBlocks.length);
         codeBlocks.push(`<pre><code>${escapeHTML(cleaned)}</code></pre>`);
         return placeholder;
     });
 
     const lines = md.split(/\r?\n/);
-    let result = [];
-    let listStack = [];
-    let currentListHTML = "";
-    let blockquoteBuffer = [];
-    let openItem = false;
+    const result = [];
+    const listItems = [];
+    const blockquoteBuffer = [];
+
+    function renderListItems(items) {
+        const roots = [];
+        const stack = [];
+
+        for (const item of items) {
+            let level = Math.floor(item.indent / 2);
+
+            if (level < 0) {
+                level = 0;
+            }
+
+            // Don't create empty intermediate list levels if indentation jumps.
+            if (level > stack.length) {
+                level = stack.length;
+            }
+
+            stack.length = level;
+
+            const node = {
+                content: item.content,
+                children: []
+            };
+
+            if (level === 0) {
+                roots.push(node);
+            } else {
+                stack[level - 1].children.push(node);
+            }
+
+            stack[level] = node;
+        }
+
+        function renderNodes(nodes) {
+            let html = "<ul>";
+
+            for (const node of nodes) {
+                html += `<li>${node.content}`;
+
+                if (node.children.length > 0) {
+                    html += renderNodes(node.children);
+                }
+
+                html += "</li>";
+            }
+
+            html += "</ul>";
+            return html;
+        }
+
+        return renderNodes(roots);
+    }
 
     function flushList() {
-        if (openItem) {
-            currentListHTML += "</li>";
-            openItem = false;
+        if (listItems.length > 0) {
+            result.push(renderListItems(listItems));
+            listItems.length = 0;
         }
+    }
 
-        while (listStack.length > 0) {
-            currentListHTML += "</ul>";
-            listStack.pop();
-        }
-
-        if (currentListHTML) {
-            result.push(currentListHTML);
-            currentListHTML = "";
-        }
+    function isCodeBlockPlaceholder(content) {
+        return codeBlocks.some((_, i) => content === makePlaceholder("CODE", i));
     }
 
     function flushBlockquote() {
@@ -119,7 +268,7 @@ function markdownFormat(md) {
                     currentDepth--;
                 }
 
-                if (/^{{CODEBLOCK\d+}}$/.test(content)) {
+                if (isCodeBlockPlaceholder(content)) {
                     html += content;
                 } else {
                     html += `<div>${markdownFormat(content)}</div>`;
@@ -132,7 +281,7 @@ function markdownFormat(md) {
             }
 
             result.push(html);
-            blockquoteBuffer = [];   
+            blockquoteBuffer.length = 0;
         }
     }
 
@@ -141,7 +290,7 @@ function markdownFormat(md) {
 
         // Empty lines.
         if (!line.trim()) {
-            if (listStack.length > 0) {
+            if (listItems.length > 0) {
                 flushList();
                 result.push("<span class=\"line-break-list\"></span>");
             } else {
@@ -169,49 +318,22 @@ function markdownFormat(md) {
         const listMatch = line.match(/^(\s*)([-*+])\s+(.*)/);
         if (listMatch) {
             flushBlockquote();
+
             const indent = listMatch[1].length;
-            const level = Math.floor(indent / 2);
             const content = processInlineFormatting(listMatch[3]);
 
-            // Open required <ul> levels.
-            while (listStack.length < (level + 1)) {
-                currentListHTML += "<ul>";
-                listStack.push(true);
-            }
+            listItems.push({
+                indent,
+                content
+            });
 
-            // Close excess <ul> levels.
-            while (listStack.length > (level + 1)) {
-                if (openItem) {
-                    currentListHTML += "</li>";
-                    openItem = false;
-                }
-                currentListHTML += "</ul>";
-                listStack.pop();
-            }
-
-            // Close previous <li>.
-            if (openItem) {
-                currentListHTML += "</li>";
-            }
-
-            // Start new <li>.
-            currentListHTML += `<li>${content}`;
-            openItem = true;
             continue;
         } else {
-            // flush list properly.
-            if (listStack.length > 0) {
-                if (openItem) {
-                    currentListHTML += "</li>";
-                    openItem = false;
-                }
-                
-                flushList();
-            }
+            flushList();
         }
 
         // Headers.
-        let headerMatch = line.match(/^(#{1,4})\s+(.*)/);
+        const headerMatch = line.match(/^(#{1,4})\s+(.*)/);
         if (headerMatch) {
             const level = headerMatch[1].length;
             const headerText = processInlineFormatting(headerMatch[2]);
@@ -229,65 +351,69 @@ function markdownFormat(md) {
     // Re-insert code blocks.
     let finalHTML = result.join("\n");
     codeBlocks.forEach((codeHTML, i) => {
-        finalHTML = finalHTML.replaceAll(`{{CODEBLOCK${i}}}`, codeHTML);
+        finalHTML = finalHTML.replaceAll(makePlaceholder("CODE", i), codeHTML);
     });
 
     return finalHTML;
 }
 
-function markdownPost(md, info, date, editDate, title, append) {
-    if (md && info && title) {
-        const container = document.getElementById("content");
-        const post = document.createElement("div");
-        post.className = "post";
+function markdownPost(markdown, fileDir, postDate, editDate, postTitle, titleAfter, append) {
+    if (markdown && fileDir && postDate && postTitle) {
+        const postElement = document.createElement("div");
+        postElement.className = "post";
 
-        const postInfo = document.createElement("div");
-        postInfo.className = "post-info";
-        postInfo.textContent = `${info}`;
+        const dirElement = document.createElement("div");
+        dirElement.className = "post-dir";
+        dirElement.textContent = `${fileDir}`;
 
-        let dateShort = date;
+        let dateShort = postDate;
 
         // Shorten the date so it displays better on mobile, and make it look a little less cluttered.
-        if ((date.length > 6) && date.includes(" ")) {
-            dateShort = (date.slice(0, 3) + date.slice(date.indexOf(" ")));
+        if ((postDate.length > 6) && postDate.includes(" ")) {
+            dateShort = (postDate.slice(0, 3) + postDate.slice(postDate.indexOf(" ")));
         }
 
-        const postDate = document.createElement("div");
-        postDate.className = "post-date";
-        postDate.textContent = dateShort;
+        const dateElement = document.createElement("div");
+        dateElement.className = "post-date";
+        dateElement.textContent = dateShort;
 
-        if (editDate.length > 3) {
-            const editSpan = document.createElement("span");
-            editSpan.className = "post-tooltip";
-            editSpan.textContent = "*";
-            editSpan.title = `Posted: ${date}\nEdited: ${editDate}`;
-            postDate.appendChild(editSpan);
+        if (postDate.length > 3) {
+            const editElement = document.createElement("span");
+            editElement.className = "post-tip";
+            editElement.textContent = "*";
+            editElement.title = `Posted: ${postDate}\nLast Edited: ${editDate ? editDate : postDate}`;
+            dateElement.appendChild(editElement);
         }
 
-        const postTitle = document.createElement("div");
-        postTitle.className = "post-title";
-        postTitle.textContent = `${title}`;
+        const titleElement = document.createElement("div");
+        titleElement.className = "post-title";
+        titleElement.textContent = `${postTitle}`;
 
-        const postContent = document.createElement("div");
-        postContent.className = "md post-content";
-        postContent.textContent = "Loading...";
-        postContent.innerHTML = markdownFormat(md);
+        if (titleAfter) {
+            titleElement.dataset.after = titleAfter;
+        }
 
-        post.appendChild(postInfo); // Tab, folder, file name, etc...
-        post.appendChild(postDate); // Post date and when was last edited.
-        post.appendChild(postTitle); // Title of the post.
-        post.appendChild(postContent); // Actual html content of the file formatted from markdown.
+        const markdownElement = document.createElement("div");
+        markdownElement.className = "md post-content";
+        markdownElement.textContent = "Loading...";
+        markdownElement.innerHTML = markdownFormat(markdown);
 
-        if (append) {
-            container.appendChild(post);
-        } else {
+        postElement.appendChild(dirElement); // Tab, folder, file name, etc...
+        postElement.appendChild(dateElement); // Post date and when was last edited.
+        postElement.appendChild(titleElement); // Title of the post.
+        postElement.appendChild(markdownElement); // Actual html content of the file formatted from markdown.
+
+        const container = document.getElementById("content");
+
+        if (!append) {
             container.innerHTML = "";
-            container.appendChild(post);
         }
+
+        container.appendChild(postElement);
 
         // Small fade animation when loading posts.
         requestAnimationFrame(() => {
-            post.classList.add("show");
+            postElement.classList.add("show");
         });
     }
 }
@@ -311,22 +437,22 @@ function markdownPostFile(fileContents, append) {
                 if (line.slice(15).trim() != "true") {
                     return false;
                 }
-            } else if (line.startsWith("post-folder: ")) {
-                mdFolder = line.slice(13).trim();
-            } else if (line.startsWith("post-file: ")) {
+            } else if (line.startsWith("post-dir:")) {
+                mdFolder = line.slice(10).trim();
+            } else if (line.startsWith("post-file:")) {
                 mdFile = line.slice(11).trim();
-            } else if (line.startsWith("post-date: ")) {
+            } else if (line.startsWith("post-date:")) {
                 mdDate = line.slice(11).trim();
-            } else if (line.startsWith("post-edit: ")) {
+            } else if (line.startsWith("post-edit:")) {
                 mdEdit = line.slice(11).trim();
-            } else if (line.startsWith("post-title: ")) {
+            } else if (line.startsWith("post-title:")) {
                 mdTitle = line.slice(12).trim();
-            } else if (line.startsWith("blog-category: ")) {
+            } else if (line.startsWith("blog-category:")) {
                 mdBlogCat = line.slice(15).trim();
-            } else if (!line.startsWith("post-") && !line.startsWith("blog-") && !line.startsWith("dimension-")) {                
+            } else if (!line.startsWith("post-") && !line.startsWith("blog-")) {                
                 if (firstLine) {
                     firstLine = false;
-                    if (!line.trim()) { // Skip over the first line, I put a blank line after the custom post fields as a buffer.
+                    if (!line.trim()) { // Skip over the first line as its usually empty, want to only start counting text after as the actual markdown content.
                         continue;
                     }
                 }
@@ -335,7 +461,7 @@ function markdownPostFile(fileContents, append) {
             }
         }
 
-        if (mdTitle && (fileContents.length > 16)) { // Something was not parsed right if its less than 16 characters total, or the file isn't setup right.
+        if (mdTitle && fileContents) {
             if (mdFolder) {
                 mdInfo = mdFolder;
             }
@@ -346,20 +472,24 @@ function markdownPostFile(fileContents, append) {
             }
 
             if (mdBlogCat) {
-                mdTitle += (" / " + mdBlogCat);
-
-                if (mdBlogCat === "Ramblings") {
+                if (mdBlogCat === BLOG_CATEGORY_RAMBLES) {
                     mdTitle = ("🧠 " + mdTitle);
-                } else if (mdBlogCat === "Shower Thoughts") {
-                    mdTitle = ("🧼 " + mdTitle);
-                } else if (mdBlogCat === "Philosophy") {
-                    mdTitle = ("⚖️ " + mdTitle);
-                } else if (mdBlogCat === "Research") {
+                    mdBlogCat = ("/ Thoughts & Ramblings");
+                } else if (mdBlogCat === BLOG_CATEGORY_RESEARCH) {
                     mdTitle = ("🛰️ " + mdTitle);
-                } else if (mdBlogCat === "Dreamscape") {
+                    mdBlogCat = ("/ Terrestrial Research");
+                } else if (mdBlogCat === BLOG_CATEGORY_COSMIC) {
+                    mdTitle = ("👨‍🚀 " + mdTitle);
+                    mdBlogCat = ("/ Cosmic Studies");
+                } else if (mdBlogCat === BLOG_CATEGORY_SPECIES) {
+                    mdTitle = ("🛸 " + mdTitle);
+                    mdBlogCat = ("/ Species Report");
+                } else if (mdBlogCat === BLOG_CATEGORY_DREAMSCAPE) {
                     mdTitle = ("💤 " + mdTitle);
-                } else if (mdBlogCat === "Trip Report") {
+                    mdBlogCat = ("/ Dreamscape Report");
+                } else if (mdBlogCat === BLOG_CATEGORY_TRIP) {
                     mdTitle = ("🍄 " + mdTitle);
+                    mdBlogCat = ("/ Trip Report");
                 }
             }
 
@@ -367,7 +497,7 @@ function markdownPostFile(fileContents, append) {
                 mdInfo = mdInfo.slice(0, (mdInfo.length - 3));
             }
 
-            markdownPost(fileContents.slice(0, -1), mdInfo, mdDate, mdEdit, mdTitle, append); // Slice to remove the last new line added when rebuilding the string.
+            markdownPost(fileContents.slice(0, -1), mdInfo, mdDate, mdEdit, mdTitle, mdBlogCat, append); // Slice to remove the last new line added when rebuilding the string.
             return true;
         }
     }
@@ -380,7 +510,7 @@ async function markdownLoadFile(filePath, append) {
         try {
             const fileText = await fetchText(filePath);
             if (!markdownPostFile(fileText, append)) {
-                throw new Error("Failed to post file.");
+                throw new Error("Failed to post markdown file.");
             }
 
             return true;
@@ -393,10 +523,55 @@ async function markdownLoadFile(filePath, append) {
     return false;
 }
 
-async function fetchText(filePath) {
+async function markdownLoadArchive(filePath) {
+    if (filePath.endsWith("archive.md")) {
+        try {
+            const fileText = await fetchText(filePath);
+            const linkRegex = /\[[^\]]*\]\(\s*([^)\s]+\.md)\s*\)/gi;
+            const markdownFiles = [];
+
+            let match;
+            while ((match = linkRegex.exec(fileText)) !== null) {
+                if (!match[1].includes("discord")) {
+                    markdownFiles.push(match[1]);
+                }
+            }
+
+            let firstFile = false; // This is just to clear any previously loaded post before we start loading the new files.
+
+            for (const markdownFile of markdownFiles) {
+                try {
+                    await markdownLoadFile(markdownFile, firstFile);
+                    firstFile = true;
+                } catch (err) {
+                    console.error(`Failed to load archive file: ${markdownFile}`, err);
+                }
+            }
+
+            return true;
+        } catch (err) {
+            console.error(`Failed to load markdown archive: ${filePath}`, err);
+            return false;
+        }
+    }
+
+    return false;
+}
+
+async function markdownLoadNews() {
+    await markdownLoadArchive("pages/news/" + DEFAULT_CURRENT_YEAR + "/archive.md");
+    await markdownLoadFile("pages/landing/news.md", true);
+}
+
+async function fetchText(filePath, signal) {
     const controller = new AbortController();
     const timeout = setTimeout(() => controller.abort(), 5000);
-  
+
+    const abortHandler = () => controller.abort();
+    if (signal) {
+        signal.addEventListener("abort", abortHandler, { once: true });
+    }
+
     try {
         const res = await fetch(filePath, { signal: controller.signal });
         if (!res.ok) {
@@ -411,16 +586,19 @@ async function fetchText(filePath) {
         return fileText;
     } catch (err) {
         if (err.name === "AbortError") {
-            throw new Error(`Request timed out: ${filePath}`);
+            throw new Error(`Request timed out or was cancelled: ${filePath}`, { cause: err });
         }
 
         throw err;
     } finally {
         clearTimeout(timeout);
+
+        if (signal) {
+            signal.removeEventListener("abort", abortHandler);
+        }
     }
 }
 
-/*
 function markdownDemo() {
     let md =
 `
@@ -453,6 +631,8 @@ This is [another link](https://google.com/test(1))
 
 - This is another dash list.
   - This is an inline dash list.
+    - This is an even deeper inline dash list.
+- Woo wee yippie another dash list right after.
 
 > This is a blockquote.
 >> This is a nested blockquote.
@@ -476,6 +656,5 @@ This is another codeblock.
     let mdEdit = "January 2nd, 2077";
     let mdTitle = "Markdown Demo";
 
-    markdownPost(md, mdInfo, mdDate, mdEdit, mdTitle, true);
+    markdownPost(md, mdInfo, mdDate, mdEdit, mdTitle, "", true);
 }
-*/

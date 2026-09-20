@@ -1,9 +1,9 @@
-post-folder: Blog / 2026
+post-dir: Blog / 2026
 post-file: June28th-PissBandits.md
 post-date: June 28th, 2026
-post-edit: June 28th, 2026
+post-edit: September 18th, 2026
 post-title: The Piss Bandits
-blog-category: Dreamscape
+blog-category: 4
 
 > had a very strange piss dream today
 

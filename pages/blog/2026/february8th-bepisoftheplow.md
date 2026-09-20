@@ -1,9 +1,9 @@
-post-folder: Blog / 2026
+post-dir: Blog / 2026
 post-file: February8th-BepisOfThePlow.md
 post-date: February 8th, 2026
-post-edit: March 26th, 2026
+post-edit: September 18th, 2026
 post-title: Bepis Of The Plow
-blog-category: Ramblings
+blog-category: 0
 
 > the principle of the bepis of the plow 
 

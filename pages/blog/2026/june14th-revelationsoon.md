@@ -1,9 +1,9 @@
-post-folder: Blog / 2026
+post-dir: Blog / 2026
 post-file: June14th-RevelationSoon.md
 post-date: June 14th, 2026
-post-edit: June 14th, 2026
+post-edit: September 18th, 2026
 post-title: A Revelation Is Coming
-blog-category: Ramblings
+blog-category: 0
 
 > i have a feeling a big revelation is coming soon...within this month soon 
 

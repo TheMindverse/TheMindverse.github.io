@@ -1,7 +1,7 @@
-post-folder: News / 2026
+post-dir: News / 2026
 post-file: June20th-TheRedSummer.md
 post-date: June 20th, 2026
-post-edit: July 9th, 2026
+post-edit: September 19th, 2026
 post-title: 🔥 The Red Summer
 
 The summer of death is upon us, the second phase of "The Great Purge" has begun. Over the next few months we will start to see the world unravel. World politics will be at an all time high, more people will get killed in other countries due to war, the economy will be the worst its ever been, extreme weather events, heat waves, many power outages will come resulting in the death of the unprepared in many states.

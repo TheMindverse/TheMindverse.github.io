@@ -1,9 +1,9 @@
-post-folder: Blog / 2026
+post-dir: Blog / 2026
 post-file: May10th-JumpScares.md
 post-date: May 10th, 2026
-post-edit: May 14th, 2026
+post-edit: September 18th, 2026
 post-title: Jump Scares
-blog-category: Ramblings
+blog-category: 0
 
 > im jumping all around all day today at everything
 

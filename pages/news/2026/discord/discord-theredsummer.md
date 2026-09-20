@@ -1,7 +1,7 @@
-post-folder: News / 2026
+post-dir: News / Discord / 2026
 post-file: Discord-TheRedSummer.md
 post-date: June 20th, 2026
-post-edit: June 21st, 2026
+post-edit: September 18th, 2026
 post-title: 📅 The Red Summer
 
 This is an event forwarded from the discord server, which is not open to the public.

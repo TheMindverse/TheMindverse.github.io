@@ -1,17 +1,17 @@
-post-folder: Blog / 2023
+post-dir: Blog / 2023
 post-file: December12th-300mg.md
 post-date: December 12th, 2023
-post-edit: March 30th, 2026
+post-edit: September 17th, 2026
 post-title: 300mg DXM Freebase
-blog-category: Trip Report
+blog-category: 5
 
 - **Date:** December 12th 2nd, 2023
 - **Body Weight:** 109 Pounds
 - **Dosage:** 300mg DXM Freebase
 
-# Comeup
+# Come-up
 
-> Made sure to take on an empty stomach, didn't eat for 3-4 hours before so I felt it start to work after 25-30 minutes almost. Had some fun playing guitar and messing with effects, but I felt more nauseous than other trips on the comeup. Possibly because I was playing guitar standing up and usually I'm laying in bed listening to music at this point. Still had fun, I played some levels of deep rock too after this while I waited for it to kick in more.
+> Made sure to take on an empty stomach, didn't eat for 3-4 hours before so I felt it start to work after 25-30 minutes almost. Had some fun playing guitar and messing with effects, but I felt more nauseous than other trips on the come-up. Possibly because I was playing guitar standing up and usually I'm laying in bed listening to music at this point. Still had fun, I played some levels of deep rock too after this while I waited for it to kick in more.
 
 # Approaching Peak
 

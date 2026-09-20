@@ -1,7 +1,7 @@
-post-folder: News / 2025
+post-dir: News / 2025
 post-file: December10th-TheWhiteWinter.md
 post-date: December 10th, 2025
-post-edit: July 9th, 2026
+post-edit: September 18th, 2026
 post-title: ❄️ The White Winter
 
 The winter of reckoning is approaching us, one of the harshest winters of the last two decades is forming and you only have a month or two to prepare. This great winter is a result of all our time exploring the universe, connecting our consciousness to the cosmos, and being recognized by the collective consciousnesses of the multiverse.
@@ -35,7 +35,7 @@ Stock up on plenty of shelf stable foods and water, as well as a method to obtai
 
 ## 💡 Power & Light
 
-- **Power:** Batteries, rechargeable battery banks, portable solar panels (solar powered batter banks are often unreliable), portable power stations, and outdoor generators that are powered by gas or deiseal.
+- **Power:** Batteries, rechargeable battery banks, portable solar panels (solar powered batter banks are often unreliable), portable power stations, and outdoor generators that are powered by gas or diesel.
 - **Light Sources:** Candles, flashlights, lanterns, and headlamps; make sure their bulbs are LED to be as power efficient as possible.
 
 ## 🧰 Tools, Repair & Health

@@ -1,7 +1,7 @@
-post-folder: Dimensions
+post-dir: Dimensions
 post-file: MV-C04.md
 post-date: July 15th, 2026
-post-edit: July 15th, 2026
+post-edit: September 18th, 2026
 post-title: 🧦 MV-C04 / Land of Darkness
 
 # 📋 Cosmic Entry

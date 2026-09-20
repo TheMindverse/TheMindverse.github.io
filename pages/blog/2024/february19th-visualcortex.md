@@ -1,9 +1,9 @@
-post-folder: Blog / 2024
+post-dir: Blog / 2024
 post-file: February19th-VisualCortex.md
 post-date: February 19th, 2024
-post-edit: March 30th, 2026
+post-edit: September 17th, 2026
 post-title: Visual Cortex
-blog-category: Research
+blog-category: 2
 
 > # What geometric visual hallucinations tell us about the visual cortex
 

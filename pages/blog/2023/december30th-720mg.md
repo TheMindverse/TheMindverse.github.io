@@ -1,21 +1,21 @@
-post-folder: Blog / 2023
+post-dir: Blog / 2023
 post-file: December30th-720mg.md
 post-date: December 30th, 2023
-post-edit: March 30th, 2026
+post-edit: September 17th, 2026
 post-title: 720mg DXM Freebase + CBD + DPH
-blog-category: Trip Report
+blog-category: 5
 
 - **Date:** December 30th 2nd, 2023
 - **Body Weight:** 107 Pounds
 - **Dosage:** 720mg DXM Freebase, 50mg CBD Isolate, 100mg DPH
 
-# Comeup
+# Come-up
 
 > I took the dph and cbd together and waited about 20 minutes before I dosed the dxm, about an hour later I started to feel the effects. Slightly numb and weightless as normal. The most dxm I've done in the past is 420mg (freebase), and usually its a slow build up until my vision starts to get doubled and I slowly get nauseous. This gives me time to lay in bed and pick some songs to listen to. This time it was not a slow build up, after I felt it start to kick in about 15 minutes later and it really hit hard all at once. Almost instantly I got very bad double vision and it was really hard to focus, at this point I went to lay in bed to try to relax and practice slow deep breaths.
 
 # Approaching Peak
 
-> It felt like my face and head were blistering hot, I couldn't feel my body at this point. It was a full body anesthetic-like numbness that I have never felt before on dxm; yet I could tell my head was on fire. Soon after I got that feeling in your stomach that pukes about to happen and you start producing spit, got up and puked into my puke bucket. At this point stuff was really starting to get intense, it was really hard for me to get back up to lay in bed so I just stayed on the floor because just looking around the room with my eyes open made me so dizzy and nauseous I knew I'd have to throw up again. I always come prepared with a puke bucket and an ice pack in my mini fridge incase I'm worried about my fever getting too bad.
+> It felt like my face and head were blistering hot, I couldn't feel my body at this point. It was a full body anesthetic-like numbness that I have never felt before on dxm; yet I could tell my head was on fire. Soon after I got that feeling in your stomach that pukes about to happen and you start producing spit, got up and puked into my puke bucket. At this point stuff was really starting to get intense, it was really hard for me to get back up to lay in bed so I just stayed on the floor because just looking around the room with my eyes open made me so dizzy and nauseous I knew I'd have to throw up again. I always come prepared with a puke bucket and an ice pack in my mini fridge in case I'm worried about my fever getting too bad.
 
 # Peak
 

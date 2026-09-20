@@ -1,7 +1,7 @@
-post-folder: Guides
+post-dir: Guides
 post-file: AdvancedGuide.md
 post-date: October 13th, 2025
-post-edit: July 9th, 2026
+post-edit: September 18th, 2026
 post-title: 🚀 Advanced Guide
 
 This section is intended for experienced voyagers of both the mindverse and multiverse. Some of these topics only exist for the sake of documentation, they are not to be attempted by anyone other than the oracle, such as skinwalking or rebinding consciousness.

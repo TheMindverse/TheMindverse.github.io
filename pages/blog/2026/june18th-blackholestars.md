@@ -1,9 +1,9 @@
-post-folder: Blog / 2026
+post-dir: Blog / 2026
 post-file: June18th-BlackHoleStars.md
 post-date: June 18th, 2026
-post-edit: June 18th, 2026
+post-edit: September 18th, 2026
 post-title: Black Hole Stars
-blog-category: Philosophy
+blog-category: 2
 
 > # JWST Evidence That We Found Exotic Black Hole Stars After All
 

@@ -1,19 +1,19 @@
-post-folder: Blog / 2023
+post-dir: Blog / 2023
 post-file: May5th-480mg.md
 post-date: May 5th, 2023
-post-edit: March 30th, 2026
+post-edit: September 17th, 2026
 post-title: 480mg DXM HBr
-blog-category: Trip Report
+blog-category: 5
 
 - **Date:** May 5th, 2023
 - **Body Weight:** 105 Pounds
 - **Dosage:** 480mg DXM HBr
 
-# Comeup
+# Come-up
 
-> Tried playing rocket league, only played a few games and then threw up twice. Put on Shpongle's "Nothing Lasts But Nothing Is Lost" album and layed in bed, was the typical body numbness but the gravity changes where so intense and random with my eyes open that caused me to throw up again. Closed eyes and the music really took me off, I started to forget that it was music and it felt like the universe guiding me or it was part of me. I started to doubt if my friends and the people I knew ever really existed. My sense of reality was completely thrown off. At this point is when the itching came in, it was a burning rash like thing all over my scalp. But I still couldn't feel my body, when I tried to itch or scratch I couldn't feel myself touching my own body, and the itching was completely separate from my body somehow. But I touched my forehead and I could feel my head was super fuckin hot, like burning fever. I grabbed a water bottle from my mini fridge and put it on my head, almost instantly the itching went away. Very strange feeling and super fucking uncomfortable.
+> Tried playing rocket league, only played a few games and then threw up twice. Put on shpongles "Nothing Lasts But Nothing Is Lost" album and laid in bed, was the typical body numbness but the gravity changes where so intense and random with my eyes open that caused me to throw up again. Closed eyes and the music really took me off, I started to forget that it was music and it felt like the universe guiding me or it was part of me. I started to doubt if my friends and the people I knew ever really existed. My sense of reality was completely thrown off. At this point is when the itching came in, it was a burning rash like thing all over my scalp. But I still couldn't feel my body, when I tried to itch or scratch I couldn't feel myself touching my own body, and the itching was completely separate from my body somehow. But I touched my forehead and I could feel my head was super fuckin hot, like burning fever. I grabbed a water bottle from my mini fridge and put it on my head, almost instantly the itching went away. Very strange feeling and super fucking uncomfortable.
 
-# Approaching Peak (Forgetting Reality)
+# Approaching Peak
  
 > In the void of darkness I felt my mind float up into this large dome room, it was pitch black but I could tell it was a dome or a sphere somehow. Then the ceiling of it started to form some geometric patterns, which turned into the night sky. I can vividly remember them being all stars in space when I started to move upwards towards them in a tunnel. The tunnel was like a cylinder kind of, the walls were round and made of the same glowing stars. It was at this point I fully lost contact with the real world, I'm not sure if I fell into a hole, but I had no way of moving my arms or even knowing where my arms were. I could not move or open my eyes if I wanted, I didn't even know how to.
 
