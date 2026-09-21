@@ -419,13 +419,12 @@ function markdownPost(markdown, fileDir, postDate, editDate, postTitle, titleAft
 }
 
 async function markdownPostFile(fileContents, append) {
-    if (fileContents) {
+    if (fileContents.trim()) {
         const fileLines = fileContents.split("\n");
         fileContents = "";
 
-        let firstLine = true;
-        let mdInfo = "";
-        let mdFolder = "";
+        let readHeader = false;
+        let mdDir = "";
         let mdFile = "";
         let mdDate = "";
         let mdEdit = "";
@@ -447,7 +446,7 @@ async function markdownPostFile(fileContents, append) {
                 await markdownLoadArchive(line.slice(19).trim());
                 append = true;
             } else if (line.startsWith("post-dir: ")) {
-                mdFolder = line.slice(10).trim();
+                mdDir = line.slice(10).trim();
             } else if (line.startsWith("post-file: ")) {
                 mdFile = line.slice(11).trim();
             } else if (line.startsWith("post-date: ")) {
@@ -458,26 +457,25 @@ async function markdownPostFile(fileContents, append) {
                 mdTitle = line.slice(12).trim();
             } else if (line.startsWith("blog-category: ")) {
                 mdBlogCat = line.slice(15).trim();
-            } else if (!line.startsWith("post-") && !line.startsWith("blog-")) {                
-                if (firstLine) {
-                    firstLine = false;
-                    if (!line.trim()) { // Skip over the first line as its usually empty, want to only start counting text after as the actual markdown content.
-                        continue;
+            } else if (!line.startsWith("post-") && !line.startsWith("blog-")) {      
+                if (!readHeader) {
+                    if (line.trim()) {
+                        readHeader = true;
+                    } else {
+                        continue; // Skip over blank lines between the header and the actual markdown content.
                     }
                 }
-
+                
                 fileContents += (line + "\n");
             }
         }
 
         if (mdTitle && fileContents) {
-            if (mdFolder) {
-                mdInfo = mdFolder;
-            }
+            fileContents = fileContents.slice(0, -1); // Remove trailing new line that was added when rebuilding the markdown string.
 
             if (mdFile) {
-                if (mdInfo) { mdInfo += " / "; }
-                mdInfo += mdFile;
+                if (mdDir) { mdDir += " / "; }
+                mdDir += mdFile;
             }
 
             if (mdBlogCat) {
@@ -502,11 +500,11 @@ async function markdownPostFile(fileContents, append) {
                 }
             }
 
-            if (mdInfo.endsWith(" / ")) {
-                mdInfo = mdInfo.slice(0, (mdInfo.length - 3));
+            if (mdDir.endsWith(" / ")) {
+                mdDir = mdDir.slice(0, (mdDir.length - 3)); // Remove trailing slash if there is one.
             }
 
-            markdownPost(fileContents.slice(0, -1), mdInfo, mdDate, mdEdit, mdTitle, mdBlogCat, append); // Slice to remove the last new line added when rebuilding the string.
+            markdownPost(fileContents, mdDir, mdDate, mdEdit, mdTitle, mdBlogCat, append);
             return true;
         }
     }
