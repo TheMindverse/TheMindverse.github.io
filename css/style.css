@@ -303,6 +303,8 @@ body.light .md pre code {
         left: 25px;
         right: 25px;
         white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
 
     .post-date {
@@ -313,5 +315,9 @@ body.light .md pre code {
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
+    }
+
+    .post-title {
+        margin-top: 10px;
     }
 }
