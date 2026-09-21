@@ -670,8 +670,8 @@ This is another codeblock.
 `;
 
     let mdInfo = "Test / Test.html"; 
-    let mdDate = "January 1st, 2077";
-    let mdEdit = "January 2nd, 2077";
+    let mdDate = "January 1st, 1970";
+    let mdEdit = "January 2nd, 1970";
     let mdTitle = "Markdown Demo";
 
     markdownPost(md, mdInfo, mdDate, mdEdit, mdTitle, "", true);
