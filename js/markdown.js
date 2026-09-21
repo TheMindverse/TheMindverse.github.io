@@ -478,6 +478,10 @@ async function markdownPostFile(fileContents, append) {
                 mdDir += mdFile;
             }
 
+            if (mdDir.endsWith(" / ")) {
+                mdDir = mdDir.slice(0, -3); // Remove trailing slash if there is one.
+            }
+
             if (mdBlogCat) {
                 if (mdBlogCat === BLOG_CATEGORY_RAMBLES) {
                     mdTitle = ("🧠 " + mdTitle);
@@ -498,10 +502,6 @@ async function markdownPostFile(fileContents, append) {
                     mdTitle = ("🍄 " + mdTitle);
                     mdBlogCat = ("/ Trip Report");
                 }
-            }
-
-            if (mdDir.endsWith(" / ")) {
-                mdDir = mdDir.slice(0, (mdDir.length - 3)); // Remove trailing slash if there is one.
             }
 
             markdownPost(fileContents, mdDir, mdDate, mdEdit, mdTitle, mdBlogCat, append);
@@ -566,37 +566,45 @@ async function markdownLoadArchive(filePath) {
 }
 
 async function fetchText(filePath, signal) {
-    const controller = new AbortController();
-    const timeout = setTimeout(() => controller.abort(), 5000);
+    if (filePath.trim()) {
+        const url = new URL(filePath, document.baseURI);
 
-    const abortHandler = () => controller.abort();
-    if (signal) {
-        signal.addEventListener("abort", abortHandler, { once: true });
-    }
-
-    try {
-        const res = await fetch(filePath, { signal: controller.signal });
-        if (!res.ok) {
-            throw new Error(`Failed to fetch file: ${filePath}`);
+        if (url.origin !== window.location.origin) {
+            throw new Error(`Blocked cross-origin request: ${url.href}`);
         }
 
-        const fileText = await res.text();
-        if (!fileText.trim()) {
-            throw new Error(`Empty file contents: ${filePath}`);
-        }
-
-        return fileText;
-    } catch (err) {
-        if (err.name === "AbortError") {
-            throw new Error(`Request timed out or was cancelled: ${filePath}`, { cause: err });
-        }
-
-        throw err;
-    } finally {
-        clearTimeout(timeout);
+        const controller = new AbortController();
+        const timeout = setTimeout(() => controller.abort(), 5000);
+        const abortHandler = () => controller.abort();
 
         if (signal) {
-            signal.removeEventListener("abort", abortHandler);
+            signal.addEventListener("abort", abortHandler, { once: true });
+        }
+
+        try {
+            const res = await fetch(url.href, { signal: controller.signal });
+            if (!res.ok) {
+                throw new Error(`Failed to fetch file: ${filePath}`);
+            }
+
+            const fileText = await res.text();
+            if (!fileText.trim()) {
+                throw new Error(`Empty file contents: ${filePath}`);
+            }
+
+            return fileText;
+        } catch (err) {
+            if (err.name === "AbortError") {
+                throw new Error(`Request timed out or was cancelled: ${filePath}`, { cause: err });
+            }
+
+            throw err;
+        } finally {
+            clearTimeout(timeout);
+
+            if (signal) {
+                signal.removeEventListener("abort", abortHandler);
+            }
         }
     }
 }
