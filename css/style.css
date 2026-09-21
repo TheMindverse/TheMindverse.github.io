@@ -97,6 +97,8 @@ header {
     transition: opacity 0.5s ease, transform 0.5s ease;
     padding: 25px;
     margin-top: 20px;
+    position: relative;
+    overflow: hidden;
 }
 
 .post.show {
@@ -300,14 +302,13 @@ body.light .md pre code {
         top: 15px;
         left: 25px;
         right: 25px;
-        white-space: normal;
-        overflow-wrap: anywhere;
+        white-space: nowrap;
     }
 
     .post-date {
+        top: 40px;
         left: 25px;
         right: 25px;
-        top: 40px;
         text-align: right;
         white-space: nowrap;
         overflow: hidden;
