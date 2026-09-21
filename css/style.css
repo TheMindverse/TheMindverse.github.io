@@ -299,14 +299,18 @@ body.light .md pre code {
 @media (max-width: 600px) {
     .post-dir {
         left: 25px;
-        right: 120px;
+        top: 15px;
+        right: 25px;
         white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
     }
 
     .post-date {
+        left: 25px;
         right: 25px;
+        top: 40px;
+        text-align: right;
         white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
 }
