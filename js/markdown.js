@@ -432,40 +432,41 @@ async function markdownPostFile(fileContents, append) {
         let mdBlogCat = "";
 
         for (let line of fileLines) {
-            if (line.startsWith("post-loadable: ")) {
-                if (line.slice(15).trim() != "true") {
-                    return false;
-                }
-            } else if (line.startsWith("post-load-file: ") && line.includes(".md")) {
-                await markdownLoadFile(line.slice(16).trim(), false);
-                append = true;
-            } else if (line.startsWith("post-append-file: ") && line.includes(".md")) {
-                await markdownLoadFile(line.slice(18).trim(), true);
-                append = true;
-            } else if (line.startsWith("post-load-archive: ") && line.includes(".md")) {
-                await markdownLoadArchive(line.slice(19).trim());
-                append = true;
-            } else if (line.startsWith("post-dir: ")) {
-                mdDir = line.slice(10).trim();
-            } else if (line.startsWith("post-file: ")) {
-                mdFile = line.slice(11).trim();
-            } else if (line.startsWith("post-date: ")) {
-                mdDate = line.slice(11).trim();
-            } else if (line.startsWith("post-edit: ")) {
-                mdEdit = line.slice(11).trim();
-            } else if (line.startsWith("post-title: ")) {
-                mdTitle = line.slice(12).trim();
-            } else if (line.startsWith("blog-category: ")) {
-                mdBlogCat = line.slice(15).trim();
-            } else if (!line.startsWith("post-") && !line.startsWith("blog-")) {      
-                if (!readHeader) {
+            if (!readHeader) {
+                if (line.startsWith("post-loadable: ")) {
+                    if (line.slice(15).trim() != "true") {
+                        return false;
+                    }
+                } else if (line.startsWith("post-load-file: ") && line.includes(".md")) {
+                    await markdownLoadFile(line.slice(16).trim(), false);
+                    append = true;
+                } else if (line.startsWith("post-append-file: ") && line.includes(".md")) {
+                    await markdownLoadFile(line.slice(18).trim(), true);
+                    append = true;
+                } else if (line.startsWith("post-load-archive: ") && line.includes(".md")) {
+                    await markdownLoadArchive(line.slice(19).trim());
+                    append = true;
+                } else if (line.startsWith("post-dir: ")) {
+                    mdDir = line.slice(10).trim();
+                } else if (line.startsWith("post-file: ")) {
+                    mdFile = line.slice(11).trim();
+                } else if (line.startsWith("post-date: ")) {
+                    mdDate = line.slice(11).trim();
+                } else if (line.startsWith("post-edit: ")) {
+                    mdEdit = line.slice(11).trim();
+                } else if (line.startsWith("post-title: ")) {
+                    mdTitle = line.slice(12).trim();
+                } else if (line.startsWith("blog-category: ")) {
+                    mdBlogCat = line.slice(15).trim();
+                } else if (!line.startsWith("post-") && !line.startsWith("blog-")) {      
                     if (line.trim()) {
                         readHeader = true;
+                        fileContents += (line + "\n");
                     } else {
                         continue; // Skip over blank lines between the header and the actual markdown content.
                     }
                 }
-                
+            } else {
                 fileContents += (line + "\n");
             }
         }
