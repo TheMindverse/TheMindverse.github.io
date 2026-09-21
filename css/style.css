@@ -293,3 +293,20 @@ body.light .md pre code {
 .md a:hover {
     text-decoration: underline;
 }
+
+/* Mobile */
+
+@media (max-width: 600px) {
+    .post-dir {
+        left: 25px;
+        right: 120px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .post-date {
+        right: 25px;
+        white-space: nowrap;
+    }
+}
