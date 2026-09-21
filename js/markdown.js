@@ -474,12 +474,19 @@ async function markdownPostFile(fileContents, append) {
             fileContents = fileContents.slice(0, -1); // Remove trailing new line that was added when rebuilding the markdown string.
 
             if (mdFile) {
-                if (mdDir) { mdDir += " / "; }
+                if (mdDir) {
+                    mdDir += " / ";
+                }
+
                 mdDir += mdFile;
             }
 
-            if (mdDir.endsWith(" / ")) {
-                mdDir = mdDir.slice(0, -3); // Remove trailing slash if there is one.
+            if (mdDir) {
+                mdDir = mdDir.trim();
+
+                if (mdDir.endsWith(" /")) {
+                    mdDir = mdDir.slice(0, -2); // Remove trailing slash if there is one.
+                }
             }
 
             if (mdBlogCat) {
