@@ -291,8 +291,8 @@ body.light .md pre code {
 
 /* Mobile */
 @media (max-width: 600px) {
-    .post {
-        padding-top: 65px;
+    body {
+        padding: 10px;
     }
 
     .post-dir {
@@ -312,5 +312,9 @@ body.light .md pre code {
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
+    }
+
+    .post-title {
+        margin-top: 40px;
     }
 }
