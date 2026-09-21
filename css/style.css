@@ -295,13 +295,13 @@ body.light .md pre code {
 }
 
 /* Mobile */
-
 @media (max-width: 600px) {
     .post-dir {
-        left: 25px;
         top: 15px;
+        left: 25px;
         right: 25px;
-        white-space: nowrap;
+        white-space: normal;
+        overflow-wrap: anywhere;
     }
 
     .post-date {
