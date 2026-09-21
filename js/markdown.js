@@ -418,7 +418,7 @@ function markdownPost(markdown, fileDir, postDate, editDate, postTitle, titleAft
     }
 }
 
-function markdownPostFile(fileContents, append) {
+async function markdownPostFile(fileContents, append) {
     if (fileContents) {
         const fileLines = fileContents.split("\n");
         fileContents = "";
@@ -437,17 +437,26 @@ function markdownPostFile(fileContents, append) {
                 if (line.slice(15).trim() != "true") {
                     return false;
                 }
-            } else if (line.startsWith("post-dir:")) {
+            } else if (line.startsWith("post-load-file: ") && line.includes(".md")) {
+                await markdownLoadFile(line.slice(16).trim(), false);
+                append = true;
+            } else if (line.startsWith("post-append-file: ") && line.includes(".md")) {
+                await markdownLoadFile(line.slice(18).trim(), true);
+                append = true;
+            } else if (line.startsWith("post-load-archive: ") && line.includes(".md")) {
+                await markdownLoadArchive(line.slice(19).trim());
+                append = true;
+            } else if (line.startsWith("post-dir: ")) {
                 mdFolder = line.slice(10).trim();
-            } else if (line.startsWith("post-file:")) {
+            } else if (line.startsWith("post-file: ")) {
                 mdFile = line.slice(11).trim();
-            } else if (line.startsWith("post-date:")) {
+            } else if (line.startsWith("post-date: ")) {
                 mdDate = line.slice(11).trim();
-            } else if (line.startsWith("post-edit:")) {
+            } else if (line.startsWith("post-edit: ")) {
                 mdEdit = line.slice(11).trim();
-            } else if (line.startsWith("post-title:")) {
+            } else if (line.startsWith("post-title: ")) {
                 mdTitle = line.slice(12).trim();
-            } else if (line.startsWith("blog-category:")) {
+            } else if (line.startsWith("blog-category: ")) {
                 mdBlogCat = line.slice(15).trim();
             } else if (!line.startsWith("post-") && !line.startsWith("blog-")) {                
                 if (firstLine) {
@@ -509,14 +518,14 @@ async function markdownLoadFile(filePath, append) {
     if (filePath.trim()) {
         try {
             const fileText = await fetchText(filePath);
-            if (!markdownPostFile(fileText, append)) {
+            if (!await markdownPostFile(fileText, append)) {
                 throw new Error("Failed to post markdown file.");
             }
 
             return true;
         } catch (err) {
             const fallbackText = await fetchText(DEFAULT_NOT_FOUND_PAGE);
-            markdownPostFile(fallbackText, append);
+            await markdownPostFile(fallbackText, append);
         }
     }
 
@@ -532,7 +541,7 @@ async function markdownLoadArchive(filePath) {
 
             let match;
             while ((match = linkRegex.exec(fileText)) !== null) {
-                if (!match[1].includes("discord")) {
+                if (!match[1].includes("discord")) { // Skip over discord events.
                     markdownFiles.push(match[1]);
                 }
             }
@@ -556,11 +565,6 @@ async function markdownLoadArchive(filePath) {
     }
 
     return false;
-}
-
-async function markdownLoadNews() {
-    await markdownLoadArchive("pages/news/" + DEFAULT_CURRENT_YEAR + "/archive.md");
-    await markdownLoadFile("pages/landing/news.md", true);
 }
 
 async function fetchText(filePath, signal) {

@@ -63,12 +63,7 @@ function navigationLoadUrl(filePath, pushHistory) {
 function navigationLoadContent(filePath, pushHistory) {
     navigationRescroll();
     navigationUpdateHistory(filePath, pushHistory);
-
-    if (!filePath.endsWith("news.md")) {
-        markdownLoadFile(filePath, false);
-    } else {
-        markdownLoadNews();
-    }
+    markdownLoadFile(filePath, false);
 }
 
 function navigationLoadHash() {
