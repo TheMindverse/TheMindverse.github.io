@@ -523,14 +523,15 @@ async function markdownPostFile(fileContents, append) {
 async function markdownLoadFile(filePath, append) {
     if (filePath.trim()) {
         try {
-            const fileText = await fetchText(filePath);
+            const fileText = await readTextFile(filePath);
+
             if (!await markdownPostFile(fileText, append)) {
                 throw new Error("Failed to post markdown file.");
             }
 
             return true;
         } catch (err) {
-            const fallbackText = await fetchText(DEFAULT_NOT_FOUND_PAGE);
+            const fallbackText = await readTextFile(DEFAULT_NOT_FOUND_PAGE);
             await markdownPostFile(fallbackText, append);
         }
     }
@@ -541,11 +542,12 @@ async function markdownLoadFile(filePath, append) {
 async function markdownLoadArchive(filePath) {
     if (filePath.endsWith("archive.md")) {
         try {
-            const fileText = await fetchText(filePath);
+            const fileText = await readTextFile(filePath);
             const linkRegex = /\[[^\]]*\]\(\s*([^)\s]+\.md)\s*\)/gi;
             const markdownFiles = [];
 
             let match;
+
             while ((match = linkRegex.exec(fileText)) !== null) {
                 if (!match[1].includes("discord")) { // Skip over discord events.
                     markdownFiles.push(match[1]);
@@ -573,7 +575,7 @@ async function markdownLoadArchive(filePath) {
     return false;
 }
 
-async function fetchText(filePath, signal) {
+async function readTextFile(filePath, signal) {
     if (filePath.trim()) {
         const url = new URL(filePath, document.baseURI);
 
@@ -591,11 +593,13 @@ async function fetchText(filePath, signal) {
 
         try {
             const res = await fetch(url.href, { signal: controller.signal });
+            
             if (!res.ok) {
                 throw new Error(`Failed to fetch file: ${filePath}`);
             }
 
             const fileText = await res.text();
+
             if (!fileText.trim()) {
                 throw new Error(`Empty file contents: ${filePath}`);
             }
