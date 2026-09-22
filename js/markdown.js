@@ -526,11 +526,12 @@ async function markdownLoadFile(filePath, append) {
             const fileText = await readTextFile(filePath);
 
             if (!await markdownPostFile(fileText, append)) {
-                throw new Error("Failed to post markdown file.");
+                throw new Error(`(markdownLoadFile) Failed to post file: ${filePath}`);
             }
 
             return true;
         } catch (err) {
+            console.error(`[markdownLoadFile] File not found: ${filePath}`);
             const fallbackText = await readTextFile(DEFAULT_NOT_FOUND_PAGE);
             await markdownPostFile(fallbackText, append);
         }
@@ -549,25 +550,28 @@ async function markdownLoadArchive(filePath) {
             let match;
 
             while ((match = linkRegex.exec(fileText)) !== null) {
-                if (!match[1].includes("discord")) { // Skip over discord events.
-                    markdownFiles.push(match[1]);
-                }
+                markdownFiles.push(match[1]);
             }
 
             let firstFile = false; // This is just to clear any previously loaded post before we start loading the new files.
 
             for (const markdownFile of markdownFiles) {
                 try {
-                    await markdownLoadFile(markdownFile, firstFile);
-                    firstFile = true;
+                    if (markdownFile.trim() && !markdownFile.includes("discord")) {  // Skip over discord events.
+                        if (await markdownLoadFile(markdownFile, firstFile)) {
+                            firstFile = true;
+                        } else {
+                            console.error(`[markdownLoadArchive] Failed to load file: ${markdownFile}`, err);
+                        }
+                    }
                 } catch (err) {
-                    console.error(`Failed to load archive file: ${markdownFile}`, err);
+                    console.error(`[markdownLoadArchive] Failed to load file: ${markdownFile}`, err);
                 }
             }
 
             return true;
         } catch (err) {
-            console.error(`Failed to load markdown archive: ${filePath}`, err);
+            console.error(`[markdownLoadArchive] Failed to load file: ${filePath}`, err);
             return false;
         }
     }
@@ -580,7 +584,7 @@ async function readTextFile(filePath, signal) {
         const url = new URL(filePath, document.baseURI);
 
         if (url.origin !== window.location.origin) {
-            throw new Error(`Blocked cross-origin request: ${url.href}`);
+            throw new Error(`[readTextFile] Blocked cross-origin request: ${url.href}`);
         }
 
         const controller = new AbortController();
@@ -593,21 +597,21 @@ async function readTextFile(filePath, signal) {
 
         try {
             const res = await fetch(url.href, { signal: controller.signal });
-            
+
             if (!res.ok) {
-                throw new Error(`Failed to fetch file: ${filePath}`);
+                throw new Error(`[readTextFile] Failed to fetch file: ${filePath}`);
             }
 
             const fileText = await res.text();
 
             if (!fileText.trim()) {
-                throw new Error(`Empty file contents: ${filePath}`);
+                throw new Error(`[readTextFile] Empty file contents: ${filePath}`);
             }
 
             return fileText;
         } catch (err) {
             if (err.name === "AbortError") {
-                throw new Error(`Request timed out or was cancelled: ${filePath}`, { cause: err });
+                throw new Error(`[readTextFile] Request timed out or was cancelled: ${filePath}`, { cause: err });
             }
 
             throw err;
