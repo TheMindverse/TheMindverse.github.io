@@ -1,7 +1,7 @@
 post-dir: Landing
 post-file: Blog.md
 post-date: October 5th, 2025
-post-edit: September 19th, 2026
+post-edit: September 22nd, 2026
 post-title: 📝 Blog
 
 This is my personal blog and note taking journal, most if not all of these entries are written while actively in the mindverse. Most of these are forwarded from the discord server, which is not open to the public.
@@ -23,6 +23,7 @@ This is my personal blog and note taking journal, most if not all of these entri
 
 # > September
 
+- 🧠 [September 22nd, 2026: Shid And Fard](pages/blog/2026/september22nd-shidandfard.md)
 - 👨‍🚀 [September 19th, 2026: Galaxy Ripples](pages/blog/2026/september19th-galaxyripples.md)
 - 🧠 [September 19th, 2026: The Sights I Have Seen](pages/blog/2026/september19th-thesights.md)
 

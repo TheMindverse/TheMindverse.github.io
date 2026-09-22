@@ -669,10 +669,10 @@ This is another codeblock.
 ![](https://markdown-here.com/img/icon256.png)
 `;
 
-    let mdInfo = "Test / Test.html"; 
+    let mdDir = "Test / Test.html"; 
     let mdDate = "January 1st, 1970";
     let mdEdit = "January 2nd, 1970";
     let mdTitle = "Markdown Demo";
 
-    markdownPost(md, mdInfo, mdDate, mdEdit, mdTitle, "", true);
+    markdownPost(md, mdDir, mdDate, mdEdit, mdTitle, "", true);
 }

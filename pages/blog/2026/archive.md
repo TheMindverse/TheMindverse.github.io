@@ -2,11 +2,12 @@ post-loadable: true
 post-dir: Blog / 2026
 post-file: Archive.md
 post-date: July 4th, 2026
-post-edit: September 19th, 2026
+post-edit: September 22nd, 2026
 post-title: 📦 2026 Blog Archive
 
 # > September
 
+- 🧠 [September 22nd, 2026: Shid And Fard](pages/blog/2026/september22nd-shidandfard.md)
 - 👨‍🚀 [September 19th, 2026: Galaxy Ripples](pages/blog/2026/september19th-galaxyripples.md)
 - 🧠 [September 19th, 2026: The Sights I Have Seen](pages/blog/2026/september19th-thesights.md)
 
