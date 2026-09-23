@@ -23,7 +23,8 @@ This is my personal blog and note taking journal, most if not all of these entri
 
 # > September
 
-- 🧠 [September 22nd, 2026: Shid And Fard](pages/blog/2026/september22nd-shidandfard.md)
+- 🧠 [September 22nd, 2026: Bombs Going Off](pages/blog/2026/september22nd-bombsgoingoff.md)
+- 🧠 [September 21st, 2026: Shid And Fard](pages/blog/2026/september21st-shidandfard.md)
 - 👨‍🚀 [September 19th, 2026: Galaxy Ripples](pages/blog/2026/september19th-galaxyripples.md)
 - 🧠 [September 19th, 2026: The Sights I Have Seen](pages/blog/2026/september19th-thesights.md)
 
