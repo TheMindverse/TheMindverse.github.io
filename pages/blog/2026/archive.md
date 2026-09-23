@@ -2,11 +2,12 @@ post-loadable: true
 post-dir: Blog / 2026
 post-file: Archive.md
 post-date: July 4th, 2026
-post-edit: September 22nd, 2026
+post-edit: September 23rd, 2026
 post-title: 📦 2026 Blog Archive
 
 # > September
 
+- 🧠 [September 23rd, 2026: Razor Sharp](pages/blog/2026/september23rd-razorsharp.md)
 - 🛰️ [September 22nd, 2026: Hurricane Polo](pages/blog/2026/september22nd-catfive.md)
 - 🧠 [September 22nd, 2026: Bombs Going Off](pages/blog/2026/september22nd-bombsgoingoff.md)
 - 🧠 [September 21st, 2026: Shid And Fard](pages/blog/2026/september21st-shidandfard.md)

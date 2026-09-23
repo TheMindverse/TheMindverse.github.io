@@ -1,7 +1,7 @@
 post-dir: Landing
 post-file: Blog.md
 post-date: October 5th, 2025
-post-edit: September 22nd, 2026
+post-edit: September 23rd, 2026
 post-title: 📝 Blog
 
 This is my personal blog and note taking journal, most if not all of these entries are written while actively in the mindverse. Most of these are forwarded from the discord server, which is not open to the public.
@@ -23,6 +23,7 @@ This is my personal blog and note taking journal, most if not all of these entri
 
 # > September
 
+- 🧠 [September 23rd, 2026: Razor Sharp](pages/blog/2026/september23rd-razorsharp.md)
 - 🛰️ [September 22nd, 2026: Hurricane Polo](pages/blog/2026/september22nd-catfive.md)
 - 🧠 [September 22nd, 2026: Bombs Going Off](pages/blog/2026/september22nd-bombsgoingoff.md)
 - 🧠 [September 21st, 2026: Shid And Fard](pages/blog/2026/september21st-shidandfard.md)
