@@ -7,6 +7,7 @@ post-title: 📦 2026 Blog Archive
 
 # > September
 
+- 👨‍🚀 [September 23rd, 2026: Brain Vortex](pages/blog/2026/september23rd-brainvortex.md)
 - 🧠 [September 23rd, 2026: Razor Sharp](pages/blog/2026/september23rd-razorsharp.md)
 - 🛰️ [September 22nd, 2026: Hurricane Polo](pages/blog/2026/september22nd-catfive.md)
 - 🧠 [September 22nd, 2026: Bombs Going Off](pages/blog/2026/september22nd-bombsgoingoff.md)
