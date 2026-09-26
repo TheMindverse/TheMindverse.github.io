@@ -2,11 +2,12 @@ post-loadable: true
 post-dir: Blog / 2026
 post-file: Archive.md
 post-date: July 4th, 2026
-post-edit: September 23rd, 2026
+post-edit: September 25th, 2026
 post-title: 📦 2026 Blog Archive
 
 # > September
 
+- 🧠 [September 24th, 2026: Gonk Itch](pages/blog/2026/september24th-gonkitch.md)
 - 👨‍🚀 [September 23rd, 2026: Brain Vortex](pages/blog/2026/september23rd-brainvortex.md)
 - 🧠 [September 23rd, 2026: Razor Sharp](pages/blog/2026/september23rd-razorsharp.md)
 - 🛰️ [September 22nd, 2026: Hurricane Polo](pages/blog/2026/september22nd-catfive.md)
