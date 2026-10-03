@@ -1,7 +1,7 @@
 post-dir: Landing
 post-file: Blog.md
 post-date: October 5th, 2025
-post-edit: September 25th, 2026
+post-edit: October 3rd, 2026
 post-title: 📝 Blog
 
 This is my personal blog and note taking journal, most if not all of these entries are written while actively in the mindverse. Most of these are forwarded from the discord server, which is not open to the public.
@@ -20,6 +20,10 @@ This is my personal blog and note taking journal, most if not all of these entri
   - Vivid and memorable experiences while in the dreamscape, which is a very rare occurrence for the oracle.
 - 🍄 Trip Report
   - Experiments the oracle has done with all kinds of different substances, for scientific purposes.
+
+# > October
+
+- 🧠 [October 2nd, 2026: Chicken Tendies](pages/blog/2026/october2nd-chickentendies.md)
 
 # > September
 
