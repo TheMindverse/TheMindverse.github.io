@@ -2,7 +2,7 @@ post-dir: Blog / 2026
 post-file: October5th-ThePlague.md
 post-date: October 5th, 2026
 post-edit: October 8th, 2026
-post-title: Cheese Pretzels
+post-title: The Plague
 blog-category: 1
 
 > # Reports of a Plague Outbreak in Russia Follow the Death of a Researcher
