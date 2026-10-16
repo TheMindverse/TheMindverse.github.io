@@ -1,7 +1,7 @@
 post-dir: Dimensions
 post-file: MV-C04.md
 post-date: July 15th, 2026
-post-edit: September 18th, 2026
+post-edit: October 15th, 2026
 post-title: 🧦 MV-C04 / Land of Darkness
 
 # 📋 Cosmic Entry
@@ -14,7 +14,7 @@ post-title: 🧦 MV-C04 / Land of Darkness
 
 # 📑 Description
 
-A fully 2D world, exactly the same as the "pajama sam" game series from [earth prime](pages/dimensions/mv-a00.md). Unlike all the other game-like dimensions this one does in fact have characters and people in it, it has everyone from the original game except for sam himself. Navigating this world is like watching it on a screen, you cannot fly around or walk like all the other dimensions making this one very unique.
+A fully 2D world, exactly the same as the "pajama sam" game series in [earth prime](pages/dimensions/mv-a00.md). Unlike all the other game-like dimensions this one does in fact have characters and people in it, it has everyone from the original game except for sam himself. Navigating this world is like watching it on a screen, you cannot fly around or walk like all the other dimensions making this one very unique.
 
 # 📝 Notes
 

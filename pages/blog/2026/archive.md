@@ -2,11 +2,13 @@ post-loadable: true
 post-dir: Blog / 2026
 post-file: Archive.md
 post-date: July 4th, 2026
-post-edit: October 8th, 2026
+post-edit: October 14th, 2026
 post-title: 📦 2026 Blog Archive
 
 # > October
 
+- 🧠 [October 11th, 2026: The Shine](pages/blog/2026/october11th-theshine.md)
+- 🛰️ [October 10th, 2026: Airport Strike](pages/blog/2026/october10th-airportstrike.md)
 - 🛰️ [October 5th, 2026: The Plague](pages/blog/2026/october5th-theplague.md)
 - 🧠 [October 3rd, 2026: Cheese Pretzels](pages/blog/2026/october3rd-cheesepretzels.md)
 - 🧠 [October 2nd, 2026: Chicken Tendies](pages/blog/2026/october2nd-chickentendies.md)
@@ -77,7 +79,6 @@ post-title: 📦 2026 Blog Archive
 - 🛰️ [May 28th, 2026: Rocket Explosion](pages/blog/2026/may28th-rocketexplosion.md)
 - 👨‍🚀 [May 28th, 2026: Weather Phenomenon](pages/blog/2026/may28th-weatherphenomenon.md)
 - 🧠 [May 25th, 2026: Mormon Day](pages/blog/2026/may25th-mormonday.md)
-- 🧠 [May 24th, 2026: Drugs Are Coming](pages/blog/2026/may24th-newdrugs.md)
 - 🛰️ [May 19th, 2026: Ebola Kills Hundreds](pages/blog/2026/may19th-eboladeaths.md)
 - 🛰️ [May 18th, 2026: Ebola Outbreak](pages/blog/2026/may18th-ebolaoutbreak.md)
 - 🧠 [May 16th, 2026: Face Control](pages/blog/2026/may16th-facecontrol.md)
@@ -121,7 +122,6 @@ post-title: 📦 2026 Blog Archive
 
 - 🧠 [January 31st, 2026: Greenin Out](pages/blog/2026/january31st-greeninout.md)
 - 🧠 [January 30th, 2026: THE CRAXUS](pages/blog/2026/january30th-thecraxus.md)
-- 🧠 [January 28th, 2026: Hard Drug Bender](pages/blog/2026/january28th-harddrugbender.md)
 - 🧠 [January 27th, 2026: Path To The Rye](pages/blog/2026/january27th-pathtotherye.md)
 - 🛰️ [January 27th, 2026: Storm Deaths](pages/blog/2026/january27th-stormdeaths.md)
 - 🧠 [January 25th, 2026: Crowl Trutch](pages/blog/2026/january25th-crowltrutch.md)

@@ -1,7 +1,7 @@
 post-dir: Landing
 post-file: Guides.md
 post-date: October 10th, 2025
-post-edit: September 18th, 2026
+post-edit: October 14th, 2026
 post-title: 📚 Guides
 
 Here you'll find everything you need to know about the mindverse and the cosmos, if you are new to the process it is recommended to start reading them in order top to bottom.
@@ -12,8 +12,8 @@ Introduction to what the mindverse is, how to use it, and the true nature of you
 
 - [🧠 What is the mindverse?](pages/guides/introduction.md)
 - [💼 Why can you only visit with your mind?](pages/guides/introduction.md)
-- [🎓 How can I learn this skill?](pages/guides/introduction.md)
 - [✨ What is the purpose of consciousness?](pages/guides/introduction.md)
+- [🎓 How can I learn this skill?](pages/guides/introduction.md)
 
 # 🛡️ Safety Practices
 
@@ -28,24 +28,24 @@ Important precautions you need to take before starting your journey, study them 
 Methods and practice routines you can do to rewire your brain to accept signals from the cosmos.
 
 - [🪔 Meditation practices](pages/guides/beginnersguide.md)
-- [💤️ Exploring the dreamscape](pages/guides/beginnersguide.md)
 - [🌌 Connecting to the flow](pages/guides/beginnersguide.md)
+- [💤️ Exploring the dreamscape](pages/guides/beginnersguide.md)
 - [👁️ The astrodaunum species](pages/guides/beginnersguide.md)
 
 # 🚀 Advanced Guide
 
-These are only intended for experienced voyagers of both the mindverse and multiverse. Some of these topics only exist for the sake of documentation and are not to be attempted.
+These are only intended for experienced travelers only, some of these topics only exist for the sake of documentation.
 
 - [🏄 Navigating the multiverse](pages/guides/advancedguide.md)
 - [🧭 Learning to time travel](pages/guides/advancedguide.md)
-- [🌪️ Weather manipulation](pages/guides/advancedguide.md)
+- [🌪️ Weather pattern manipulation](pages/guides/advancedguide.md)
 - [📡 Deadwalking while navigating](pages/guides/advancedguide.md)
-- [🥾 Starting to skinwalk](pages/guides/advancedguide.md)
+- [🥾 The skinwalking lifestyle](pages/guides/advancedguide.md)
 - [🌱 Theory of rebinding consciousness](pages/guides/advancedguide.md)
 
 # 🗺️ Dimension Guide
 
-Handbook of descriptions and meanings used in cosmic entries of dimensions and flow states.
+A handbook of terms and classifications used when documenting dimensions and cosmic entries.
 
 - [📇 Categories](pages/guides/dimensionguide.md)
 - [📖 Classifications](pages/guides/dimensionguide.md)

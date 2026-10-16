@@ -1,7 +1,7 @@
 post-dir: Dimensions
 post-file: MV-C03.md
 post-date: October 16th, 2025
-post-edit: September 18th, 2026
+post-edit: October 15th, 2026
 post-title: 🍞 MV-C03 / The Overworld
 
 # 📋 Cosmic Entry
@@ -14,11 +14,11 @@ post-title: 🍞 MV-C03 / The Overworld
 
 # 📑 Description
 
-Just like [hoxxes iv](pages/dimensions/mv-c01.md) in nature of it being the same game from [earth prime](pages/dimensions/mv-a00.md), as well as there being a lack of creatures / entities. Almost all the hostile ones that spawn at night don't exist, and the passive ones are very limited (like pigs, sheep, and cows). It's an interesting place to walk around in, you finally get a true scale of what its like to be in an infinite world of biomes, structures, and cool terrain.
+A replica of the "minecraft" world from [earth prime](pages/dimensions/mv-a00.md), similar to [hoxxes iv](pages/dimensions/mv-c01.md) there is a lack of hostile creatures that you would expect, especially at night time. The passive ones that do exist are very limited, like pigs, sheep, cows, and even villagers. Its a fun place to walk around in, you finally get a true scale of what its like to be in an infinite world of biomes, structures, and blocky terrain.
 
 # 📝 Notes
 
-> My favorite thing to do in this dimension actually isn't building, its explore all the biomes and caves; the atmosphere and vibe they give off is very cozy. Same with villages, they are a very chill place to hang out in, villagers do exist in this world despite the lack of almost all other entities. Like ⁠[hoxxes iv](pages/dimensions/mv-c01.md), the only times I've managed to travel here is while on dissociatives.
+> My favorite thing to do in this dimension isn't actually building, its exploring all the biomes and caves. The atmosphere and vibe they give off is very cozy, same with villages, they are a very chill place to hang out in, although survival and exploring caves are more difficult than you might think. Like hoxxes iv, the only times I've managed to travel here is while on dissociatives.
 
 # 🖼️ References
 

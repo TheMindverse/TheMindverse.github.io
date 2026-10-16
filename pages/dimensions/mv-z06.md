@@ -1,25 +1,24 @@
 post-dir: Dimensions
 post-file: MV-Z06.md
-post-date: March 3rd, 2026
-post-edit: September 18th, 2026
-post-title: 🎭 MV-Z06 /  The Mirror
+post-date: October 18th, 2025
+post-edit: October 15th, 2026
+post-title: 👻 MV-Z06 /  The Voices
 
 # 📋 Cosmic Entry
 
 - **ID:** MV-Z06
-- **Name:**  The Mirror
+- **Name:**  The Voices
 - **Classification:** [Apparition](pages/guides/dimensionguide.md)
 - **Difficulty Level:** [None](pages/guides/dimensionguide.md)
-- **Risk Level:** [Hazardous](pages/guides/dimensionguide.md)
+- **Risk Level:** [Challenging](pages/guides/dimensionguide.md)
 
 # 📑 Description
 
-The mirror is another rare interdimensional event that can occur as a result of spending too much time in [the flow](pages/dimensions/mv-z01.md) without traveling anywhere.
-In combination with [deadwalking](pages/guides/advancedguide.md), when looking into a mirror and staring at your own face without moving it slowly starts to twist and become contorted. Your face melts and forms facial expressions that seem impossible, like you're looking at another person in control. If you start replicating the faces in the mirror, which can happen accidentally if you don't pay close enough attention, the faces will take full control. You will no longer be only seeing them in the mirror, you will start doing it outside of looking into the mirror, and you will act psychotic. It is almost borderline insanity, which can be incredibly hard to stop as you want to just lose control and let whatever crazed or demonic faces take control of your mood and actions. You can snap out of it easily enough, but the mood it puts you in can make it hard to want to stop because of how natural it feels.
+The voices are a rare interdimensional event that may occur as a result of using the mindverse too much, specifically rerouting the signals that feed your brain. They sound like muffled, disembodied voices, coming from inside the walls of your house. Most of the time they are a garbled mess and you can't make out what they are saying, other times they can be very threatening or insulting. They are associated with feelings of impending doom, similar to [the shadow](pages/dimensions/mv-z05.md), this event is strangely comparable to delirium, but without the mental states that are common from delirium such as confusion or memory loss. Despite the hostile nature of the voices they cannot actually do you any mental or physical harm. They can cause distress and major annoyance as they are happening, but have no lasting effects.
 
 # 📝 Notes
 
-> These guys and their forces are extremely fun, the mood it creates is incredible and psychotic. A sense of pure eutrophic insanity.
+> Never listen to them or try to understand what they are saying, they can't be trusted.
 
 # 🖼️ References
 

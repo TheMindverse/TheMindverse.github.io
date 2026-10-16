@@ -1,7 +1,7 @@
 post-dir: Blog / 2025
 post-file: Archive.md
 post-date: July 4th, 2026
-post-edit: September 18th, 2026
+post-edit: October 14th, 2026
 post-title: 📦 2025 Blog Archive
 
 # > December 2025
@@ -35,7 +35,6 @@ post-title: 📦 2025 Blog Archive
 - 🧠 [October 21st, 2025: The Police Are Back](pages/blog/2025/october21st-thepoliceareback.md)
 - 👨‍🚀 [October 20th, 2025: Weatherman](pages/blog/2025/october20th-weatherman.md)
 - 💤 [October 16th, 2025: ICE Agents](pages/blog/2025/october16th-iceagents.md)
-- 🧠 [October 18th, 2025: Going Deep Again](pages/blog/2025/october18th-goingdeepagain.md)
 - 🧠 [October 15th, 2025: The Police](pages/blog/2025/october15th-thepolice.md)
 - 🧠 [October 12th, 2025: Midnight Chanting](pages/blog/2025/october12th-midnightchanting.md)
 - 🛰️ [October 12th, 2025: Tropical Flooding](pages/blog/2025/october12th-tropicalflooding.md)

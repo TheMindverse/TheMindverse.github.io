@@ -1,25 +1,27 @@
 post-dir: Dimensions
 post-file: MV-Z04.md
-post-date: October 18th, 2025
-post-edit: September 18th, 2026
-post-title: 🧥 MV-Z04 /  The Shadow
+post-date: October 17th, 2025
+post-edit: October 15th, 2026
+post-title: 🧵 MV-Z04 /  The Flow
 
 # 📋 Cosmic Entry
 
 - **ID:** MV-Z04
-- **Name:**  The Shadow
-- **Classification:** [Apparition](pages/guides/dimensionguide.md)
-- **Difficulty Level:** [None](pages/guides/dimensionguide.md)
-- **Risk Level:** [Volatile](pages/guides/dimensionguide.md)
+- **Name:**  The Flow
+- **Classification:** [Astral](pages/guides/dimensionguide.md)
+- **Difficulty Level:** [Easy](pages/guides/dimensionguide.md)
+- **Risk Level:** [Safe](pages/guides/dimensionguide.md)
 
 # 📑 Description
 
-The shadow is an extremely rare interdimensional event that can occur as a side effect of using the mindverse too much, too long, and too often. They appear as silhouette of people made of darkness, usually only rough outlines, they do not have facial features or eyes. They can fully interact with you, they can touch you, you can touch them, and they are always hostile or trying to hurt you physically in some way. They cannot actually harm or kill you, but whatever they do to you feels just like if it were actually happening. They are accompanied by horrible feelings of impending doom, like something bad is going to happen to you and you are about to die. These descriptions are oddly similar to what one might experience under extreme delirium, and what's even more odd is if you enter the mindverse during this event they can no longer harm you. It is recommended to try to escape to either the ⁠[the dreamscape](pages/dimensions/mv-z03.md), or the mindverse, as soon as possible if you encounter this event.
+The flow is what connects everything in the multiverse together. Its what allows for us to travel to different dimensions with the mindverse, its existence is comparable to string theory but on a cosmic scale and not just a particle one. The flow most likely exists in a forth dimensional space, the multiverse as a whole happening infinitely all at the same time could be what reality actually is, all possible outcomes as a result of quantum superposition outside of what organic brains can process.
 
 # 📝 Notes
 
-> I don't understand how they are actually able to physically touch you, they can only harm you mentally, not kill or cause actual damage. As if they are just simulating touch or sensations from your brain itself and not your actual body.
+> It feels like a very ancient and mystical power, not entirely sure we're supposed to be here.
 
 # 🖼️ References
 
 ![](pages/dimensions/references/mv-z04-0.jpg)
+
+![](pages/dimensions/references/mv-z04-1.jpg)

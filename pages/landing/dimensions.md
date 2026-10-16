@@ -1,10 +1,10 @@
 post-dir: Landing
 post-file: Dimensions.md
 post-date: October 10th, 2025
-post-edit: September 18th, 2026
+post-edit: October 15th, 2026
 post-title: 📖 Dimensions
 
-This is a complete list of all the parallel universes I've personally visited in the multiverse. If you wish to learn the proper nomenclature for all the categories and, check out the [dimension guide](pages/guides/dimensionguide.md).
+This is a complete list of noteworthy dimensions discovered while navigating the different layers of the multiverse. If you wish to learn the proper nomenclature used in these reports check out the [dimension guide](pages/guides/dimensionguide.md).
 
 # 🌎 Category A
 
@@ -12,9 +12,9 @@ This is a complete list of all the parallel universes I've personally visited in
 - [MV-A01: 👑 Centropolis](pages/dimensions/mv-a01.md)
 - [MV-A02: ⏳ Nine Zero](pages/dimensions/mv-a02.md)
 - [MV-A03: ☀️ Solar Greece](pages/dimensions/mv-a03.md)
-- [MV-A04: 🌈 Gay Catastrophe](pages/dimensions/mv-a04.md)
+- [MV-A04: 🌈 Queer World](pages/dimensions/mv-a04.md)
 - [MV-A05: 💘 Lovey Dovey](pages/dimensions/mv-a05.md)
-- [MV-A06: ☕ Lofi World](pages/dimensions/mv-a06.md)
+- [MV-A06: ☕ Lofi Chill](pages/dimensions/mv-a06.md)
 
 # 🏰 Category B
 
@@ -43,9 +43,10 @@ This is a complete list of all the parallel universes I've personally visited in
 # 🧬 Category Z
 
 - [MV-Z00: ⚫ The Void](pages/dimensions/mv-z00.md)
-- [MV-Z01: 🧵 The Flow](pages/dimensions/mv-z01.md)
+- [MV-Z01: ⚪ The White Beyond](pages/dimensions/mv-z01.md)
 - [MV-Z02: ⚙️ The Machinescape](pages/dimensions/mv-z02.md)
 - [MV-Z03: 🛏️ The Dreamscape](pages/dimensions/mv-z03.md)
-- [MV-Z04: 🧥 The Shadow](pages/dimensions/mv-z04.md)
-- [MV-Z05: 👻 The Voices](pages/dimensions/mv-z05.md)
-- [MV-Z06: 🎭 The Mirror](pages/dimensions/mv-z06.md)
+- [MV-Z04: 🧵 The Flow](pages/dimensions/mv-z04.md)
+- [MV-Z05: 🧥 The Shadow](pages/dimensions/mv-z05.md)
+- [MV-Z06: 👻 The Voices](pages/dimensions/mv-z06.md)
+- [MV-Z07: 🎭 The Mirror](pages/dimensions/mv-z07.md)

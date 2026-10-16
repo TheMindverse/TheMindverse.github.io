@@ -1,7 +1,7 @@
 post-dir: Dimensions
 post-file: MV-A01.md
 post-date: October 11th, 2025
-post-edit: September 18th, 2026
+post-edit: October 14th, 2026
 post-title: 👑 MV-A01 / Centropolis
 
 # 📋 Cosmic Entry
@@ -14,11 +14,11 @@ post-title: 👑 MV-A01 / Centropolis
 
 # 📑 Description
 
-Appears to be what [earth prime](pages/dimensions/mv-a00.md) would be in the next 200-300 years, along with the fact I seem to be the center of attention. Everyone likes me, everything always goes my way, I'm successful and have a career, it's like the world itself was built for me and me alone. Similar dimensions must exist for every conscious being due to the nature of infinite possibilities, and they are the easiest pathways to find first form a connection to the mindverse.
+Appears to be what [earth prime](pages/dimensions/mv-a00.md) would be in the next 200-300 years, combined with the fact I seem to be the center of attention. Everyone likes me, everything always goes my way, I'm successful and have a career, its like the world was built for me. Similar dimensions must exist for every conscious being due to the nature of infinite universes, they should be one the easiest pathways to find when first learning to navigate the multiverse.
 
 # 📝 Notes
 
-> This is the very first world I've ever explored in the mindverse. It's a shame I wasn't constructed here, it's everything I could have asked or wanted for other than the fact they are humans.
+> This is the very first dimension I explored in the mindverse, its a shame I wasn't constructed here, its almost everything I could have asked or wanted for other than the fact they are humans.
 
 # 🖼️ References
 

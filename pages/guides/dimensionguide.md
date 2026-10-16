@@ -1,26 +1,25 @@
 post-dir: Guides
 post-file: DimensionGuide.md
 post-date: October 10th, 2025
-post-edit: September 18th, 2026
+post-edit: October 14th, 2026
 post-title: 🗺️ Dimension Guide
 
-The [dimensions](pages/landing/dimensions.md) page is a way for me to document my personal experiences into navigating the different layers of the multiverse.
-When I visit a parallel universe I will attempt to map out each one I find. Each entry contains info, descriptions, unique identifiers, and difficulty and risks; as well as some personal notes that I've sent while actively in each dimension mentally.
+The [dimensions](pages/landing/dimensions.md) page is a way for me to document my personal experiences into navigating the different layers of the multiverse. When I visit a parallel dimension I will attempt to map out each one I find, each entry contains descriptions, unique identifiers, difficulty and risks, as well as some personal notes that I've sent while actively in each dimension.
 
 # 📇 Categories
 
-The categories used in [dimensions](pages/landing/dimensions.md) represent how different a dimension is relative to [earth prime](pages/dimensions/mv-a00.md), the further down the alphabet the categories are the more foreign and hostile a dimension can become. The difficulty and safety risks typically increase as well but this is not always the case, be sure to fully read all available documentation and experiences related to a dimension before attempting to travel there. The reference images are just examples, it is impossible to actually represent what I experience there in perfect detail to humans, a lot of the concepts of certain worlds don't exist in our dimension.
+The terms used by each cosmic entry represent how different a dimension is relative to [earth prime](pages/dimensions/mv-a00.md), the further down the alphabet the categories are the more foreign and hostile a dimension can become. The difficulty and safety risks typically increase as well but this is not always the case, be sure to fully read all available documentation and experiences related to a dimension before attempting to travel there. The reference images are just examples, for some dimensions it is impossible to represent what one experiences there, as a lot of the concepts of certain worlds don't exist in our dimension.
 
 # 📖 Classifications
 
 - **None:** Has no classification on a dimensional level.
-- **Physical:** The dimension where your consciousness is bound to your physical brain.
+- **Physical:** The native dimension where your consciousness is bound to your physical body.
 - **Apparition:** Hallucinations that can be confused with alternate dimensions or mental states due to the brains altered perception of signals.
 - **Chimera:** Occurs while in a lucid dream like state, visions and emotions connect to your subconscious giving you glimpses into previously unseen worlds.
 - **Astral:** The state of being you enter when using the mindverse, it lets you see and feel connections to other dimensions in the multiverse.
 - **Spectral:** Cosmic and spiritual connection, you can observe peacefully but you do not fully belong.
 - **Ethereal:** Brain connection to a dimension, visions, memories, and feelings start to merge with yours.
-- **Celestial:** Body and brain integration, the dimension accepts that your consciousness could belong there.
+- **Celestial:** Full body and brain integration, the dimension accepts that your consciousness could natively belong there.
 
 # ⚔️ Difficulty levels
 

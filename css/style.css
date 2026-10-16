@@ -170,6 +170,7 @@ body.light .post-title::after {
     font-size: 12px;
     color: #888888;
     margin-top: 20px;
+    margin-bottom: 10px;
     text-align: center;
 }
 

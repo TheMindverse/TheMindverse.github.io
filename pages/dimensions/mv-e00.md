@@ -1,7 +1,7 @@
 post-dir: Dimensions
 post-file: MV-E00.md
 post-date: October 16th, 2025
-post-edit: September 18th, 2026
+post-edit: October 15th, 2026
 post-title: 🚪 MV-E00 / The Backrooms
 
 # 📋 Cosmic Entry
@@ -14,18 +14,14 @@ post-title: 🚪 MV-E00 / The Backrooms
 
 # 📑 Description
 
-A dimension consisting of different "layers" of liminal rooms, with places or objects taken from [earth prime](pages/dimensions/mv-a00.md) stitched together, seemingly repeating infinitely. After wandering for awhile you can eventually find some kind of opening in the floor that lets you go further down into another layer, each layer is different from the last. Sometimes they are only slightly different in terms of room layouts, but the further down you go the more different they become. Some are endless office hallways, others apartments or hotels, and even indoor pools. I have not explored much beyond those areas, this dimension gives off a very hostile feeling to any foreign beings. There seems to be no sign of life here or that there have been others in this place, which is different to the fictional backrooms from [earth prime](pages/dimensions/mv-a00.md).
+A dimension consisting of different "layers" of liminal rooms, with places or objects taken from [earth prime](pages/dimensions/mv-a00.md) stitched together, seemingly repeating infinitely and randomly. After wandering for awhile you can eventually find some kind of opening in the floor that lets you go further down into another layer, each layer is slightly different from the last. Sometimes there are just different room layouts and wallpaper, but the further down you go the more different they become. Some are endless office hallways, others apartments or hotels, and even indoor pools. There seems to be no sign of life here in any shape or form.
 
 # 📝 Notes
 
-> A very unsettling dimension, most rooms give an intense feelings of impending doom, like you shouldn't be seeing this place and something bad is going to happen to you. I do however recommend taking a bath or a shower in the pool areas as that's the only place that has a sort of "neutral" feeling to it, its actually really nice and if you close your eyes it kind of feels like a isolation tank at a spa. A lot of the times I've [involuntarily deadwalked](pages/guides/safetypractices.md) I've ended up here for some reason, I've never actually gone here intentionally. I've only ever been pulled here as a result of long term side effects, excluding the very first time I found it accidentally while first learning how to navigate with the mindverse. I've also been pulled here a few times, specifically to the pool areas, while showering in real life while high or tripping balls. Those were the only times my experience in this dimension were pleasant and not hostile.
+> When I first started [involuntarily deadwalking](pages/guides/safetypractices.md) I always ended up here for some odd reason, Ive also been pulled here a few times, specifically to the pool areas, while showering in real life while high or tripping balls. The pool areas are actually very relaxing, the water is always warm and sometimes there are showers and water park type amusements. Some layers and different places can give a very unsettling feeling at times, like you're not supposed to be here and something bad will happen to you if you stay.
 
 # 🖼️ References
 
 ![](pages/dimensions/references/mv-e00-0.jpg)
 
 ![](pages/dimensions/references/mv-e00-1.jpg)
-
-![](pages/dimensions/references/mv-e00-2.jpg)
-
-![](pages/dimensions/references/mv-e00-3.jpg)

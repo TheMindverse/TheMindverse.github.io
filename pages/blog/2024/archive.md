@@ -1,8 +1,8 @@
-post-loadable: true
+post-loadable: false
 post-dir: Blog / 2024
 post-file: Archive.md
 post-date: July 15th, 2026
-post-edit: September 18th, 2026
+post-edit: October 12th, 2026
 post-title: 📦 2024 Blog Archive
 
 # > November 2024

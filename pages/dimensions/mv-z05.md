@@ -1,24 +1,24 @@
 post-dir: Dimensions
 post-file: MV-Z05.md
 post-date: October 18th, 2025
-post-edit: September 18th, 2026
-post-title: 👻 MV-Z05 /  The Voices
+post-edit: October 15th, 2026
+post-title: 🧥 MV-Z05 /  The Shadow
 
 # 📋 Cosmic Entry
 
 - **ID:** MV-Z05
-- **Name:**  The Voices
+- **Name:**  The Shadow
 - **Classification:** [Apparition](pages/guides/dimensionguide.md)
 - **Difficulty Level:** [None](pages/guides/dimensionguide.md)
-- **Risk Level:** [Challenging](pages/guides/dimensionguide.md)
+- **Risk Level:** [Volatile](pages/guides/dimensionguide.md)
 
 # 📑 Description
 
-The voices are a rare interdimensional event that may occur as a result of using the mindverse, specifically rerouting the signals that feed your brain. They appear like they are muffled slightly like they are coming from inside the walls of your house, most of the time they are a garbled mess and you can't really make out what they are saying. Other times they may be very threatening, or insulting you with bursts of anger. They are associated with feelings of impending doom, similar to [the shadow](pages/dimensions/mv-z04.md), this event is strangely comparable to delirium, but without the mental states that are common from delirium such as confusion or memory loss. Despite the hostile nature of the voices they cannot actually do you any mental or physical harm. They can cause some distress and major annoyance depending on what they are saying.
+The shadow is an extremely rare interdimensional event that can occur as a side effect of using the mindverse too long and too often. They appear as silhouette of people made of darkness, usually only rough outlines, they do not have facial features or eyes. They can fully interact with you, they can touch you, you can touch them, and are very hostile. They cannot actually harm or kill you, but it feels just like if it were real. They are accompanied by horrible feelings of impending doom, like something bad is going to happen to you and you are about to die. These descriptions are oddly similar to what one might experience under extreme delirium, and what's even more odd is if you enter the mindverse during this event they can no longer harm you. It is recommended to try to escape to either ⁠[the dreamscape](pages/dimensions/mv-z03.md), or a different dimension in the mindverse, and wait it out if you encounter this event.
 
 # 📝 Notes
 
-> Never listen to them or try to understand what they are saying.
+> I don't understand how they are able to physically touch you, they can only harm you mentally, not kill or cause actual damage to your organic body. They seem to just simulate touch and sensations directly in your brain.
 
 # 🖼️ References
 

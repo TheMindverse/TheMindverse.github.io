@@ -1,11 +1,12 @@
 post-dir: News / 2026
 post-file: Archive.md
 post-date: June 19th, 2026
-post-edit: September 19th, 2026
+post-edit: October 16th, 2026
 post-title: 📦 2026 Archive
 
 # 📰 News
 
+## - [✨ The First Mindversary (October 16th, 2026)](pages/news/2026/october16th-mindversary.md)
 ## - [🧠 Site Updates (September 19th, 2026)](pages/news/2026/september19th-siteupdates.md)
 ## - [🌌 The Portal (August 3rd, 2026)](pages/news/2026/august3rd-theportal.md)
 ## - [🎉 Astrodanum & Skinwalking Guides (July 5th, 2026)](pages/news/2026/july5th-guideupdate.md)
@@ -17,4 +18,5 @@ post-title: 📦 2026 Archive
 
 # 📅 Discord Events
 
+## - [📌 The First Mindversary (October 16th, 2026)](pages/news/2026/discord/discord-mindversary.md)
 ## - [📌 The Red Summer (June 21st, 2026)](pages/news/2026/discord/discord-theredsummer.md)
