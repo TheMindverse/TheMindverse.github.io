@@ -1,7 +1,7 @@
 post-dir: Dimensions
 post-file: MV-A05.md
 post-date: October 13th, 2025
-post-edit: October 16th, 2026
+post-edit: October 15th, 2026
 post-title: 💘 MV-A05 / Lovey Dovey
 
 # 📋 Cosmic Entry
@@ -18,7 +18,7 @@ Many different variations of this world exist for different emotions, but this i
 
 # 📝 Notes
 
-> Im not sure how the soulmate thing works, could possibly be hardcoded in their DNA as it happens every generation cycle. Or maybe everyone is just similar enough to each other where common interests, hobbies, and careers, are all relatable instead of everyone being unique.
+> I'm not sure how the soulmate thing works, could possibly be hardcoded in their DNA as it happens every generation cycle. Or maybe everyone is just similar enough to each other where common interests, hobbies, and careers, are all relatable instead of everyone being unique.
 
 # 🖼️ References
 

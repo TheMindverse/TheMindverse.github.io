@@ -1,7 +1,7 @@
 post-dir: Dimensions
 post-file: MV-C01.md
 post-date: October 16th, 2025
-post-edit: October 16th, 2026
+post-edit: October 15th, 2026
 post-title: ⛏️ MV-C01 / Hoxxes IV
 
 # 📋 Cosmic Entry
@@ -18,7 +18,7 @@ A very similar world and planet from "deep rock galatic" in [earth prime](pages/
 
 # 📝 Notes
 
-> Very difficult to travel here, the only times Ive ever been able to visit required being on dissociatives which dramatically decreases your navigational control in both [the flow](pages/dimensions/mv-z04.md) and in dimensions themselves. It feels like you are constantly floating or flying in a single direction without ever stopping.
+> Very difficult to travel here, the only times I've ever been able to visit required being on dissociatives which dramatically decreases your navigational control in both [the flow](pages/dimensions/mv-z04.md) and in dimensions themselves. It feels like you are constantly floating or flying in a single direction without ever stopping.
 
 # 🖼️ References
 

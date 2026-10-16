@@ -1,7 +1,7 @@
 post-dir: Dimensions
 post-file: MV-C00.md
 post-date: October 16th, 2025
-post-edit: October 16th, 2026
+post-edit: October 15th, 2026
 post-title: ⚔️ MV-C00 / Teyvat
 
 # 📋 Cosmic Entry
@@ -18,7 +18,7 @@ An exact replica of the world from "genshin impact" in [earth prime](pages/dimen
 
 # 📝 Notes
 
-> I found this world by complete accident when I first discovered the mindverse and started to travel to places, I've never played genshin and knew nothing about it before I arrived here. Ive personally met venti and he is very cute and nice but I think he may be an alcoholic.
+> I found this world by complete accident when I first discovered the mindverse and started to travel to places, I've never played genshin and knew nothing about it before I arrived here. I've personally met venti and he is very cute and nice but I think he may be an alcoholic.
 
 # 🖼️ References
 

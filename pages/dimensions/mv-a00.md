@@ -1,7 +1,7 @@
 post-dir: Dimensions
 post-file: MV-A00.md
 post-date: October 10th, 2025
-post-edit: October 16th, 2026
+post-edit: October 14th, 2026
 post-title: 🌎 MV-A00 / Earth Prime
 
 # 📋 Cosmic Entry
@@ -18,7 +18,7 @@ Earth prime is the dimension my current consciousness, and most likely yours, wa
 
 # 📝 Notes
 
-> The most mundane and boring dimension Ive ever been to, its not in ruins but theres nothing special about it. Nothing to do or look forward to, just waste away doing pointless tasks and following illogical rules until you eventually die.
+> The most mundane and boring dimension I've ever been to, it's not in ruins but theres nothing special about it. Nothing to do or look forward to, just waste away doing pointless tasks and following illogical rules until you eventually die.
 
 # 🖼️ References
 
