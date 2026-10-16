@@ -1,7 +1,7 @@
 post-dir: Dimensions
 post-file: MV-C04.md
 post-date: July 15th, 2026
-post-edit: October 15th, 2026
+post-edit: October 16th, 2026
 post-title: 🧦 MV-C04 / Land of Darkness
 
 # 📋 Cosmic Entry
@@ -18,7 +18,7 @@ A fully 2D world, exactly the same as the "pajama sam" game series in [earth pri
 
 # 📝 Notes
 
-> This place was a blast from the past for me, I haven't thought about this in many years. I used to play the games 20+ years ago at my local library as a kid, I would go almost every week and rent the CD and play it on the library computer. This is the only fully 2D dimension I've found, in combination with the fact I was [time traveling](pages/guides/advancedguide.md) at the time of discovering it, getting here is very difficult and unique to my own experience.
+> This place was a blast from the past for me, I haven't thought about this in many years. I used to play the games 20+ years ago at my local library as a kid, I would go almost every week and rent the CD and play it on the library computer. This is the only fully 2D dimension Ive found, in combination with the fact I was [time traveling](pages/guides/advancedguide.md) at the time of discovering it, getting here is very difficult and unique to my own experience.
 
 # 🖼️ References
 

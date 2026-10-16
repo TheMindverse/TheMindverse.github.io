@@ -1,7 +1,7 @@
 post-dir: Dimensions
 post-file: MV-B02.md
 post-date: October 15th, 2025
-post-edit: October 14th, 2026
+post-edit: October 16th, 2026
 post-title: 🧙 MV-B02 / Middle Earth
 
 # 📋 Cosmic Entry
@@ -18,7 +18,7 @@ The exact same world, people, places, and creatures, as the lord of the rings, s
 
 # 📝 Notes
 
-> The most breathtaking dimension I've explored. Personally I love to hang out in the shire, the most peaceful and happy place in middle earth. I even have my own little hobbit home where I sit and read and tend to a small farm. I only wish I could visit the elves and stay in their city.
+> The most breathtaking dimension Ive explored. Personally I love to hang out in the shire, the most peaceful and happy place in middle earth. I even have my own little hobbit home where I sit and read and tend to a small farm. I only wish I could visit the elves and stay in their city.
 
 # 🖼️ References
 
