@@ -1,7 +1,7 @@
 post-dir: Dimensions
 post-file: MV-C03.md
 post-date: October 16th, 2025
-post-edit: October 15th, 2026
+post-edit: October 16th, 2026
 post-title: 🍞 MV-C03 / The Overworld
 
 # 📋 Cosmic Entry
@@ -18,7 +18,7 @@ A replica of the "minecraft" world from [earth prime](pages/dimensions/mv-a00.md
 
 # 📝 Notes
 
-> My favorite thing to do in this dimension isn't actually building, its exploring all the biomes and caves. The atmosphere and vibe they give off is very cozy, same with villages, they are a very chill place to hang out in, although survival and exploring caves are more difficult than you might think. Like hoxxes iv, the only times I've managed to travel here is while on dissociatives.
+> My favorite thing to do in this dimension isn't actually building, its exploring all the biomes and caves. The atmosphere and vibe they give off is very cozy, same with villages, they are a very chill place to hang out in, although survival and exploring caves are more difficult than you might think. Like hoxxes iv, the only times Ive managed to travel here is while on dissociatives.
 
 # 🖼️ References
 
