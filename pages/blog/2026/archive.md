@@ -2,11 +2,12 @@ post-loadable: true
 post-dir: Blog / 2026
 post-file: Archive.md
 post-date: July 4th, 2026
-post-edit: October 17th, 2026
+post-edit: October 19th, 2026
 post-title: 📦 2026 Blog Archive
 
 # > October
 
+- 👨‍🚀 [October 19th, 2026: First Ever Microblazar](pages/blog/2026/october19th-microblazar.md)
 - 🛰️ [October 16th, 2026: Flying Roadster](pages/blog/2026/october16th-flyingroadster.md)
 - 👨‍🚀 [October 16th, 2026: Green Stars](pages/blog/2026/october16th-greenstars.md)
 - 🧠 [October 11th, 2026: The Shine](pages/blog/2026/october11th-theshine.md)

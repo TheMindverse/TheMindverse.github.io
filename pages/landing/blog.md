@@ -1,7 +1,7 @@
 post-dir: Landing
 post-file: Blog.md
 post-date: October 5th, 2025
-post-edit: October 17th, 2026
+post-edit: October 19th, 2026
 post-title: 📝 Blog
 
 This is my personal blog and note taking journal, most if not all of these entries are written while actively in the mindverse. Most of these are forwarded from the discord server, which is not open to the public.
@@ -21,6 +21,7 @@ This is my personal blog and note taking journal, most if not all of these entri
 
 # > October
 
+- 👨‍🚀 [October 19th, 2026: First Ever Microblazar](pages/blog/2026/october19th-microblazar.md)
 - 🛰️ [October 16th, 2026: Flying Roadster](pages/blog/2026/october16th-flyingroadster.md)
 - 👨‍🚀 [October 16th, 2026: Green Stars](pages/blog/2026/october16th-greenstars.md)
 - 🧠 [October 11th, 2026: The Shine](pages/blog/2026/october11th-theshine.md)
